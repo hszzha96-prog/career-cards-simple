@@ -10,6 +10,7 @@
 
 - 下载 [最新 HTML 压缩包](dist/career-cards-simple.zip)，解压后双击 `index.html`。
 - 或下载仓库完整 ZIP，双击 `site/index.html`。
+- 岗位小镇看板：下载仓库后双击 `dashboard/dashboard.html`（电脑横屏使用）。
 - [原岗位调度台](https://chatgpt.com/space/page_63ef26ac3cfc81919b258f4932221be5)保留正式记录；各原卡已附 2026-11-25 简洁版入口。
 - [最初交付的压缩包](releases/岗位卡_简洁版_2026-11-25.zip)原样保留。
 
@@ -32,6 +33,8 @@ GitHub 的文件页主要显示 HTML 源码，查看完整卡片请下载后在�
 | `releases/` | 初次实际交付的原始压缩包 |
 | `sync/` | 历史 Pages 同步回执摘要 |
 | `docs/UPDATING.md` | 新增、更新和后续同步方法 |
+| `dashboard/` | 岗位小镇看板：双击 `dashboard/dashboard.html`，说明见 `dashboard/README.md` |
+| `data/dashboard.json` | 看板里每岗的像素图标与底色 |
 | `CHANGELOG.md` | 版本变更记录 |
 
 ## 重新生成
@@ -42,7 +45,7 @@ GitHub 的文件页主要显示 HTML 源码，查看完整卡片请下载后在�
 python3 scripts/build.py
 ```
 
-脚本读取本仓库内的数据，不依赖原电脑路径，不读取邮箱、CV 文件或账号凭据，也不访问网络。它重新生成 `site/`，核对链接与身份，再生成 `dist/career-cards-simple.zip` 和 `dist/manifest.json`；同一输入重复生成的 ZIP 一致。
+脚本读取本仓库内的数据，不依赖原电脑路径，不读取邮箱、CV 文件或账号凭据，也不访问网络。它重新生成 `site/`，核对链接与身份，再生成 `dist/career-cards-simple.zip`、`dist/manifest.json` 和 `dashboard/` 里的看板；同一输入重复生成的 ZIP 一致。
 
 单独校验已生成内容：
 

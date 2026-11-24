@@ -9,6 +9,7 @@ import tempfile
 import zipfile
 
 from validate import validate_data, validate_site
+import dashboard
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -53,7 +54,13 @@ def build():
     report.update(version=config['version'], snapshot_date=config['snapshot_date'], zip_sha256=hashlib.sha256(archive.read_bytes()).hexdigest(), zip_bytes=archive.stat().st_size)
     (dist / 'manifest.json').write_text(json.dumps(report, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
     subprocess.run([sys.executable, str(ROOT / 'scripts/prepare_sync.py')], check=True)
-    print(json.dumps({k: v for k, v in report.items() if k != 'records'}, ensure_ascii=False))
+    # 岗位小镇看板：读取同一份 data/，单独输出到 dashboard/，不进入 site/ 与 ZIP 的校验范围。
+    board = dashboard.build()
+    for warning in board['dashboard_warnings']:
+        print('提示：' + warning, file=sys.stderr)
+    summary = {k: v for k, v in report.items() if k != 'records'}
+    summary['dashboard_cards'] = board['dashboard_cards']
+    print(json.dumps(summary, ensure_ascii=False))
 
 
 if __name__ == '__main__':

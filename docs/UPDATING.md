@@ -5,7 +5,7 @@
 1. 在 `data/cards.json` 找到对应岗位，修改经过核对的内容。
 2. 在 `data/evidence.json` 的同一 `page_id` 下补充来源、实际核验日期和待核事项。旧来源仍有用时保留。
 3. 只有实际核验了新的材料，才更新 `data/project.json` 的 `snapshot_date`；纯代码补丁只更新 `version` 和 `CHANGELOG.md`，不伪造核验日期。
-4. 执行 `python3 scripts/build.py`。
+4. 执行 `python3 scripts/build.py`（同时更新 `dashboard/` 看板）。
 5. 打开 `site/index.html` 和受影响岗位，检查宽屏、手机宽度、勾选与重开后的进度。
 6. 检查版本差异，将数据、模板、脚本、`site/`、`dist/` 和变更说明一并提交到私有仓库。用清楚的说明，例如“补充小米岗位证据”或“修复目录跳转”。
 
@@ -24,6 +24,10 @@
 `cards` 与 `evidence` 的 `page_id`、`filename`、`category` 必须对应。`cards` 固定保留 4 项概览、5 项雇主条件、5 项个人条件、5 个能力维度、2 组项目证据、4 个下一步和 5 个准备项。证据不足就明确标注，不为了填满而编造。
 
 分类值为 `candidate`、`applied`、`incomplete`、`closed`、`trash`。目录数量自动生成。改变分类必须有明确依据；准备清单的勾选不改变分类。
+
+## 岗位小镇看板
+
+新增岗位时，另在 `data/dashboard.json` 为它选一个像素图标和底色；不写会用默认图标并在构建时提示。看板读取同一份 `cards.json` / `evidence.json`，分类与数量自动更新。详见 `dashboard/README.md`。
 
 ## 模板与小米样板
 

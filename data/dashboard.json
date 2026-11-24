@@ -1,0 +1,93 @@
+{
+  "_说明": "岗位小镇里每张卡的像素图标和底色，按 filename 对应。icon 取 dashboard/sprites.py 里 ICONS 的名字；没写的岗位会用 building 图标和自动配色。",
+  "cards": {
+    "shopback-d6faeef2.html": {
+      "icon": "coins",
+      "color": "#BE185D"
+    },
+    "siemens-c62ff839.html": {
+      "icon": "gear",
+      "color": "#0E7490"
+    },
+    "publicis-groupe-00449f51.html": {
+      "icon": "bars",
+      "color": "#6D28D9"
+    },
+    "publicis-digitas-apac-b7ab13b8.html": {
+      "icon": "pie",
+      "color": "#7E22CE"
+    },
+    "marriott-8306f886.html": {
+      "icon": "bed",
+      "color": "#9A3412"
+    },
+    "deloitte-digital-04e1cb29.html": {
+      "icon": "bulb",
+      "color": "#4D7C0F"
+    },
+    "tiktok-shop-9e433172.html": {
+      "icon": "box",
+      "color": "#334155"
+    },
+    "shopee-f7760f42.html": {
+      "icon": "camera",
+      "color": "#C2410C"
+    },
+    "upstride-3f738fc9.html": {
+      "icon": "megaphone",
+      "color": "#2F5BEA"
+    },
+    "shopee-5b8bd2a9.html": {
+      "icon": "pencil",
+      "color": "#C2410C"
+    },
+    "monee-7974d07c.html": {
+      "icon": "wallet",
+      "color": "#0F766E"
+    },
+    "youtrip-23d792a0.html": {
+      "icon": "plane",
+      "color": "#1D4ED8"
+    },
+    "tiktok-c72af3ce.html": {
+      "icon": "briefcase",
+      "color": "#334155"
+    },
+    "shopee-50a93140.html": {
+      "icon": "globe",
+      "color": "#C2410C"
+    },
+    "xiaomi-9cb96a2d.html": {
+      "icon": "phone",
+      "color": "#57534E"
+    },
+    "julius-baer-64c3a639.html": {
+      "icon": "bank",
+      "color": "#1E3A8A"
+    },
+    "mediacorp-e2e47432.html": {
+      "icon": "tv",
+      "color": "#9D174D"
+    },
+    "yokogawa-c43cc81d.html": {
+      "icon": "chip",
+      "color": "#155E75"
+    },
+    "fano-1d812a3e.html": {
+      "icon": "building",
+      "color": "#3F6212"
+    },
+    "edelman-intelligence-dd3d04f7.html": {
+      "icon": "magnifier",
+      "color": "#5B21B6"
+    },
+    "benefit-cosmetics-2225dfa7.html": {
+      "icon": "sparkle",
+      "color": "#9F1239"
+    },
+    "parfums-christian-dior-45664bad.html": {
+      "icon": "gem",
+      "color": "#44403C"
+    }
+  }
+}
