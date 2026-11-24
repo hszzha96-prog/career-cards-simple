@@ -1,6 +1,7 @@
 # 项目维护约定
 
 - 用户默认要求 Monee / 小米简洁版独立 HTML。未另行要求，不重新设计网站。
+- `dashboard/` 岗位小镇看板是用户要求的附加界面，数据仍来自 `data/`；新增岗位时在 `data/dashboard.json` 配图标，生成物 `dashboard/dashboard.html`、`canvas.dc.html` 不手改。
 - 一岗一条；保留稳定的 page_id、filename、storage_key；不混同不同岗位或渠道记录。
 - 原岗位卡是正式申请状态来源。无新证据不修改状态，归档不自动恢复。
 - 个人、团队项目贡献必须有依据；未知内容写待核，不生成虚构评分。

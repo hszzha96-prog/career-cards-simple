@@ -1,0 +1,409 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<title>岗位小镇 · 夜间</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=Noto+Sans+SC:wght@400;500;700&amp;family=Pixelify+Sans:wght@400;500;600;700&amp;family=Silkscreen:wght@400;700&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0;background:#0F0E17}
+button{font-family:inherit;color:inherit}
+a{color:#EDE9F7;text-decoration:none}a:hover{color:#F2C14E}
+.px{font-family:'Pixelify Sans','Noto Sans SC',sans-serif}
+.sk{font-family:'Silkscreen',monospace;letter-spacing:.04em}
+.pp{background:#17161F;border:2px solid #2E2B40;box-shadow:6px 6px 0 #07060B}
+.tw{animation:tw 2.6s steps(3) infinite}
+@keyframes tw{0%,100%{opacity:.2}50%{opacity:1}}
+.pxi{shape-rendering:crispEdges;display:block}
+.dock-item{position:relative;flex-shrink:0;width:44px;height:44px;border:0;padding:0;cursor:pointer;display:flex;align-items:center;justify-content:center;transform-origin:50% 100%;transition:transform 180ms cubic-bezier(.2,.8,.2,1),filter 180ms;box-shadow:inset -3px -3px 0 rgba(0,0,0,.28),inset 3px 3px 0 rgba(255,255,255,.16)}
+.dock-item.is-dim{filter:saturate(.1) brightness(.65)}
+.dock-item:hover{transform:translateY(-12px) scale(1.34);z-index:3;filter:none}
+.dock-item:hover + .dock-item,.dock-item:has(+ .dock-item:hover){transform:translateY(-5px) scale(1.15);z-index:2}
+.dock-item:active{transform:translateY(-10px) scale(1.2)}
+.dock-item:focus-visible{outline:2px solid #F2C14E;outline-offset:3px}
+.dock-item.is-active{outline:2px solid #F2C14E;outline-offset:3px}
+.dock-item .tip{position:absolute;bottom:calc(100% + 10px);left:50%;transform:translateX(-50%);white-space:nowrap;background:#F2E6C4;color:#1A1405;font-size:10px;line-height:1.35;padding:5px 8px;opacity:0;pointer-events:none;transition:opacity 120ms;text-align:center;box-shadow:3px 3px 0 #07060B}
+.dock-item .tip b{display:block;font-family:'Pixelify Sans',sans-serif;font-size:12px;font-weight:600}
+.dock-item:hover .tip,.dock-item:focus-visible .tip{opacity:1}
+.dock-item .dot{position:absolute;bottom:-11px;left:50%;width:4px;height:4px;margin-left:-2px;background:#F2C14E;opacity:0}
+.dock-item.is-active .dot{opacity:1}
+.seg{border:0;background:transparent;font-size:13px;font-weight:600;padding:7px 16px;color:#A8A3BF;cursor:pointer;min-height:34px;transition:transform 120ms,background 160ms,color 160ms}
+.seg:hover{color:#EDE9F7}
+.seg.is-on{background:#F2C14E;color:#1A1405;box-shadow:inset -2px -2px 0 rgba(0,0,0,.2)}
+.navbtn{width:36px;height:36px;border:2px solid #34314A;background:#1B1A26;color:#EDE9F7;display:flex;align-items:center;justify-content:center;cursor:pointer;padding:0;transition:transform 120ms,background 160ms;box-shadow:3px 3px 0 #07060B}
+.navbtn:hover{background:#262435;border-color:#4A4666}
+.navbtn:active,.seg:active{transform:translate(2px,2px)}
+.navbtn:active{box-shadow:1px 1px 0 #07060B}
+.navbtn.is-on{border-color:#F2C14E;color:#F2C14E}
+.tab{border:0;background:transparent;padding:10px 2px;margin-bottom:-2px;font-size:14px;font-weight:500;color:#A8A3BF;cursor:pointer;border-bottom:3px solid transparent;transition:color 160ms}
+.tab:hover{color:#EDE9F7}
+.tab.is-on{color:#F2C14E;font-weight:700}
+.tabline{position:absolute;bottom:-2px;height:3px;transition:left 320ms steps(8),width 320ms steps(8)}
+.kpi{background:#211F2D;border:2px solid #2E2B40;padding:11px 13px;display:flex;flex-direction:column;gap:3px;min-width:0;transition:transform 160ms steps(3),border-color 160ms}
+.kpi:hover{transform:translate(-2px,-2px);border-color:#F2C14E;box-shadow:4px 4px 0 #07060B}
+.link-row{display:flex;align-items:center;gap:10px;padding:8px 10px;transition:background 120ms}
+.link-row:hover{background:#232131}
+.link-row .arr{transition:transform 160ms steps(2)}
+.link-row:hover .arr{transform:translate(2px,-2px);color:#F2C14E}
+.check,.q{border:0;background:transparent;font-family:inherit;color:#EDE9F7;display:flex;gap:10px;align-items:flex-start;text-align:left;width:100%;cursor:pointer;transition:background 140ms,transform 120ms}
+.check{padding:6px 8px;font-size:13px;line-height:1.45}
+.q{padding:8px 10px}
+.check:hover,.q:hover{background:#232131}
+.check:active,.q:active{transform:translate(1px,1px)}
+.box{width:16px;height:16px;border:2px solid #5A5672;box-sizing:border-box;flex-shrink:0;margin-top:1px;display:flex;align-items:center;justify-content:center;color:#0F0E17;transition:background 160ms,border-color 160ms}
+.box.on{animation:pop 300ms steps(4)}
+@keyframes pop{0%{transform:scale(.5)}50%{transform:scale(1.35)}100%{transform:scale(1)}}
+.done-text{color:#8A85A3;text-decoration:line-through;text-decoration-color:rgba(237,233,247,.35)}
+.bar{display:block;height:6px;transition:width 420ms steps(10)}
+.toast{position:absolute;left:50%;bottom:140px;transform:translateX(-50%);background:#F2E6C4;color:#1A1405;font-size:13px;font-weight:700;padding:9px 14px;box-shadow:4px 4px 0 #07060B;opacity:0;pointer-events:none;white-space:nowrap;z-index:7;display:flex;align-items:center;gap:8px}
+.spark{position:absolute;width:6px;height:6px;opacity:0;left:0;top:0}
+.sw{position:absolute;top:-12%;left:0;width:150px;height:124%;transform:translateX(-520px) skewX(-14deg)}
+.fxp{position:absolute;left:0;top:0;width:0;height:0}
+.fxs{position:absolute;width:6px;height:6px;left:-3px;top:-3px;opacity:0}
+.fxr{position:absolute;width:44px;height:44px;left:-22px;top:-22px;border:2px solid;box-sizing:border-box;opacity:0}
+.plot{width:112px;height:132px;box-sizing:border-box;border:2px solid #2C3B30;background:#1A231D;padding:7px 8px 8px;display:flex;flex-direction:column;align-items:center;gap:2px;cursor:pointer;color:#EDE9F7;transition:transform 140ms steps(2),border-color 140ms,background 140ms;position:relative}
+.plot:hover{transform:translate(-2px,-3px);border-color:#F2C14E;background:#1F2A22;box-shadow:4px 5px 0 #07060B}
+.plot:active{transform:translate(0,0)}
+.plot.is-dim{background:#18171D;border-color:#2A2833}
+.plot .crop{transition:transform 200ms steps(3)}
+.plot:hover .crop{transform:translateY(-3px)}
+.fence{height:6px;background-image:repeating-linear-gradient(90deg,#6B4A2F 0 4px,transparent 4px 14px),linear-gradient(#4A3220,#4A3220);background-size:auto,100% 2px;background-position:0 0,0 2px;background-repeat:repeat-x,no-repeat}
+.scroll{overflow-y:auto;scrollbar-width:thin;scrollbar-color:#3A3752 transparent}
+.clamp1{display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:1;overflow:hidden}
+.clamp2{display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2;overflow:hidden}
+@media (prefers-reduced-motion: reduce){*{transition:none !important;animation:none !important}}
+</style>
+</helmet>
+<div ref="{{setRoot}}" onPointerDown="{{onPress}}" style="width: 1440px; height: 900px; box-sizing: border-box; background-color: #0F0E17; display: flex; flex-direction: column; color: #EDE9F7; font-family: 'Inter', 'Noto Sans SC', system-ui, sans-serif; overflow: hidden; position: relative">
+<svg class="pxi" width="1440" height="900" viewBox="0 0 1440 900" aria-hidden="true" style="position: absolute; left: 0; top: 0; pointer-events: none">__STARS__</svg>
+<svg class="pxi" width="40" height="40" viewBox="0 0 16 16" aria-hidden="true" style="position: absolute; left: 560px; top: 12px; pointer-events: none"><path fill="#F2E6C4" d="__MOON__"></path></svg>
+
+<header style="position: relative; height: 66px; flex-shrink: 0; display: flex; align-items: center; justify-content: space-between; padding: 0 40px">
+<div style="display: flex; align-items: center; gap: 12px; width: 420px">
+<div style="width: 36px; height: 36px; background: #2A2438; border: 2px solid #3A3752; display: flex; align-items: center; justify-content: center; box-shadow: 3px 3px 0 #07060B">
+<svg class="pxi" width="24" height="24" viewBox="0 0 12 12" aria-hidden="true"><path fill="#F2C14E" d="__LOGO_A__"></path><path fill="#FFE6A0" d="__LOGO_B__"></path></svg>
+</div>
+<div style="display: flex; flex-direction: column; gap: 1px">
+<div style="font-size: 17px; font-weight: 700">岗位小镇</div>
+<div class="sk" style="font-size: 10px; color: #A8A3BF">JOB VALLEY · {{total}} FIELDS · __SNAPSHOT__</div>
+</div>
+</div>
+<div style="display: flex; gap: 2px; padding: 3px; background: #1B1A26; border: 2px solid #34314A; box-shadow: 3px 3px 0 #07060B">
+<button class="{{segCard}}" onClick="{{showCard}}">岗位卡</button>
+<button class="{{segOverview}}" onClick="{{showOverview}}">田野地图</button>
+</div>
+<div style="display: flex; align-items: center; justify-content: flex-end; gap: 10px; width: 420px">
+<div style="display: flex; align-items: center; gap: 10px; padding: 5px 10px; background: #1B1A26; border: 2px solid #34314A; box-shadow: 3px 3px 0 #07060B">
+<span class="px" style="font-size: 16px; font-weight: 700; color: #F2C14E">LV.{{level}}</span>
+<span style="display: flex; gap: 2px" aria-hidden="true">
+<sc-for list="{{xpSegs}}" as="x" hint-placeholder-count="10"><span style="width: 7px; height: 12px; {{x.style}}"></span></sc-for>
+</span>
+<span class="sk" style="font-size: 10px; color: #A8A3BF; min-width: 52px">{{xpIn}}/100 XP</span>
+</div>
+<button class="{{soundCls}}" aria-label="音效" aria-pressed="{{soundPressed}}" onClick="{{toggleSound}}">
+<sc-if value="{{soundOn}}" hint-placeholder-val="{{ true }}"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="square" stroke-linejoin="miter" aria-hidden="true"><path d="M4 9v6h4l5 4V5L8 9z"></path><path d="M16.5 8.5a5 5 0 0 1 0 7M19 6a8.5 8.5 0 0 1 0 12"></path></svg></sc-if>
+<sc-if value="{{soundOff}}" hint-placeholder-val="{{ false }}"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="square" stroke-linejoin="miter" aria-hidden="true"><path d="M4 9v6h4l5 4V5L8 9z"></path><path d="M17 9l5 6M22 9l-5 6"></path></svg></sc-if>
+</button>
+<button class="navbtn" aria-label="上一张" onClick="{{prev}}"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="square" stroke-linejoin="miter" aria-hidden="true"><path d="M15 18l-6-6 6-6"></path></svg></button>
+<button class="navbtn" aria-label="下一张" onClick="{{next}}"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="square" stroke-linejoin="miter" aria-hidden="true"><path d="M9 18l6-6-6-6"></path></svg></button>
+</div>
+</header>
+
+<sc-if value="{{isCard}}" hint-placeholder-val="{{ true }}">
+<main ref="{{setMain}}" style="position: relative; flex: 1; min-height: 0; padding: 6px 40px 0; display: grid; grid-template-columns: minmax(0, 1fr) 340px; gap: 22px">
+
+<section ref="{{setCard}}" class="pp" style="position: relative; z-index: 0; overflow: hidden; padding: 22px 28px 16px; display: flex; flex-direction: column; gap: 16px; min-height: 0; min-width: 0">
+<svg class="pxi" width="276" height="276" viewBox="0 0 12 12" aria-hidden="true" style="position: absolute; right: -40px; top: 120px; z-index: -1; opacity: 0.07; pointer-events: none"><path d="{{cur.pxA}}" style="{{cur.fillStyle}}"></path><path d="{{cur.pxB}}" style="{{cur.fillStyle}}"></path></svg>
+<div style="display: flex; align-items: center; gap: 18px">
+<div style="width: 64px; height: 64px; flex-shrink: 0; display: flex; align-items: center; justify-content: center; box-shadow: inset -4px -4px 0 rgba(0,0,0,.28), inset 4px 4px 0 rgba(255,255,255,.16), 4px 4px 0 #07060B; {{cur.tileStyle}}">
+<svg class="pxi" width="40" height="40" viewBox="0 0 12 12" aria-hidden="true"><path fill="#FFFFFF" d="{{cur.pxA}}"></path><path fill="#FFE6A0" d="{{cur.pxB}}"></path></svg>
+</div>
+<div style="flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 4px">
+<div style="display: flex; align-items: center; gap: 8px; flex-wrap: wrap">
+<span class="sk" style="font-size: 10px; color: #A8A3BF">NO.{{cur.n}}</span>
+<span style="font-size: 12px; font-weight: 700; padding: 3px 8px; {{cur.statusStyle}}">{{cur.status}}</span>
+<span style="font-size: 12px; color: #A8A3BF">{{cur.emp}} · {{cur.loc}} · {{cur.sid}}</span>
+</div>
+<h1 class="px" style="margin: 0; font-size: 30px; line-height: 1.1; font-weight: 700">{{cur.co}}</h1>
+<div class="clamp1" style="font-size: 15px; color: #CFCAE0">{{cur.role}}</div>
+</div>
+<div style="flex-shrink: 0; display: flex; align-items: center; gap: 12px; padding: 8px 12px 8px 8px; background: #1A231D; border: 2px solid #2C3B30">
+<div style="width: 60px; height: 60px; display: flex; align-items: flex-end; justify-content: center; background: #141C17">
+<svg class="pxi" width="56" height="56" viewBox="0 0 16 16" aria-hidden="true"><path fill="#5A3D27" d="{{cur.crop.S}}"></path><path fill="#7A5536" d="{{cur.crop.s}}"></path><path fill="#3E8E5A" d="{{cur.crop.g}}"></path><path fill="#7BD389" d="{{cur.crop.G}}"></path><path fill="#F07AA0" d="{{cur.crop.F}}"></path><path fill="#F2C14E" d="{{cur.crop.Y}}"></path><path fill="#9C8B63" d="{{cur.crop.W}}"></path><path fill="#6E6146" d="{{cur.crop.w}}"></path></svg>
+</div>
+<div style="display: flex; flex-direction: column; gap: 3px">
+<span class="sk" style="font-size: 10px; color: #8FE09C">MY FIELD</span>
+<span style="font-size: 15px; font-weight: 700">{{cur.stageName}}</span>
+<span class="px" style="font-size: 12px; color: #A8A3BF">成长 {{cur.done}}/{{cur.total}}</span>
+</div>
+</div>
+</div>
+
+<div style="display: flex; align-items: flex-start; gap: 20px">
+<p style="flex: 1; margin: 0; font-size: 14px; line-height: 1.65; color: #CFCAE0">{{cur.hero}}</p>
+<div style="flex-shrink: 0; display: flex; align-items: center; gap: 8px; padding: 6px 10px; background: #2A2310; border: 2px solid #F2C14E">
+<span class="sk" style="font-size: 10px; color: #F2C14E">NEXT</span>
+<span style="font-size: 13px; font-weight: 700; color: #FBE7B0">{{cur.pill}}</span>
+</div>
+</div>
+
+<div style="display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 10px">
+<sc-for list="{{cur.kpis}}" as="k" hint-placeholder-count="4">
+<div class="kpi">
+<span class="clamp1" style="font-size: 11px; color: #A8A3BF"><span class="sk" style="font-size: 10px">{{k.en}}</span> · {{k.zh}}</span>
+<span class="clamp1" style="font-size: 16px; font-weight: 700">{{k.v}}</span>
+<span class="clamp2" style="font-size: 12px; line-height: 1.5; color: #A8A3BF">{{k.n}}</span>
+</div>
+</sc-for>
+</div>
+
+<div ref="{{setTabs}}" role="tablist" style="position: relative; display: flex; gap: 24px; border-bottom: 2px solid #2E2B40">
+<sc-for list="{{tabs}}" as="t" hint-placeholder-count="4">
+<button role="tab" aria-selected="{{t.sel}}" class="{{t.cls}}" style="{{t.lineStyle}}" onClick="{{t.pick}}">{{t.label}}</button>
+</sc-for>
+<span class="tabline" style="{{tabLineStyle}}" aria-hidden="true"></span>
+</div>
+
+<div ref="{{setPanel}}" class="scroll" style="flex: 1; min-height: 0; padding-right: 6px">
+
+<sc-if value="{{tabElig}}" hint-placeholder-val="{{ true }}">
+<div style="display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 28px">
+<div style="display: flex; flex-direction: column; gap: 10px">
+<h2 style="margin: 0; font-size: 14px; font-weight: 700">{{cur.eligTitle}}</h2>
+<sc-for list="{{cur.employer}}" as="r" hint-placeholder-count="5">
+<div style="display: grid; grid-template-columns: 76px minmax(0, 1fr); gap: 10px; font-size: 13px; line-height: 1.55"><span style="color: #A8A3BF">{{r.l}}</span><span>{{r.v}}</span></div>
+</sc-for>
+<p style="margin: 4px 0 0; font-size: 12px; line-height: 1.6; color: #A8A3BF">{{cur.enote}}</p>
+</div>
+<div style="display: flex; flex-direction: column; gap: 10px">
+<h2 style="margin: 0; font-size: 14px; font-weight: 700">个人条件</h2>
+<sc-for list="{{cur.personal}}" as="r" hint-placeholder-count="5">
+<div style="display: grid; grid-template-columns: 76px minmax(0, 1fr); gap: 10px; font-size: 13px; line-height: 1.55"><span style="color: #A8A3BF">{{r.l}}</span><span>{{r.v}}</span></div>
+</sc-for>
+<p style="margin: 4px 0 0; font-size: 12px; line-height: 1.6; color: #A8A3BF">{{cur.pnote}}</p>
+</div>
+</div>
+</sc-if>
+
+<sc-if value="{{tabMatch}}" hint-placeholder-val="{{ false }}">
+<div style="display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.15fr); gap: 28px">
+<div style="display: flex; flex-direction: column; gap: 12px">
+<h2 style="margin: 0; font-size: 14px; font-weight: 700">能力画像</h2>
+<sc-for list="{{cur.dims}}" as="d" hint-placeholder-count="5">
+<div style="display: flex; gap: 10px">
+<span style="width: 8px; height: 8px; margin-top: 6px; flex-shrink: 0; {{d.dotStyle}}"></span>
+<div style="display: flex; flex-direction: column; gap: 2px; min-width: 0">
+<div style="display: flex; gap: 8px; align-items: baseline"><span style="font-size: 13px; font-weight: 600">{{d.name}}</span><span style="font-size: 12px; {{d.statusStyle}}">{{d.status}}</span></div>
+<span style="font-size: 12px; line-height: 1.55; color: #A8A3BF">{{d.note}}</span>
+</div>
+</div>
+</sc-for>
+</div>
+<div style="display: flex; flex-direction: column">
+<h2 style="margin: 0 0 10px; font-size: 14px; font-weight: 700">JD × 个人证据</h2>
+<div style="display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.3fr) minmax(0, 0.9fr); gap: 10px; padding: 0 0 8px; border-bottom: 2px solid #2E2B40; font-size: 11px; font-weight: 600; color: #A8A3BF"><span>需求</span><span>证据</span><span>判断</span></div>
+<sc-for list="{{cur.matrix}}" as="m" hint-placeholder-count="5">
+<div style="display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.3fr) minmax(0, 0.9fr); gap: 10px; padding: 9px 0; border-bottom: 1px solid #262435; font-size: 12px; line-height: 1.5"><span style="font-weight: 600">{{m.need}}</span><span style="color: #CFCAE0">{{m.ev}}</span><span style="color: #A8A3BF">{{m.verdict}}</span></div>
+</sc-for>
+</div>
+</div>
+</sc-if>
+
+<sc-if value="{{tabPrep}}" hint-placeholder-val="{{ false }}">
+<div style="display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 28px">
+<div style="display: flex; flex-direction: column; gap: 12px">
+<h2 style="margin: 0; font-size: 14px; font-weight: 700">申请行动</h2>
+<sc-for list="{{cur.steps}}" as="s" hint-placeholder-count="4">
+<div style="display: flex; gap: 12px">
+<span class="px" style="width: 24px; height: 24px; flex-shrink: 0; display: flex; align-items: center; justify-content: center; font-size: 13px; font-weight: 700; {{accentFill}}">{{s.k}}</span>
+<div style="display: flex; flex-direction: column; gap: 2px; min-width: 0"><span style="font-size: 13px; font-weight: 600">{{s.t}}</span><span style="font-size: 12px; line-height: 1.55; color: #A8A3BF">{{s.x}}</span></div>
+</div>
+</sc-for>
+<div style="background: #211F2D; border: 2px solid #2E2B40; padding: 12px 14px; font-size: 12px; line-height: 1.6; color: #CFCAE0"><b style="font-weight: 700; color: #EDE9F7">申请记录：</b>{{cur.appnote}}</div>
+</div>
+<div style="display: flex; flex-direction: column; gap: 12px">
+<div style="display: flex; align-items: baseline; gap: 8px"><h2 style="margin: 0; font-size: 14px; font-weight: 700">面试预练</h2><span style="font-size: 12px; color: #A8A3BF">{{cur.qkind}} · 练一题 = 施一次肥</span><span class="px" style="margin-left: auto; font-size: 13px; font-weight: 600">已练 {{cur.qDone}}/{{cur.qTotal}}</span></div>
+<div style="height: 6px; background: #262435"><span class="bar" style="{{cur.qBarStyle}}"></span></div>
+<div style="display: flex; flex-direction: column; gap: 2px; margin: 0 -10px">
+<sc-for list="{{cur.qItems}}" as="q" hint-placeholder-count="5">
+<button class="q" aria-pressed="{{q.pressed}}" onClick="{{q.pick}}">
+<span class="{{q.boxCls}}" style="{{q.boxStyle}}"><sc-if value="{{q.on}}" hint-placeholder-val="{{ false }}"><svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="5" stroke-linecap="square" stroke-linejoin="miter" aria-hidden="true"><path d="M4 12.5l5 5L20 6.5"></path></svg></sc-if></span>
+<span style="display: flex; flex-direction: column; gap: 2px; min-width: 0">
+<span class="{{q.textCls}}" style="font-size: 13px; font-weight: 600; line-height: 1.5">{{q.zh}}</span>
+<span lang="en" style="font-size: 12px; line-height: 1.5; color: #A8A3BF">{{q.en}}</span>
+</span>
+</button>
+</sc-for>
+</div>
+<p style="margin: 0; font-size: 12px; line-height: 1.6; color: #A8A3BF">{{cur.qnote}}</p>
+</div>
+</div>
+</sc-if>
+
+<sc-if value="{{tabProj}}" hint-placeholder-val="{{ false }}">
+<div style="display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px">
+<sc-for list="{{cur.projects}}" as="p" hint-placeholder-count="2">
+<div style="background: #1D1C28; border: 2px solid #2E2B40; padding: 16px 18px; display: flex; flex-direction: column; gap: 8px">
+<span style="font-size: 14px; font-weight: 700">{{p.name}}</span>
+<span style="font-size: 12px; color: #A8A3BF">{{p.sub}}</span>
+<span style="font-size: 13px; line-height: 1.6; color: #CFCAE0">{{p.intro}}</span>
+<span style="font-size: 12px; line-height: 1.7; color: #CFCAE0; white-space: pre-line">{{p.bullets}}</span>
+<span style="font-size: 12px; line-height: 1.6; color: #A8A3BF; padding-top: 8px; border-top: 1px solid #2E2B40">边界：{{p.boundary}}</span>
+</div>
+</sc-for>
+</div>
+</sc-if>
+
+</div>
+</section>
+
+<aside ref="{{setAside}}" style="display: flex; flex-direction: column; gap: 16px; min-height: 0">
+<section class="pp" style="flex: 1; min-height: 0; padding: 14px 8px 6px; display: flex; flex-direction: column">
+<div style="display: flex; justify-content: space-between; align-items: baseline; margin: 0 10px 6px"><h2 style="margin: 0; font-size: 13px; font-weight: 700">来源与入口</h2><span class="sk" style="font-size: 10px; color: #A8A3BF">{{cur.srcCount}} LINKS</span></div>
+<div class="scroll" style="flex: 1; min-height: 0">
+<sc-for list="{{cur.sources}}" as="s" hint-placeholder-count="6">
+<a class="link-row" href="{{s.url}}" target="_blank" rel="noopener">
+<span style="width: 28px; height: 28px; background: #262435; border: 2px solid #34314A; box-sizing: border-box; display: flex; align-items: center; justify-content: center; flex-shrink: 0; color: #CFCAE0"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="square" stroke-linejoin="miter" aria-hidden="true"><path d="M10 14a5 5 0 0 0 7 0l3-3a5 5 0 0 0-7-7l-1 1"></path><path d="M14 10a5 5 0 0 0-7 0l-3 3a5 5 0 0 0 7 7l1-1"></path></svg></span>
+<span style="flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 1px"><span class="clamp1" style="font-size: 13px; font-weight: 600">{{s.label}}</span><span class="clamp1" style="font-size: 11px; color: #A8A3BF">{{s.kind}}</span></span>
+<svg class="arr" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="square" stroke-linejoin="miter" aria-hidden="true" style="flex-shrink: 0; color: #A8A3BF"><path d="M7 17L17 7M8 7h9v9"></path></svg>
+</a>
+</sc-for>
+</div>
+</section>
+
+<section class="pp" style="position: relative; padding: 14px 10px 8px; display: flex; flex-direction: column; gap: 4px">
+<div style="display: flex; align-items: baseline; justify-content: space-between; margin: 0 8px">
+<h2 style="margin: 0; font-size: 13px; font-weight: 700">待核事项 <span class="sk" style="font-size: 10px; color: #6CB4FF; font-weight: 400">· WATER +10XP</span></h2>
+<span class="px" style="position: relative; font-size: 13px; font-weight: 600">{{cur.gDone}}/{{cur.gTotal}}<span ref="{{setBurst}}" aria-hidden="true" style="position: absolute; left: 50%; top: 50%"><span class="spark" style="background: #6CB4FF"></span><span class="spark" style="background: #7BD389"></span><span class="spark" style="background: #F2C14E"></span><span class="spark" style="background: #F07AA0"></span><span class="spark" style="background: #B59CFF"></span><span class="spark" style="background: #F59E5B"></span><span class="spark" style="background: #6CB4FF"></span><span class="spark" style="background: #7BD389"></span><span class="spark" style="background: #F2C14E"></span><span class="spark" style="background: #F07AA0"></span><span class="spark" style="background: #B59CFF"></span><span class="spark" style="background: #F59E5B"></span></span></span>
+</div>
+<div style="margin: 4px 8px 6px; height: 6px; background: #262435"><span class="bar" style="{{cur.gBarStyle}}"></span></div>
+<sc-for list="{{cur.gapItems}}" as="g" hint-placeholder-count="4">
+<button class="check" aria-pressed="{{g.pressed}}" onClick="{{g.pick}}"><span class="{{g.boxCls}}" style="{{g.boxStyle}}"><sc-if value="{{g.on}}" hint-placeholder-val="{{ false }}"><svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="5" stroke-linecap="square" stroke-linejoin="miter" aria-hidden="true"><path d="M4 12.5l5 5L20 6.5"></path></svg></sc-if></span><span class="{{g.textCls}}">{{g.text}}</span></button>
+</sc-for>
+</section>
+
+<section class="pp" style="padding: 14px 18px; display: flex; flex-direction: column; gap: 8px">
+<h2 style="margin: 0; font-size: 13px; font-weight: 700">全部 {{total}} 块田</h2>
+<sc-for list="{{catCounts}}" as="c" hint-placeholder-count="5">
+<div style="display: grid; grid-template-columns: 64px minmax(0, 1fr) 20px; align-items: center; gap: 10px; font-size: 13px">
+<span>{{c.label}}</span>
+<span style="height: 8px; background: #262435; display: block"><span style="display: block; height: 8px; {{c.barStyle}}"></span></span>
+<span class="px" style="text-align: right; color: #A8A3BF">{{c.count}}</span>
+</div>
+</sc-for>
+</section>
+</aside>
+</main>
+</sc-if>
+
+<sc-if value="{{isOverview}}" hint-placeholder-val="{{ false }}">
+<main ref="{{setMain}}" style="position: relative; flex: 1; min-height: 0; padding: 6px 40px 0; display: flex; flex-direction: column; gap: 16px">
+<div style="display: flex; align-items: baseline; gap: 14px">
+<h1 style="margin: 0; font-size: 24px; font-weight: 700">田野地图</h1>
+<span style="font-size: 13px; color: #A8A3BF">勾一项待核事项 = 浇一次水，练一道题 = 施一次肥；作物长到开花，这块田就准备好了。</span>
+</div>
+<div ref="{{setGrid}}" class="scroll" style="flex: 1; min-height: 0; overflow-y: auto; padding: 0 8px 10px 0; display: flex; flex-direction: column; gap: 18px">
+<div style="display: flex; gap: 18px">
+<sc-for list="{{fieldsTop}}" as="f" hint-placeholder-count="3">
+<section class="pp" style="padding: 12px 18px 16px; display: flex; flex-direction: column; gap: 10px; background: #141B16; border-color: #24332A">
+<div style="display: flex; align-items: baseline; justify-content: space-between"><h2 style="margin: 0; font-size: 14px; font-weight: 700">{{f.title}}</h2><span class="sk" style="font-size: 10px; color: #8FE09C">{{f.en}} · {{f.count}}</span></div>
+<div class="fence" aria-hidden="true"></div>
+<div style="{{f.gridStyle}}">
+<sc-for list="{{f.items}}" as="item" hint-placeholder-count="4">
+<button class="{{item.plotCls}}" aria-label="{{item.co}} · {{item.stageName}}" onClick="{{item.pick}}">
+<span style="align-self: stretch; display: flex; justify-content: space-between; align-items: center">
+<span style="width: 22px; height: 22px; display: flex; align-items: center; justify-content: center; box-shadow: inset -2px -2px 0 rgba(0,0,0,.28), inset 2px 2px 0 rgba(255,255,255,.16); {{item.tileStyle}}"><svg class="pxi" width="14" height="14" viewBox="0 0 12 12" aria-hidden="true"><path fill="#FFFFFF" d="{{item.pxA}}"></path><path fill="#FFE6A0" d="{{item.pxB}}"></path></svg></span>
+<span class="px" style="font-size: 11px; color: #A8A3BF">{{item.done}}/{{item.total}}</span>
+</span>
+<svg class="pxi crop" width="48" height="48" viewBox="0 0 16 16" aria-hidden="true"><path fill="#5A3D27" d="{{item.crop.S}}"></path><path fill="#7A5536" d="{{item.crop.s}}"></path><path fill="#3E8E5A" d="{{item.crop.g}}"></path><path fill="#7BD389" d="{{item.crop.G}}"></path><path fill="#F07AA0" d="{{item.crop.F}}"></path><path fill="#F2C14E" d="{{item.crop.Y}}"></path><path fill="#9C8B63" d="{{item.crop.W}}"></path><path fill="#6E6146" d="{{item.crop.w}}"></path></svg>
+<span class="px clamp1" style="font-size: 13px; font-weight: 600; max-width: 100%">{{item.co}}</span>
+<span class="clamp1" style="font-size: 11px; color: #A8A3BF; max-width: 100%">{{item.stageName}}</span>
+</button>
+</sc-for>
+</div>
+</section>
+</sc-for>
+</div>
+<div style="display: flex; gap: 18px; align-items: stretch">
+<sc-for list="{{fieldsBottom}}" as="f" hint-placeholder-count="1">
+<section class="pp" style="padding: 12px 18px 16px; display: flex; flex-direction: column; gap: 10px; background: #141B16; border-color: #24332A">
+<div style="display: flex; align-items: baseline; justify-content: space-between"><h2 style="margin: 0; font-size: 14px; font-weight: 700">{{f.title}}</h2><span class="sk" style="font-size: 10px; color: #A8A3BF">{{f.en}} · {{f.count}}</span></div>
+<div class="fence" aria-hidden="true"></div>
+<div style="{{f.gridStyle}}">
+<sc-for list="{{f.items}}" as="item" hint-placeholder-count="3">
+<button class="{{item.plotCls}}" aria-label="{{item.co}} · {{item.stageName}}" onClick="{{item.pick}}">
+<span style="align-self: stretch; display: flex; justify-content: space-between; align-items: center">
+<span style="width: 22px; height: 22px; display: flex; align-items: center; justify-content: center; box-shadow: inset -2px -2px 0 rgba(0,0,0,.28), inset 2px 2px 0 rgba(255,255,255,.16); {{item.tileStyle}}"><svg class="pxi" width="14" height="14" viewBox="0 0 12 12" aria-hidden="true"><path fill="#FFFFFF" d="{{item.pxA}}"></path><path fill="#FFE6A0" d="{{item.pxB}}"></path></svg></span>
+<span class="px" style="font-size: 11px; color: #A8A3BF">{{item.status}}</span>
+</span>
+<svg class="pxi crop" width="48" height="48" viewBox="0 0 16 16" aria-hidden="true"><path fill="#5A3D27" d="{{item.crop.S}}"></path><path fill="#7A5536" d="{{item.crop.s}}"></path><path fill="#3E8E5A" d="{{item.crop.g}}"></path><path fill="#7BD389" d="{{item.crop.G}}"></path><path fill="#F07AA0" d="{{item.crop.F}}"></path><path fill="#F2C14E" d="{{item.crop.Y}}"></path><path fill="#9C8B63" d="{{item.crop.W}}"></path><path fill="#6E6146" d="{{item.crop.w}}"></path></svg>
+<span class="px clamp1" style="font-size: 13px; font-weight: 600; max-width: 100%">{{item.co}}</span>
+<span class="clamp1" style="font-size: 11px; color: #A8A3BF; max-width: 100%">{{item.stageName}}</span>
+</button>
+</sc-for>
+</div>
+</section>
+</sc-for>
+<section class="pp" style="width: 354px; box-sizing: border-box; padding: 12px 18px 14px; display: flex; flex-direction: column; gap: 10px">
+<h2 style="margin: 0; font-size: 14px; font-weight: 700">成长图鉴</h2>
+<div style="display: flex; justify-content: space-between">
+<sc-for list="{{legend}}" as="l" hint-placeholder-count="6">
+<div style="display: flex; flex-direction: column; align-items: center; gap: 4px">
+<svg class="pxi" width="40" height="40" viewBox="0 0 16 16" aria-hidden="true"><path fill="#5A3D27" d="{{l.crop.S}}"></path><path fill="#7A5536" d="{{l.crop.s}}"></path><path fill="#3E8E5A" d="{{l.crop.g}}"></path><path fill="#7BD389" d="{{l.crop.G}}"></path><path fill="#F07AA0" d="{{l.crop.F}}"></path><path fill="#F2C14E" d="{{l.crop.Y}}"></path><path fill="#9C8B63" d="{{l.crop.W}}"></path><path fill="#6E6146" d="{{l.crop.w}}"></path></svg>
+<span style="font-size: 11px; color: #CFCAE0">{{l.label}}</span>
+<span class="px" style="font-size: 11px; color: #A8A3BF">{{l.range}}</span>
+</div>
+</sc-for>
+</div>
+<p style="margin: 0; font-size: 12px; line-height: 1.55; color: #A8A3BF">成长按本卡「待核事项 + 预练题」完成比例计算；已结束和废纸篓的田固定为枯萎。</p>
+</section>
+<section class="pp" style="flex: 1; padding: 12px 20px 14px; display: flex; flex-direction: column; gap: 10px">
+<h2 style="margin: 0; font-size: 14px; font-weight: 700">小镇统计</h2>
+<div style="display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 12px; flex: 1">
+<sc-for list="{{stats}}" as="s" hint-placeholder-count="4">
+<div style="background: #211F2D; border: 2px solid #2E2B40; padding: 12px 14px; display: flex; flex-direction: column; justify-content: space-between; gap: 6px">
+<span style="font-size: 12px; color: #A8A3BF">{{s.label}}</span>
+<span class="px" style="font-size: 30px; font-weight: 700; line-height: 1; {{s.style}}">{{s.value}}</span>
+<span class="px" style="font-size: 12px; color: #A8A3BF">{{s.sub}}</span>
+</div>
+</sc-for>
+</div>
+</section>
+</div>
+</div>
+</main>
+</sc-if>
+
+<div ref="{{setSweep}}" aria-hidden="true" style="position: absolute; inset: 0; overflow: hidden; pointer-events: none; z-index: 4">__SWEEP__</div>
+<div ref="{{setFx}}" aria-hidden="true" style="position: absolute; left: 0; top: 0; width: 0; height: 0; pointer-events: none; z-index: 6">__FX__</div>
+<div ref="{{setToast}}" class="toast" role="status" aria-live="polite"><svg class="pxi" width="14" height="14" viewBox="0 0 16 16" aria-hidden="true"><path fill="#3E8E5A" d="M7 4h2v8H7z"></path><path fill="#7BD389" d="M3 3h4v2H3zM9 6h4v2H9zM4 5h3v1H4zM9 8h3v1H9z"></path><path fill="#5A3D27" d="M2 12h12v3H2z"></path></svg>{{toastMsg}}</div>
+
+<footer style="height: 118px; flex-shrink: 0; display: flex; align-items: flex-end; justify-content: center; padding-bottom: 20px; box-sizing: border-box; position: relative; z-index: 2">
+<nav aria-label="岗位卡切换" style="display: flex; align-items: center; gap: 7px; padding: 9px 12px 12px; background: #14131C; border: 2px solid #34314A; box-shadow: 6px 6px 0 #07060B, inset 0 2px 0 #1F1D2B">
+<button class="{{overviewCls}}" style="background: #2A2438" aria-label="田野地图" onClick="{{showOverview}}">
+<svg class="pxi" width="24" height="24" viewBox="0 0 16 16" aria-hidden="true"><path fill="#5A3D27" d="M1 12h14v3H1z"></path><path fill="#7A5536" d="M2 11h12v1H2z"></path><path fill="#7BD389" d="M3 6h2v5H3zM7 4h2v7H7zM11 7h2v4h-2z"></path><path fill="#F07AA0" d="M6 2h4v2H6z"></path><path fill="#F2C14E" d="M7 2h2v1H7z"></path></svg>
+<span class="tip"><b>田野地图</b>全部 {{total}} 块田</span><span class="dot"></span>
+</button>
+<sc-for list="{{dockGroups}}" as="grp" hint-placeholder-count="4">
+<div style="width: 2px; height: 34px; background: #34314A; margin: 0 3px; flex-shrink: 0" aria-hidden="true"></div>
+<sc-for list="{{grp.items}}" as="item" hint-placeholder-count="5">
+<button class="{{item.cls}}" style="{{item.tileStyle}}" aria-label="{{item.co}} · {{item.role}}" onClick="{{item.pick}}"><svg class="pxi" width="26" height="26" viewBox="0 0 12 12" aria-hidden="true"><path fill="#FFFFFF" d="{{item.pxA}}"></path><path fill="#FFE6A0" d="{{item.pxB}}"></path></svg><span class="tip"><b>{{item.co}}</b>{{item.status}} · {{item.stageName}}</span><span class="dot"></span></button>
+</sc-for>
+</sc-for>
+</nav>
+</footer>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"accent":{"editor":"color","default":"#F2C14E","options":["#F2C14E","#7BD389","#6CB4FF","#F07AA0"]},"$preview":{"width":1440,"height":900}}'>
+const CARDS = __DATA__;
+const CROPS = __CROPS__;
+__LOGIC__
+</script>
+</body>
+</html>
