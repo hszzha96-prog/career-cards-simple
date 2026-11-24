@@ -1,0 +1,1484 @@
+[
+  {
+    "page_id": "page_d6faeef22fe48191971c01df78843569",
+    "filename": "shopback-d6faeef2.html",
+    "location": "Singapore",
+    "category": "candidate",
+    "original_status": "待人工筛选｜来源匹配度：较高。",
+    "sources": [
+      {
+        "label": "原岗位卡（状态依据）",
+        "url": "https://chatgpt.com/space/page_d6faeef22fe48191971c01df78843569",
+        "date": "2026-11-25",
+        "kind": "原始记录",
+        "note": "原页面最后更新 2026-11-23"
+      },
+      {
+        "label": "原岗位卡",
+        "url": "https://chatgpt.com/space/page_d6faeef22fe48191971c01df78843569",
+        "date": "2026-11-25",
+        "kind": "原始岗位记录",
+        "note": "原内容与状态未更改。"
+      },
+      {
+        "label": "最新版通用 CV 2.1（可访问范围内）",
+        "url": "https://www.dropbox.com/preview/%E7%AE%80%E5%8E%86/%E9%80%9A%E7%94%A8%E6%A8%A1%E7%89%88/Zhang_Zhe_CV_2.1.pdf",
+        "date": "2026-11-25",
+        "kind": "个人材料",
+        "note": "Dropbox 搜索共 12 条，通用 CV 2.1 已读取并与本地文本核对；具体岗位定制版是独立材料，不自动替换通用基线。 Dropbox 修改时间 2026-11-14；岗位实际提交版另核。"
+      },
+      {
+        "label": "Gmail 限定检索",
+        "url": "https://mail.google.com/mail/u/0/#search/ShopBack",
+        "date": "2026-11-25",
+        "kind": "个人邮件检索",
+        "note": "本轮执行的范围：after:2026/09/01 before:2026/11/26，六家公司与 application/applied/interview/assessment/candidature 关键词，排除主要职位订阅发件人；0 个结果，不作未投的独立证明。"
+      },
+      {
+        "label": "ShopBack 官方岗位列表",
+        "url": "https://jobs.lever.co/shopback-2/?department=10.+Data",
+        "date": "2026-11-25",
+        "kind": "官方 JD",
+        "note": "本轮直接读取，本岗及 Apply 可见。"
+      },
+      {
+        "label": "ShopBack 官方 JD",
+        "url": "https://jobs.lever.co/shopback-2/b216d68c-48b0-4fa5-8f1e-9e0375b993e1",
+        "date": "2026-11-25",
+        "kind": "官方 JD",
+        "note": "本轮直连 403；同一官方 URL 的搜索索引可读，保留此访问限制。"
+      },
+      {
+        "label": "ShopBack 雇主 LinkedIn",
+        "url": "https://sg.linkedin.com/jobs/view/data-analyst-internship-h1-2027-at-shopback-4455842244",
+        "date": "2026-11-25",
+        "kind": "雇主交叉发布",
+        "note": ""
+      },
+      {
+        "label": "NUS EBAC 官方项目与时间表",
+        "url": "https://www.iss.nus.edu.sg/graduate-programmes/graduate-programmes/master-of-technology-in-enterprise-business-analytics",
+        "date": "2026-11-25",
+        "kind": "学校官方公开资料",
+        "note": "不是本人批次完成证明。"
+      },
+      {
+        "label": "最新 CV 与项目证据核验说明",
+        "url": "evidence.html",
+        "date": "2026-11-25",
+        "kind": "本次共用证据",
+        "note": "CV 版本、学校档期、ABD/PAL 版本边界与来源索引"
+      }
+    ],
+    "gaps": [
+      "雇主对 3–8 月安排是否接受",
+      "2026 入学批次学校审批与实习要求",
+      "独立 SQL、看板和 AI 工具实物",
+      "目标申请表、截止、薪酬及准证要求"
+    ]
+  },
+  {
+    "page_id": "page_c62ff839fe8c8191a1b91a67d3431602",
+    "filename": "siemens-c62ff839.html",
+    "location": "Singapore",
+    "category": "candidate",
+    "original_status": "待人工筛选｜来源匹配度：高。",
+    "sources": [
+      {
+        "label": "原岗位卡（状态依据）",
+        "url": "https://chatgpt.com/space/page_c62ff839fe8c8191a1b91a67d3431602",
+        "date": "2026-11-25",
+        "kind": "原始记录",
+        "note": "原页面最后更新 2026-11-23"
+      },
+      {
+        "label": "原岗位卡",
+        "url": "https://chatgpt.com/space/page_c62ff839fe8c8191a1b91a67d3431602",
+        "date": "2026-11-25",
+        "kind": "原始岗位记录",
+        "note": "原内容与状态未更改。"
+      },
+      {
+        "label": "最新版通用 CV 2.1（可访问范围内）",
+        "url": "https://www.dropbox.com/preview/%E7%AE%80%E5%8E%86/%E9%80%9A%E7%94%A8%E6%A8%A1%E7%89%88/Zhang_Zhe_CV_2.1.pdf",
+        "date": "2026-11-25",
+        "kind": "个人材料",
+        "note": "Dropbox 搜索共 12 条，通用 CV 2.1 已读取并与本地文本核对；具体岗位定制版是独立材料，不自动替换通用基线。 Dropbox 修改时间 2026-11-14；岗位实际提交版另核。"
+      },
+      {
+        "label": "Gmail 限定检索",
+        "url": "https://mail.google.com/mail/u/0/#search/Siemens",
+        "date": "2026-11-25",
+        "kind": "个人邮件检索",
+        "note": "本轮执行的范围：after:2026/09/01 before:2026/11/26，六家公司与 application/applied/interview/assessment/candidature 关键词，排除主要职位订阅发件人；0 个结果，不作未投的独立证明。"
+      },
+      {
+        "label": "Siemens 雇主 LinkedIn JD",
+        "url": "https://sg.linkedin.com/jobs/view/tsp-strategy-analytics-intern-asean-at-siemens-4484887067",
+        "date": "2026-11-25",
+        "kind": "雇主交叉发布",
+        "note": "本轮可读；官方 ATS 精确职位尚未取得，不能只凭平台按钮认定正式开放。"
+      },
+      {
+        "label": "NUS EBAC 官方项目与时间表",
+        "url": "https://www.iss.nus.edu.sg/graduate-programmes/graduate-programmes/master-of-technology-in-enterprise-business-analytics",
+        "date": "2026-11-25",
+        "kind": "学校官方公开资料",
+        "note": "不是本人批次完成证明。"
+      },
+      {
+        "label": "PAL 团队项目与审阅记录",
+        "url": "https://docs.google.com/document/d/10959y7wDlf9LBVqUfJEgZkLx-iAj9tYOEuHEm9hPEDY/edit",
+        "date": "2026-11-25",
+        "kind": "团队材料",
+        "note": "多次运行及演讲稿并存，数值不可混用。"
+      },
+      {
+        "label": "最新 CV 与项目证据核验说明",
+        "url": "evidence.html",
+        "date": "2026-11-25",
+        "kind": "本次共用证据",
+        "note": "CV 版本、学校档期、ABD/PAL 版本边界与来源索引"
+      }
+    ],
+    "gaps": [
+      "雇主招聘编号和官方 ATS 表单",
+      "起止日、最短时长、截止及合同",
+      "个人预测与 Power BI/Power Automate 作品",
+      "学校认可和实习工作资格"
+    ]
+  },
+  {
+    "page_id": "page_00449f51eaac81919fe23d930b52ea52",
+    "filename": "publicis-groupe-00449f51.html",
+    "location": "Singapore",
+    "category": "candidate",
+    "original_status": "待人工筛选｜来源匹配度：较高。",
+    "sources": [
+      {
+        "label": "原岗位卡（状态依据）",
+        "url": "https://chatgpt.com/space/page_00449f51eaac81919fe23d930b52ea52",
+        "date": "2026-11-25",
+        "kind": "原始记录",
+        "note": "原页面最后更新 2026-11-23"
+      },
+      {
+        "label": "原岗位卡",
+        "url": "https://chatgpt.com/space/page_00449f51eaac81919fe23d930b52ea52",
+        "date": "2026-11-25",
+        "kind": "原始岗位记录",
+        "note": "原内容与状态未更改。"
+      },
+      {
+        "label": "最新版通用 CV 2.1（可访问范围内）",
+        "url": "https://www.dropbox.com/preview/%E7%AE%80%E5%8E%86/%E9%80%9A%E7%94%A8%E6%A8%A1%E7%89%88/Zhang_Zhe_CV_2.1.pdf",
+        "date": "2026-11-25",
+        "kind": "个人材料",
+        "note": "Dropbox 搜索共 12 条，通用 CV 2.1 已读取并与本地文本核对；具体岗位定制版是独立材料，不自动替换通用基线。 Dropbox 修改时间 2026-11-14；岗位实际提交版另核。"
+      },
+      {
+        "label": "Gmail 限定检索",
+        "url": "https://mail.google.com/mail/u/0/#search/Publicis%20Groupe",
+        "date": "2026-11-25",
+        "kind": "个人邮件检索",
+        "note": "本轮执行的范围：after:2026/09/01 before:2026/11/26，六家公司与 application/applied/interview/assessment/candidature 关键词，排除主要职位订阅发件人；0 个结果，不作未投的独立证明。"
+      },
+      {
+        "label": "Publicis 官方 JD 176689",
+        "url": "https://careers.publicisgroupe.com/jobs/176689?lang=en-US",
+        "date": "2026-11-25",
+        "kind": "官方 JD",
+        "note": "官方索引本轮可读；直连 403，表单未验证。"
+      },
+      {
+        "label": "Publicis 雇主 LinkedIn",
+        "url": "https://sg.linkedin.com/jobs/view/junior-analyst-commerce-at-publicis-groupe-singapore-4474260443",
+        "date": "2026-11-25",
+        "kind": "雇主交叉发布",
+        "note": ""
+      },
+      {
+        "label": "NUS EBAC 官方项目与时间表",
+        "url": "https://www.iss.nus.edu.sg/graduate-programmes/graduate-programmes/master-of-technology-in-enterprise-business-analytics",
+        "date": "2026-11-25",
+        "kind": "学校官方公开资料",
+        "note": "不是本人批次完成证明。"
+      },
+      {
+        "label": "最新 CV 与项目证据核验说明",
+        "url": "evidence.html",
+        "date": "2026-11-25",
+        "kind": "本次共用证据",
+        "note": "CV 版本、学校档期、ABD/PAL 版本边界与来源索引"
+      }
+    ],
+    "gaps": [
+      "全职到岗日期与硕士安排",
+      "应届毕业资格、合同与工作条件",
+      "本人 SQL/BI/实验作品",
+      "官网申请表与截止"
+    ]
+  },
+  {
+    "page_id": "page_b7ab13b824b88191bdb2d287bd731871",
+    "filename": "publicis-digitas-apac-b7ab13b8.html",
+    "location": "Singapore",
+    "category": "candidate",
+    "original_status": "待人工筛选｜来源匹配度：较高。",
+    "sources": [
+      {
+        "label": "原岗位卡（状态依据）",
+        "url": "https://chatgpt.com/space/page_b7ab13b824b88191bdb2d287bd731871",
+        "date": "2026-11-25",
+        "kind": "原始记录",
+        "note": "原页面最后更新 2026-11-23"
+      },
+      {
+        "label": "原岗位卡",
+        "url": "https://chatgpt.com/space/page_b7ab13b824b88191bdb2d287bd731871",
+        "date": "2026-11-25",
+        "kind": "原始岗位记录",
+        "note": "原内容与状态未更改。"
+      },
+      {
+        "label": "最新版通用 CV 2.1（可访问范围内）",
+        "url": "https://www.dropbox.com/preview/%E7%AE%80%E5%8E%86/%E9%80%9A%E7%94%A8%E6%A8%A1%E7%89%88/Zhang_Zhe_CV_2.1.pdf",
+        "date": "2026-11-25",
+        "kind": "个人材料",
+        "note": "Dropbox 搜索共 12 条，通用 CV 2.1 已读取并与本地文本核对；具体岗位定制版是独立材料，不自动替换通用基线。 Dropbox 修改时间 2026-11-14；岗位实际提交版另核。"
+      },
+      {
+        "label": "Gmail 限定检索",
+        "url": "https://mail.google.com/mail/u/0/#search/Publicis%20%2F%20Digitas%20APAC",
+        "date": "2026-11-25",
+        "kind": "个人邮件检索",
+        "note": "本轮执行的范围：after:2026/09/01 before:2026/11/26，六家公司与 application/applied/interview/assessment/candidature 关键词，排除主要职位订阅发件人；0 个结果，不作未投的独立证明。"
+      },
+      {
+        "label": "Digitas 官方 JD 178728",
+        "url": "https://careers.publicisgroupe.com/jobs/178728?lang=en-US",
+        "date": "2026-11-25",
+        "kind": "官方 JD",
+        "note": "本轮官方搜索索引可读完整职责与资格；直连 403。"
+      },
+      {
+        "label": "NUS EBAC 官方项目与时间表",
+        "url": "https://www.iss.nus.edu.sg/graduate-programmes/graduate-programmes/master-of-technology-in-enterprise-business-analytics",
+        "date": "2026-11-25",
+        "kind": "学校官方公开资料",
+        "note": "不是本人批次完成证明。"
+      },
+      {
+        "label": "最新 CV 与项目证据核验说明",
+        "url": "evidence.html",
+        "date": "2026-11-25",
+        "kind": "本次共用证据",
+        "note": "CV 版本、学校档期、ABD/PAL 版本边界与来源索引"
+      }
+    ],
+    "gaps": [
+      "日期、时长、工时和学生资格",
+      "官方表单及截止",
+      "SQL/Python 清洗实物",
+      "Web analytics 实践及个人 BI 作品"
+    ]
+  },
+  {
+    "page_id": "page_8306f8869c90819189d01bf6db752df7",
+    "filename": "marriott-8306f886.html",
+    "location": "Singapore",
+    "category": "candidate",
+    "original_status": "待人工筛选｜来源匹配度：较高。",
+    "sources": [
+      {
+        "label": "原岗位卡（状态依据）",
+        "url": "https://chatgpt.com/space/page_8306f8869c90819189d01bf6db752df7",
+        "date": "2026-11-25",
+        "kind": "原始记录",
+        "note": "原页面最后更新 2026-11-23"
+      },
+      {
+        "label": "原岗位卡",
+        "url": "https://chatgpt.com/space/page_8306f8869c90819189d01bf6db752df7",
+        "date": "2026-11-25",
+        "kind": "原始岗位记录",
+        "note": "原内容与状态未更改。"
+      },
+      {
+        "label": "最新版通用 CV 2.1（可访问范围内）",
+        "url": "https://www.dropbox.com/preview/%E7%AE%80%E5%8E%86/%E9%80%9A%E7%94%A8%E6%A8%A1%E7%89%88/Zhang_Zhe_CV_2.1.pdf",
+        "date": "2026-11-25",
+        "kind": "个人材料",
+        "note": "Dropbox 搜索共 12 条，通用 CV 2.1 已读取并与本地文本核对；具体岗位定制版是独立材料，不自动替换通用基线。 Dropbox 修改时间 2026-11-14；岗位实际提交版另核。"
+      },
+      {
+        "label": "Gmail 限定检索",
+        "url": "https://mail.google.com/mail/u/0/#search/Marriott",
+        "date": "2026-11-25",
+        "kind": "个人邮件检索",
+        "note": "本轮执行的范围：after:2026/09/01 before:2026/11/26，六家公司与 application/applied/interview/assessment/candidature 关键词，排除主要职位订阅发件人；0 个结果，不作未投的独立证明。"
+      },
+      {
+        "label": "Marriott 官方 JD 26092984",
+        "url": "https://careers.marriott.com/intern-commercial-analytics-jan-june-2027/job/P1-6287273-0",
+        "date": "2026-11-25",
+        "kind": "官方 JD",
+        "note": "本轮可读，编号和 Apply Now 已确认。"
+      },
+      {
+        "label": "Marriott 官方申请路由",
+        "url": "https://ejwl.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/26092984/apply/email?posting_type=1",
+        "date": "2026-11-25",
+        "kind": "官方申请入口",
+        "note": "只读打开，没有填写或提交；动态页面无可读文本，表单可用性待核。"
+      },
+      {
+        "label": "NUS EBAC 官方项目与时间表",
+        "url": "https://www.iss.nus.edu.sg/graduate-programmes/graduate-programmes/master-of-technology-in-enterprise-business-analytics",
+        "date": "2026-11-25",
+        "kind": "学校官方公开资料",
+        "note": "不是本人批次完成证明。"
+      },
+      {
+        "label": "最新 CV 与项目证据核验说明",
+        "url": "evidence.html",
+        "date": "2026-11-25",
+        "kind": "本次共用证据",
+        "note": "CV 版本、学校档期、ABD/PAL 版本边界与来源索引"
+      }
+    ],
+    "gaps": [
+      "1–6 月与个人计划的冲突",
+      "本人许可和 JD 课程条件",
+      "BI 强实操与自动报表证据",
+      "最终申请表及截止、薪酬"
+    ]
+  },
+  {
+    "page_id": "page_04e1cb2978388191973e43ea459c81bc",
+    "filename": "deloitte-digital-04e1cb29.html",
+    "location": "Singapore",
+    "category": "candidate",
+    "original_status": "待人工筛选｜优先看。",
+    "sources": [
+      {
+        "label": "原岗位卡（状态依据）",
+        "url": "https://chatgpt.com/space/page_04e1cb2978388191973e43ea459c81bc",
+        "date": "2026-11-25",
+        "kind": "原始记录",
+        "note": "原页面最后更新 2026-11-24"
+      },
+      {
+        "label": "原岗位卡",
+        "url": "https://chatgpt.com/space/page_04e1cb2978388191973e43ea459c81bc",
+        "date": "2026-11-25",
+        "kind": "原始岗位记录",
+        "note": "原内容与状态未更改。"
+      },
+      {
+        "label": "最新版通用 CV 2.1（可访问范围内）",
+        "url": "https://www.dropbox.com/preview/%E7%AE%80%E5%8E%86/%E9%80%9A%E7%94%A8%E6%A8%A1%E7%89%88/Zhang_Zhe_CV_2.1.pdf",
+        "date": "2026-11-25",
+        "kind": "个人材料",
+        "note": "Dropbox 搜索共 12 条，通用 CV 2.1 已读取并与本地文本核对；具体岗位定制版是独立材料，不自动替换通用基线。 Dropbox 修改时间 2026-11-14；岗位实际提交版另核。"
+      },
+      {
+        "label": "Gmail 限定检索",
+        "url": "https://mail.google.com/mail/u/0/#search/Deloitte%20Digital",
+        "date": "2026-11-25",
+        "kind": "个人邮件检索",
+        "note": "本轮执行的范围：after:2026/09/01 before:2026/11/26，六家公司与 application/applied/interview/assessment/candidature 关键词，排除主要职位订阅发件人；0 个结果，不作未投的独立证明。"
+      },
+      {
+        "label": "Deloitte 官方 JD 116767",
+        "url": "https://jobs.sea.deloitte.com/job/Singapore-T%26T-Graduate-Analyst-Marketing%2C-Commerce-%26-Product-%28Deloitte-Digital%29-SG-Sing/1368611366/",
+        "date": "2026-11-25",
+        "kind": "官方 JD",
+        "note": "本轮直接读取；有效工作身份、SQL 和付费社媒能力均为明示要求。"
+      },
+      {
+        "label": "NUS EBAC 官方项目与时间表",
+        "url": "https://www.iss.nus.edu.sg/graduate-programmes/graduate-programmes/master-of-technology-in-enterprise-business-analytics",
+        "date": "2026-11-25",
+        "kind": "学校官方公开资料",
+        "note": "不是本人批次完成证明。"
+      },
+      {
+        "label": "最新 CV 与项目证据核验说明",
+        "url": "evidence.html",
+        "date": "2026-11-25",
+        "kind": "本次共用证据",
+        "note": "CV 版本、学校档期、ABD/PAL 版本边界与来源索引"
+      }
+    ],
+    "gaps": [
+      "个人有效工作身份与雇主接受条件",
+      "全职到岗与硕士日程",
+      "付费社媒活动管理的真实证据",
+      "中高级 SQL、本人看板/汇报材料",
+      "最终表单与截止"
+    ]
+  },
+  {
+    "page_id": "page_9e43317211308191a0036e43d4cdf27a",
+    "filename": "tiktok-shop-9e433172.html",
+    "location": "Singapore",
+    "category": "candidate",
+    "original_status": "**待人工筛选｜分析方向契合，经验门槛待核。** 新加坡正式岗（Regular），不是 GBS 应届岗，也不是实习。",
+    "sources": [
+      {
+        "label": "原岗位卡（状态依据）",
+        "url": "https://chatgpt.com/space/page_9e43317211308191a0036e43d4cdf27a",
+        "date": "2026-11-25",
+        "kind": "原始记录",
+        "note": "原页面最后更新 2026-11-24"
+      },
+      {
+        "label": "原岗位卡",
+        "url": "https://chatgpt.com/space/page_9e43317211308191a0036e43d4cdf27a",
+        "date": "2026-11-25",
+        "kind": "原始记录",
+        "note": "当前状态和历史证据；本轮只读"
+      },
+      {
+        "label": "岗位 JD",
+        "url": "https://lifeattiktok.com/search/7699098131707414837",
+        "date": "2026-11-25",
+        "kind": "官方 JD",
+        "note": "2026-11-25 读取；页面可读或 Apply 文案不等于提交测试成功"
+      },
+      {
+        "label": "学校 EBAC 官方课程页",
+        "url": "https://www.iss.nus.edu.sg/graduate-programmes/graduate-programmes/master-of-technology-in-enterprise-business-analytics",
+        "date": "2026-11-25",
+        "kind": "学校公开材料",
+        "note": "公开 Jan 2027 课表不能证明 Aug 2026 本人完成日；本次共同证据核验"
+      },
+      {
+        "label": "通用 CV 2.1",
+        "url": "https://www.dropbox.com/preview/%E7%AE%80%E5%8E%86/%E9%80%9A%E7%94%A8%E6%A8%A1%E7%89%88/Zhang_Zhe_CV_2.1.pdf",
+        "date": "2026-11-25",
+        "kind": "个人材料",
+        "note": "内容与本地版本一致；Dropbox modified 2026-11-14。"
+      },
+      {
+        "label": "PAL 团队项目与审阅记录",
+        "url": "https://docs.google.com/document/d/10959y7wDlf9LBVqUfJEgZkLx-iAj9tYOEuHEm9hPEDY/edit",
+        "date": "2026-11-25",
+        "kind": "团队材料",
+        "note": "多次运行及演讲稿并存，数值不可混用。"
+      },
+      {
+        "label": "GBS A106562 官方规则来源（另一应届岗）",
+        "url": "https://lifeattiktok.com/search/7691210824601553205",
+        "date": "2026-11-25",
+        "kind": "跨岗位规则线索",
+        "note": "全球最多两岗规则来自 GBS 应届 JD；对本 Operations 岗的适用范围仍待核。"
+      },
+      {
+        "label": "最新 CV 与项目证据核验说明",
+        "url": "evidence.html",
+        "date": "2026-11-25",
+        "kind": "本次共用证据",
+        "note": "CV 版本、学校档期、ABD/PAL 版本边界与来源索引"
+      }
+    ],
+    "gaps": [
+      "一年经验是否满足招聘口径",
+      "本岗起止日期及工作许可支持",
+      "可运行 SQL、BI 与自动化证据"
+    ]
+  },
+  {
+    "page_id": "page_f7760f4268788191b0b72f729e8bd0ba",
+    "filename": "shopee-f7760f42.html",
+    "location": "Singapore",
+    "category": "candidate",
+    "original_status": "**待人工筛选｜偏执行。** 新加坡全职。岗位确实做指标跟踪与复盘，但直播制作、设备操作和活动执行是核心，不是纯数据岗。",
+    "sources": [
+      {
+        "label": "原岗位卡（状态依据）",
+        "url": "https://chatgpt.com/space/page_f7760f4268788191b0b72f729e8bd0ba",
+        "date": "2026-11-25",
+        "kind": "原始记录",
+        "note": "原页面最后更新 2026-11-24"
+      },
+      {
+        "label": "原岗位卡",
+        "url": "https://chatgpt.com/space/page_f7760f4268788191b0b72f729e8bd0ba",
+        "date": "2026-11-25",
+        "kind": "原始记录",
+        "note": "当前状态和历史证据；本轮只读"
+      },
+      {
+        "label": "岗位 JD",
+        "url": "https://sg.linkedin.com/jobs/view/marketing-associate-livestream-team-at-shopee-4432244072",
+        "date": "2026-11-25",
+        "kind": "雇主发布渠道",
+        "note": "2026-11-25 读取；页面可读或 Apply 文案不等于提交测试成功"
+      },
+      {
+        "label": "学校 EBAC 官方课程页",
+        "url": "https://www.iss.nus.edu.sg/graduate-programmes/graduate-programmes/master-of-technology-in-enterprise-business-analytics",
+        "date": "2026-11-25",
+        "kind": "学校公开材料",
+        "note": "公开 Jan 2027 课表不能证明 Aug 2026 本人完成日；本次共同证据核验"
+      },
+      {
+        "label": "通用 CV 2.1",
+        "url": "https://www.dropbox.com/preview/%E7%AE%80%E5%8E%86/%E9%80%9A%E7%94%A8%E6%A8%A1%E7%89%88/Zhang_Zhe_CV_2.1.pdf",
+        "date": "2026-11-25",
+        "kind": "个人材料",
+        "note": "内容与本地版本一致；Dropbox modified 2026-11-14。"
+      },
+      {
+        "label": "最新 CV 与项目证据核验说明",
+        "url": "evidence.html",
+        "date": "2026-11-25",
+        "kind": "本次共用证据",
+        "note": "CV 版本、学校档期、ABD/PAL 版本边界与来源索引"
+      }
+    ],
+    "gaps": [
+      "官网招聘编号及当前申请页",
+      "OBS 与直播现场作品",
+      "全职到岗和工作许可"
+    ]
+  },
+  {
+    "page_id": "page_3f738fc97b3c81919284600c5949c345",
+    "filename": "upstride-3f738fc9.html",
+    "location": "Singapore",
+    "category": "candidate",
+    "original_status": "**待人工筛选｜优先看。** 新加坡全职，官网写明 0–2 年、欢迎应届。三条里最贴近你在学的客户分群与实验，同时要做客户方案和平台实施，并非纯分析岗。",
+    "sources": [
+      {
+        "label": "原岗位卡（状态依据）",
+        "url": "https://chatgpt.com/space/page_3f738fc97b3c81919284600c5949c345",
+        "date": "2026-11-25",
+        "kind": "原始记录",
+        "note": "原页面最后更新 2026-11-24"
+      },
+      {
+        "label": "原岗位卡",
+        "url": "https://chatgpt.com/space/page_3f738fc97b3c81919284600c5949c345",
+        "date": "2026-11-25",
+        "kind": "原始记录",
+        "note": "当前状态和历史证据；本轮只读"
+      },
+      {
+        "label": "岗位 JD",
+        "url": "https://www.teamupstride.com/careers-martech-consultant",
+        "date": "2026-11-25",
+        "kind": "官方 JD",
+        "note": "2026-11-25 读取；页面可读或 Apply 文案不等于提交测试成功"
+      },
+      {
+        "label": "学校 EBAC 官方课程页",
+        "url": "https://www.iss.nus.edu.sg/graduate-programmes/graduate-programmes/master-of-technology-in-enterprise-business-analytics",
+        "date": "2026-11-25",
+        "kind": "学校公开材料",
+        "note": "公开 Jan 2027 课表不能证明 Aug 2026 本人完成日；本次共同证据核验"
+      },
+      {
+        "label": "通用 CV 2.1",
+        "url": "https://www.dropbox.com/preview/%E7%AE%80%E5%8E%86/%E9%80%9A%E7%94%A8%E6%A8%A1%E7%89%88/Zhang_Zhe_CV_2.1.pdf",
+        "date": "2026-11-25",
+        "kind": "个人材料",
+        "note": "内容与本地版本一致；Dropbox modified 2026-11-14。"
+      },
+      {
+        "label": "ABD 团队报告",
+        "url": "https://docs.google.com/document/d/1gFOwc6cYNRKl0Jw86Zb8n-H07BcX3_eVthJ5Hr0Q8KY/edit",
+        "date": "2026-11-25",
+        "kind": "团队报告",
+        "note": "多版本并存，以较后执行章节区分旧草稿；个人贡献待核。"
+      },
+      {
+        "label": "最新 CV 与项目证据核验说明",
+        "url": "evidence.html",
+        "date": "2026-11-25",
+        "kind": "本次共用证据",
+        "note": "CV 版本、学校档期、ABD/PAL 版本边界与来源索引"
+      }
+    ],
+    "gaps": [
+      "全职起始日期",
+      "个人 CRM 课程原材料",
+      "CEP/CDP 操作或部署证据"
+    ]
+  },
+  {
+    "page_id": "page_5b8bd2a94ca881918818f570209e38ea",
+    "filename": "shopee-5b8bd2a9.html",
+    "location": "Singapore",
+    "category": "candidate",
+    "original_status": "**待人工筛选｜经验门槛待核。** 新加坡全职，为 Monee 的区域 SEO 内容工作提供支持。包含实验和 AI 工作流，但重心是内容优化与跨市场交付，不是增长数据分析师。",
+    "sources": [
+      {
+        "label": "原岗位卡（状态依据）",
+        "url": "https://chatgpt.com/space/page_5b8bd2a94ca881918818f570209e38ea",
+        "date": "2026-11-25",
+        "kind": "原始记录",
+        "note": "原页面最后更新 2026-11-24"
+      },
+      {
+        "label": "原岗位卡",
+        "url": "https://chatgpt.com/space/page_5b8bd2a94ca881918818f570209e38ea",
+        "date": "2026-11-25",
+        "kind": "原始记录",
+        "note": "当前状态和历史证据；本轮只读"
+      },
+      {
+        "label": "岗位 JD",
+        "url": "https://sg.linkedin.com/jobs/view/regional-content-specialist-regional-brand-growth-marketing-at-shopee-4450318922",
+        "date": "2026-11-25",
+        "kind": "雇主发布渠道",
+        "note": "2026-11-25 读取；页面可读或 Apply 文案不等于提交测试成功"
+      },
+      {
+        "label": "学校 EBAC 官方课程页",
+        "url": "https://www.iss.nus.edu.sg/graduate-programmes/graduate-programmes/master-of-technology-in-enterprise-business-analytics",
+        "date": "2026-11-25",
+        "kind": "学校公开材料",
+        "note": "公开 Jan 2027 课表不能证明 Aug 2026 本人完成日；本次共同证据核验"
+      },
+      {
+        "label": "通用 CV 2.1",
+        "url": "https://www.dropbox.com/preview/%E7%AE%80%E5%8E%86/%E9%80%9A%E7%94%A8%E6%A8%A1%E7%89%88/Zhang_Zhe_CV_2.1.pdf",
+        "date": "2026-11-25",
+        "kind": "个人材料",
+        "note": "内容与本地版本一致；Dropbox modified 2026-11-14。"
+      },
+      {
+        "label": "ABD 团队报告",
+        "url": "https://docs.google.com/document/d/1gFOwc6cYNRKl0Jw86Zb8n-H07BcX3_eVthJ5Hr0Q8KY/edit",
+        "date": "2026-11-25",
+        "kind": "团队报告",
+        "note": "多版本并存，以较后执行章节区分旧草稿；个人贡献待核。"
+      },
+      {
+        "label": "最新 CV 与项目证据核验说明",
+        "url": "evidence.html",
+        "date": "2026-11-25",
+        "kind": "本次共用证据",
+        "note": "CV 版本、学校档期、ABD/PAL 版本边界与来源索引"
+      }
+    ],
+    "gaps": [
+      "两年经验",
+      "SEO 工具及内容作品",
+      "官网岗位编号、到岗与工作许可"
+    ]
+  },
+  {
+    "page_id": "page_7974d07ca818819181490083456a53b3",
+    "filename": "monee-7974d07c.html",
+    "location": "Singapore",
+    "category": "candidate",
+    "original_status": "🟥 **评估中｜尚未投递。A 级优先复核，背景匹配度 85/100（主观评估，不代表录取概率）。** 先确认官方职位申请状态、带薪雇佣类型、毕业及到岗日期；未获确认不标已投。",
+    "sources": [
+      {
+        "label": "原岗位卡（状态依据）",
+        "url": "https://chatgpt.com/space/page_7974d07ca818819181490083456a53b3",
+        "date": "2026-11-25",
+        "kind": "原始记录",
+        "note": "原页面最后更新 2026-11-24"
+      },
+      {
+        "label": "原岗位卡",
+        "url": "https://chatgpt.com/space/page_7974d07ca818819181490083456a53b3",
+        "date": "2026-11-25",
+        "kind": "原始记录",
+        "note": "当前状态和历史证据；本轮只读"
+      },
+      {
+        "label": "岗位 JD",
+        "url": "https://sg.linkedin.com/jobs/view/data-analyst-monee-2027-graduate-at-monee-4444958990",
+        "date": "2026-11-25",
+        "kind": "雇主发布渠道",
+        "note": "2026-11-25 读取；页面可读或 Apply 文案不等于提交测试成功"
+      },
+      {
+        "label": "Monee 官方招聘入口",
+        "url": "https://careers.monee.com/careers",
+        "date": "2026-11-25",
+        "kind": "官方导航",
+        "note": "导航可读；具体 Jobs 动态内容未获得"
+      },
+      {
+        "label": "ABD 当前团队文档",
+        "url": "https://docs.google.com/document/d/1gFOwc6cYNRKl0Jw86Zb8n-H07BcX3_eVthJ5Hr0Q8KY/edit",
+        "date": "2026-11-25",
+        "kind": "团队项目证据",
+        "note": "ABD 团队报告当前文档含后续 16 组模型执行记录、2026-10-18 日志及 185 条 singleton 排除说明；本次未独立重跑代码，个人执行与贡献尚未确认。"
+      },
+      {
+        "label": "学校 EBAC 官方课程页",
+        "url": "https://www.iss.nus.edu.sg/graduate-programmes/graduate-programmes/master-of-technology-in-enterprise-business-analytics",
+        "date": "2026-11-25",
+        "kind": "学校公开材料",
+        "note": "公开 Jan 2027 课表不能证明 Aug 2026 本人完成日；本次共同证据核验"
+      },
+      {
+        "label": "通用 CV 2.1",
+        "url": "https://www.dropbox.com/preview/%E7%AE%80%E5%8E%86/%E9%80%9A%E7%94%A8%E6%A8%A1%E7%89%88/Zhang_Zhe_CV_2.1.pdf",
+        "date": "2026-11-25",
+        "kind": "个人材料",
+        "note": "内容与本地版本一致；Dropbox modified 2026-11-14。"
+      },
+      {
+        "label": "最新 CV 与项目证据核验说明",
+        "url": "evidence.html",
+        "date": "2026-11-25",
+        "kind": "本次共用证据",
+        "note": "CV 版本、学校档期、ABD/PAL 版本边界与来源索引"
+      }
+    ],
+    "gaps": [
+      "雇佣性质冲突和官方申请表",
+      "本人毕业／到岗证明",
+      "SQL/BI 作品与 ABD 个人贡献"
+    ]
+  },
+  {
+    "page_id": "page_23d792a0583881919b99645e37448a77",
+    "filename": "youtrip-23d792a0.html",
+    "location": "Singapore",
+    "category": "applied",
+    "original_status": "🟦 **已投递｜雇主确认收件，等待消息。** 招聘方后续测评或面试未核实。",
+    "sources": [
+      {
+        "label": "原岗位卡（状态依据）",
+        "url": "https://chatgpt.com/space/page_23d792a0583881919b99645e37448a77",
+        "date": "2026-11-25",
+        "kind": "原始记录",
+        "note": "原页面最后更新 2026-11-23"
+      },
+      {
+        "label": "原岗位卡",
+        "url": "https://chatgpt.com/space/page_23d792a0583881919b99645e37448a77",
+        "date": "2026-11-25",
+        "kind": "原始记录",
+        "note": "当前状态和历史证据；本轮只读"
+      },
+      {
+        "label": "岗位 JD",
+        "url": "https://sg.linkedin.com/jobs/view/data-analytics-intern-at-youtrip-4462134177",
+        "date": "2026-11-25",
+        "kind": "雇主发布渠道",
+        "note": "2026-11-25 读取；页面可读或 Apply 文案不等于提交测试成功"
+      },
+      {
+        "label": "申请提交副本",
+        "url": "https://mail.google.com/mail/u/?authuser=hszzha96%40gmail.com#all/1a1dae83d6f247a7",
+        "date": "2026-11-25",
+        "kind": "Gmail 本人申请",
+        "note": "2026-11-15 00:33:34 SGT；本次重读"
+      },
+      {
+        "label": "雇主收件确认",
+        "url": "https://mail.google.com/mail/u/?authuser=hszzha96%40gmail.com#all/1a1dae99c6d9a570",
+        "date": "2026-11-25",
+        "kind": "Gmail 雇主回执",
+        "note": "2026-11-15 00:35:04 SGT；本次重读"
+      },
+      {
+        "label": "学校 EBAC 官方课程页",
+        "url": "https://www.iss.nus.edu.sg/graduate-programmes/graduate-programmes/master-of-technology-in-enterprise-business-analytics",
+        "date": "2026-11-25",
+        "kind": "学校公开材料",
+        "note": "公开 Jan 2027 课表不能证明 Aug 2026 本人完成日；本次共同证据核验"
+      },
+      {
+        "label": "通用 CV 2.1",
+        "url": "https://www.dropbox.com/preview/%E7%AE%80%E5%8E%86/%E9%80%9A%E7%94%A8%E6%A8%A1%E7%89%88/Zhang_Zhe_CV_2.1.pdf",
+        "date": "2026-11-25",
+        "kind": "个人材料",
+        "note": "内容与本地版本一致；Dropbox modified 2026-11-14。"
+      },
+      {
+        "label": "PAL 团队项目与审阅记录",
+        "url": "https://docs.google.com/document/d/10959y7wDlf9LBVqUfJEgZkLx-iAj9tYOEuHEm9hPEDY/edit",
+        "date": "2026-11-25",
+        "kind": "团队材料",
+        "note": "多次运行及演讲稿并存，数值不可混用。"
+      },
+      {
+        "label": "最新 CV 与项目证据核验说明",
+        "url": "evidence.html",
+        "date": "2026-11-25",
+        "kind": "本次共用证据",
+        "note": "CV 版本、学校档期、ABD/PAL 版本边界与来源索引"
+      }
+    ],
+    "gaps": [
+      "实际提交 CV 版本",
+      "校方批准及雇主接受档期",
+      "PAL 个人代码和看板作品"
+    ]
+  },
+  {
+    "page_id": "page_c72af3ce6374819191458f07b06e875a",
+    "filename": "tiktok-c72af3ce.html",
+    "location": "Singapore",
+    "category": "applied",
+    "original_status": "🟦 **已投递｜雇主确认收件，等待消息。**",
+    "sources": [
+      {
+        "label": "原岗位卡（状态依据）",
+        "url": "https://chatgpt.com/space/page_c72af3ce6374819191458f07b06e875a",
+        "date": "2026-11-25",
+        "kind": "原始记录",
+        "note": "原页面最后更新 2026-11-23"
+      },
+      {
+        "label": "原岗位卡",
+        "url": "https://chatgpt.com/space/page_c72af3ce6374819191458f07b06e875a",
+        "date": "2026-11-25",
+        "kind": "原始记录",
+        "note": "当前状态和历史证据；本轮只读"
+      },
+      {
+        "label": "岗位 JD",
+        "url": "https://lifeattiktok.com/search/7691210824601553205",
+        "date": "2026-11-25",
+        "kind": "官方 JD",
+        "note": "2026-11-25 读取；页面可读或 Apply 文案不等于提交测试成功"
+      },
+      {
+        "label": "雇主收件确认",
+        "url": "https://mail.google.com/mail/u/?authuser=hszzha96%40gmail.com#all/1a1dad244446268f",
+        "date": "2026-11-25",
+        "kind": "Gmail 雇主回执",
+        "note": "2026-11-15 00:09:34 SGT；本次重读"
+      },
+      {
+        "label": "学校 EBAC 官方课程页",
+        "url": "https://www.iss.nus.edu.sg/graduate-programmes/graduate-programmes/master-of-technology-in-enterprise-business-analytics",
+        "date": "2026-11-25",
+        "kind": "学校公开材料",
+        "note": "公开 Jan 2027 课表不能证明 Aug 2026 本人完成日；本次共同证据核验"
+      },
+      {
+        "label": "通用 CV 2.1",
+        "url": "https://www.dropbox.com/preview/%E7%AE%80%E5%8E%86/%E9%80%9A%E7%94%A8%E6%A8%A1%E7%89%88/Zhang_Zhe_CV_2.1.pdf",
+        "date": "2026-11-25",
+        "kind": "个人材料",
+        "note": "内容与本地版本一致；Dropbox modified 2026-11-14。"
+      },
+      {
+        "label": "PAL 团队项目与审阅记录",
+        "url": "https://docs.google.com/document/d/10959y7wDlf9LBVqUfJEgZkLx-iAj9tYOEuHEm9hPEDY/edit",
+        "date": "2026-11-25",
+        "kind": "团队材料",
+        "note": "多次运行及演讲稿并存，数值不可混用。"
+      },
+      {
+        "label": "ABD 团队报告",
+        "url": "https://docs.google.com/document/d/1gFOwc6cYNRKl0Jw86Zb8n-H07BcX3_eVthJ5Hr0Q8KY/edit",
+        "date": "2026-11-25",
+        "kind": "团队报告",
+        "note": "多版本并存，以较后执行章节区分旧草稿；个人贡献待核。"
+      },
+      {
+        "label": "最新 CV 与项目证据核验说明",
+        "url": "evidence.html",
+        "date": "2026-11-25",
+        "kind": "本次共用证据",
+        "note": "CV 版本、学校档期、ABD/PAL 版本边界与来源索引"
+      }
+    ],
+    "gaps": [
+      "当前官方详情加载状态",
+      "实际上传 CV",
+      "2027 入职口径、轮岗意愿与学校安排"
+    ]
+  },
+  {
+    "page_id": "page_50a93140f10c819191aaf1ce1bb553a3",
+    "filename": "shopee-50a93140.html",
+    "location": "Singapore",
+    "category": "applied",
+    "original_status": "🟦 **已投递｜雇主确认收件，等待消息。**",
+    "sources": [
+      {
+        "label": "原岗位卡（状态依据）",
+        "url": "https://chatgpt.com/space/page_50a93140f10c819191aaf1ce1bb553a3",
+        "date": "2026-11-25",
+        "kind": "原始记录",
+        "note": "原页面最后更新 2026-11-23"
+      },
+      {
+        "label": "原岗位卡",
+        "url": "https://chatgpt.com/space/page_50a93140f10c819191aaf1ce1bb553a3",
+        "date": "2026-11-25",
+        "kind": "原始记录",
+        "note": "当前状态和历史证据；本轮只读"
+      },
+      {
+        "label": "岗位 JD",
+        "url": "https://sg.linkedin.com/jobs/view/business-planning-analyst-regional-cross-border-commercial-2027-graduate-at-shopee-4476282511",
+        "date": "2026-11-25",
+        "kind": "雇主发布渠道",
+        "note": "2026-11-25 读取；页面可读或 Apply 文案不等于提交测试成功"
+      },
+      {
+        "label": "雇主收件确认",
+        "url": "https://mail.google.com/mail/u/?authuser=hszzha96%40gmail.com#all/1a1db015858d2db7",
+        "date": "2026-11-25",
+        "kind": "Gmail 雇主回执",
+        "note": "2026-11-15 01:01:00 SGT；本次重读"
+      },
+      {
+        "label": "学校 EBAC 官方课程页",
+        "url": "https://www.iss.nus.edu.sg/graduate-programmes/graduate-programmes/master-of-technology-in-enterprise-business-analytics",
+        "date": "2026-11-25",
+        "kind": "学校公开材料",
+        "note": "公开 Jan 2027 课表不能证明 Aug 2026 本人完成日；本次共同证据核验"
+      },
+      {
+        "label": "通用 CV 2.1",
+        "url": "https://www.dropbox.com/preview/%E7%AE%80%E5%8E%86/%E9%80%9A%E7%94%A8%E6%A8%A1%E7%89%88/Zhang_Zhe_CV_2.1.pdf",
+        "date": "2026-11-25",
+        "kind": "个人材料",
+        "note": "内容与本地版本一致；Dropbox modified 2026-11-14。"
+      },
+      {
+        "label": "PAL 团队项目与审阅记录",
+        "url": "https://docs.google.com/document/d/10959y7wDlf9LBVqUfJEgZkLx-iAj9tYOEuHEm9hPEDY/edit",
+        "date": "2026-11-25",
+        "kind": "团队材料",
+        "note": "多次运行及演讲稿并存，数值不可混用。"
+      },
+      {
+        "label": "ABD 团队报告",
+        "url": "https://docs.google.com/document/d/1gFOwc6cYNRKl0Jw86Zb8n-H07BcX3_eVthJ5Hr0Q8KY/edit",
+        "date": "2026-11-25",
+        "kind": "团队报告",
+        "note": "多版本并存，以较后执行章节区分旧草稿；个人贡献待核。"
+      },
+      {
+        "label": "最新 CV 与项目证据核验说明",
+        "url": "evidence.html",
+        "date": "2026-11-25",
+        "kind": "本次共用证据",
+        "note": "CV 版本、学校档期、ABD/PAL 版本边界与来源索引"
+      }
+    ],
+    "gaps": [
+      "最终上传 CV",
+      "入职日期和毕业口径",
+      "可复核财务／Excel 模型"
+    ]
+  },
+  {
+    "page_id": "page_9cb96a2db3dc8191857fe7f58c90022c",
+    "filename": "xiaomi-9cb96a2d.html",
+    "location": "Singapore",
+    "category": "applied",
+    "original_status": "🟦 **已投递｜等消息。** 仅核实平台转交，未核实雇主确认收件。",
+    "sources": [
+      {
+        "label": "原岗位卡（状态依据）",
+        "url": "https://chatgpt.com/space/page_9cb96a2db3dc8191857fe7f58c90022c",
+        "date": "2026-11-25",
+        "kind": "原始记录",
+        "note": "原页面最后更新 2026-11-23"
+      },
+      {
+        "label": "原岗位卡",
+        "url": "https://chatgpt.com/space/page_9cb96a2db3dc8191857fe7f58c90022c",
+        "date": "2026-11-25",
+        "kind": "原始记录",
+        "note": "当前状态和历史证据；本轮只读"
+      },
+      {
+        "label": "岗位 JD",
+        "url": "https://sg.linkedin.com/jobs/view/data-analyst-intern-a119959-at-xiaomi-technology-4456864873",
+        "date": "2026-11-25",
+        "kind": "雇主发布渠道",
+        "note": "2026-11-25 读取；页面可读或 Apply 文案不等于提交测试成功"
+      },
+      {
+        "label": "LinkedIn 平台转交",
+        "url": "https://mail.google.com/mail/u/?authuser=hszzha96%40gmail.com#all/1a1daf2c2521252f",
+        "date": "2026-11-25",
+        "kind": "Gmail 平台回执",
+        "note": "2026-11-15 00:45:04 SGT；本次重读；邮件正文申请日与 SGT 收件时间不同，不能据此断言点击时刻"
+      },
+      {
+        "label": "学校 EBAC 官方课程页",
+        "url": "https://www.iss.nus.edu.sg/graduate-programmes/graduate-programmes/master-of-technology-in-enterprise-business-analytics",
+        "date": "2026-11-25",
+        "kind": "学校公开材料",
+        "note": "公开 Jan 2027 课表不能证明 Aug 2026 本人完成日；本次共同证据核验"
+      },
+      {
+        "label": "通用 CV 2.1",
+        "url": "https://www.dropbox.com/preview/%E7%AE%80%E5%8E%86/%E9%80%9A%E7%94%A8%E6%A8%A1%E7%89%88/Zhang_Zhe_CV_2.1.pdf",
+        "date": "2026-11-25",
+        "kind": "个人材料",
+        "note": "内容与本地版本一致；Dropbox modified 2026-11-14。"
+      },
+      {
+        "label": "最新 CV 与项目证据核验说明",
+        "url": "evidence.html",
+        "date": "2026-11-25",
+        "kind": "本次共用证据",
+        "note": "CV 版本、学校档期、ABD/PAL 版本边界与来源索引"
+      }
+    ],
+    "gaps": [
+      "雇主收件确认",
+      "实际提交 CV",
+      "至少六个月和开始日是否接受"
+    ]
+  },
+  {
+    "page_id": "page_64c3a63987d0819195c514e1dd41caf1",
+    "filename": "julius-baer-64c3a639.html",
+    "location": "待核",
+    "category": "incomplete",
+    "original_status": "🟧 **本人确认已投｜回执、岗位细节与后续待核对。**",
+    "sources": [
+      {
+        "label": "原岗位卡（状态依据）",
+        "url": "https://chatgpt.com/space/page_64c3a63987d0819195c514e1dd41caf1",
+        "date": "2026-11-25",
+        "kind": "原始记录",
+        "note": "原页面最后更新 2026-11-23"
+      },
+      {
+        "label": "原岗位卡",
+        "url": "https://chatgpt.com/space/page_64c3a63987d0819195c514e1dd41caf1",
+        "date": "2026-11-25",
+        "kind": "个人岗位记录",
+        "note": "保留旧内容与原状态。"
+      },
+      {
+        "label": "岗位调度台",
+        "url": "https://chatgpt.com/space/page_63ef26ac3cfc81919b258f4932221be5",
+        "date": "2026-11-25",
+        "kind": "调度记录",
+        "note": "分类以调度台为准。"
+      },
+      {
+        "label": "通用 CV 2.1",
+        "url": "https://www.dropbox.com/preview/%E7%AE%80%E5%8E%86/%E9%80%9A%E7%94%A8%E6%A8%A1%E7%89%88/Zhang_Zhe_CV_2.1.pdf",
+        "date": "2026-11-25",
+        "kind": "个人材料",
+        "note": "2026-11-14 更新，本次已读取；不代表提交版本。"
+      },
+      {
+        "label": "Gmail 核验范围",
+        "url": "https://mail.google.com/mail/u/?authuser=hszzha96%40gmail.com",
+        "date": "2026-11-25",
+        "kind": "邮件检索记录",
+        "note": "公司关键词有界检索未命中回执；没有可提供的具体邮件链接。"
+      },
+      {
+        "label": "最新 CV 与项目证据核验说明",
+        "url": "evidence.html",
+        "date": "2026-11-25",
+        "kind": "本次共用证据",
+        "note": "CV 版本、学校档期、ABD/PAL 版本边界与来源索引"
+      }
+    ],
+    "gaps": [
+      "确切岗位名与地点",
+      "招聘方编号、原始 JD 与雇佣类型",
+      "提交渠道、时刻、回执",
+      "实际上传 CV 与后续流程"
+    ]
+  },
+  {
+    "page_id": "page_e2e474322c4c8191ab5db42916bd8a68",
+    "filename": "mediacorp-e2e47432.html",
+    "location": "待核",
+    "category": "incomplete",
+    "original_status": "🟧 **本人确认已投｜回执、岗位细节与后续待核对。**",
+    "sources": [
+      {
+        "label": "原岗位卡（状态依据）",
+        "url": "https://chatgpt.com/space/page_e2e474322c4c8191ab5db42916bd8a68",
+        "date": "2026-11-25",
+        "kind": "原始记录",
+        "note": "原页面最后更新 2026-11-23"
+      },
+      {
+        "label": "原岗位卡",
+        "url": "https://chatgpt.com/space/page_e2e474322c4c8191ab5db42916bd8a68",
+        "date": "2026-11-25",
+        "kind": "个人岗位记录",
+        "note": "保留旧内容与原状态。"
+      },
+      {
+        "label": "岗位调度台",
+        "url": "https://chatgpt.com/space/page_63ef26ac3cfc81919b258f4932221be5",
+        "date": "2026-11-25",
+        "kind": "调度记录",
+        "note": "分类以调度台为准。"
+      },
+      {
+        "label": "通用 CV 2.1",
+        "url": "https://www.dropbox.com/preview/%E7%AE%80%E5%8E%86/%E9%80%9A%E7%94%A8%E6%A8%A1%E7%89%88/Zhang_Zhe_CV_2.1.pdf",
+        "date": "2026-11-25",
+        "kind": "个人材料",
+        "note": "2026-11-14 更新，本次已读取；不代表提交版本。"
+      },
+      {
+        "label": "Gmail 核验范围",
+        "url": "https://mail.google.com/mail/u/?authuser=hszzha96%40gmail.com",
+        "date": "2026-11-25",
+        "kind": "邮件检索记录",
+        "note": "公司关键词有界检索未命中回执；没有可提供的具体邮件链接。"
+      },
+      {
+        "label": "最新 CV 与项目证据核验说明",
+        "url": "evidence.html",
+        "date": "2026-11-25",
+        "kind": "本次共用证据",
+        "note": "CV 版本、学校档期、ABD/PAL 版本边界与来源索引"
+      }
+    ],
+    "gaps": [
+      "确切岗位名与地点",
+      "招聘方编号、原始 JD 与雇佣类型",
+      "提交渠道、时刻、回执",
+      "实际上传 CV 与后续流程"
+    ]
+  },
+  {
+    "page_id": "page_c43cc81dbf8881918dd3326206102380",
+    "filename": "yokogawa-c43cc81d.html",
+    "location": "待核",
+    "category": "incomplete",
+    "original_status": "🟧 **本人确认已投｜回执、岗位细节与后续待核对。**",
+    "sources": [
+      {
+        "label": "原岗位卡（状态依据）",
+        "url": "https://chatgpt.com/space/page_c43cc81dbf8881918dd3326206102380",
+        "date": "2026-11-25",
+        "kind": "原始记录",
+        "note": "原页面最后更新 2026-11-23"
+      },
+      {
+        "label": "原岗位卡",
+        "url": "https://chatgpt.com/space/page_c43cc81dbf8881918dd3326206102380",
+        "date": "2026-11-25",
+        "kind": "个人岗位记录",
+        "note": "保留旧内容与原状态。"
+      },
+      {
+        "label": "岗位调度台",
+        "url": "https://chatgpt.com/space/page_63ef26ac3cfc81919b258f4932221be5",
+        "date": "2026-11-25",
+        "kind": "调度记录",
+        "note": "分类以调度台为准。"
+      },
+      {
+        "label": "通用 CV 2.1",
+        "url": "https://www.dropbox.com/preview/%E7%AE%80%E5%8E%86/%E9%80%9A%E7%94%A8%E6%A8%A1%E7%89%88/Zhang_Zhe_CV_2.1.pdf",
+        "date": "2026-11-25",
+        "kind": "个人材料",
+        "note": "2026-11-14 更新，本次已读取；不代表提交版本。"
+      },
+      {
+        "label": "Gmail 核验范围",
+        "url": "https://mail.google.com/mail/u/?authuser=hszzha96%40gmail.com",
+        "date": "2026-11-25",
+        "kind": "邮件检索记录",
+        "note": "公司关键词有界检索未命中回执；没有可提供的具体邮件链接。"
+      },
+      {
+        "label": "最新 CV 与项目证据核验说明",
+        "url": "evidence.html",
+        "date": "2026-11-25",
+        "kind": "本次共用证据",
+        "note": "CV 版本、学校档期、ABD/PAL 版本边界与来源索引"
+      }
+    ],
+    "gaps": [
+      "确切岗位名与地点",
+      "招聘方编号、原始 JD 与雇佣类型",
+      "提交渠道、时刻、回执",
+      "实际上传 CV 与后续流程"
+    ]
+  },
+  {
+    "page_id": "page_1d812a3e27dc8191a393c22536e130e3",
+    "filename": "fano-1d812a3e.html",
+    "location": "待核",
+    "category": "incomplete",
+    "original_status": "🟧 **本人确认已投｜回执、岗位细节与后续待核对。**",
+    "sources": [
+      {
+        "label": "原岗位卡（状态依据）",
+        "url": "https://chatgpt.com/space/page_1d812a3e27dc8191a393c22536e130e3",
+        "date": "2026-11-25",
+        "kind": "原始记录",
+        "note": "原页面最后更新 2026-11-23"
+      },
+      {
+        "label": "原岗位卡",
+        "url": "https://chatgpt.com/space/page_1d812a3e27dc8191a393c22536e130e3",
+        "date": "2026-11-25",
+        "kind": "个人岗位记录",
+        "note": "保留旧内容与原状态。"
+      },
+      {
+        "label": "岗位调度台",
+        "url": "https://chatgpt.com/space/page_63ef26ac3cfc81919b258f4932221be5",
+        "date": "2026-11-25",
+        "kind": "调度记录",
+        "note": "分类以调度台为准。"
+      },
+      {
+        "label": "通用 CV 2.1",
+        "url": "https://www.dropbox.com/preview/%E7%AE%80%E5%8E%86/%E9%80%9A%E7%94%A8%E6%A8%A1%E7%89%88/Zhang_Zhe_CV_2.1.pdf",
+        "date": "2026-11-25",
+        "kind": "个人材料",
+        "note": "2026-11-14 更新，本次已读取；不代表提交版本。"
+      },
+      {
+        "label": "Gmail 核验范围",
+        "url": "https://mail.google.com/mail/u/?authuser=hszzha96%40gmail.com",
+        "date": "2026-11-25",
+        "kind": "邮件检索记录",
+        "note": "公司关键词有界检索未命中回执；没有可提供的具体邮件链接。"
+      },
+      {
+        "label": "最新 CV 与项目证据核验说明",
+        "url": "evidence.html",
+        "date": "2026-11-25",
+        "kind": "本次共用证据",
+        "note": "CV 版本、学校档期、ABD/PAL 版本边界与来源索引"
+      }
+    ],
+    "gaps": [
+      "确切岗位名与地点",
+      "招聘方编号、原始 JD 与雇佣类型",
+      "提交渠道、时刻、回执",
+      "实际上传 CV 与后续流程"
+    ]
+  },
+  {
+    "page_id": "page_dd3d04f7972c8191b9a49be83faf2e88",
+    "filename": "edelman-intelligence-dd3d04f7.html",
+    "location": "Singapore",
+    "category": "closed",
+    "original_status": "🟪 **本轮已结束｜档期不合。**",
+    "sources": [
+      {
+        "label": "原岗位卡（状态依据）",
+        "url": "https://chatgpt.com/space/page_dd3d04f7972c8191b9a49be83faf2e88",
+        "date": "2026-11-25",
+        "kind": "原始记录",
+        "note": "原页面最后更新 2026-11-23"
+      },
+      {
+        "label": "原岗位卡",
+        "url": "https://chatgpt.com/space/page_dd3d04f7972c8191b9a49be83faf2e88",
+        "date": "2026-11-25",
+        "kind": "个人岗位记录",
+        "note": "保留旧内容与原状态。"
+      },
+      {
+        "label": "岗位调度台",
+        "url": "https://chatgpt.com/space/page_63ef26ac3cfc81919b258f4932221be5",
+        "date": "2026-11-25",
+        "kind": "调度记录",
+        "note": "分类以调度台为准。"
+      },
+      {
+        "label": "通用 CV 2.1",
+        "url": "https://www.dropbox.com/preview/%E7%AE%80%E5%8E%86/%E9%80%9A%E7%94%A8%E6%A8%A1%E7%89%88/Zhang_Zhe_CV_2.1.pdf",
+        "date": "2026-11-25",
+        "kind": "个人材料",
+        "note": "2026-11-14 更新，本次已读取；不代表提交版本。"
+      },
+      {
+        "label": "原 JD",
+        "url": "https://sg.linkedin.com/jobs/view/research-analyst-intern-jan-to-jun-2027-at-edelman-intelligence-4470699820",
+        "date": "2026-11-25",
+        "kind": "原招聘渠道",
+        "note": "原 JD 可读；未验证最终表单。"
+      },
+      {
+        "label": "档期往来与收尾",
+        "url": "https://chatgpt.com/space/page_1a36a4c8ca50819189d4340d2f78820f",
+        "date": "2026-11-25",
+        "kind": "个人记录",
+        "note": "11/16 用户档期与 11/19 招聘截图转录。"
+      },
+      {
+        "label": "PAL 团队项目",
+        "url": "https://docs.google.com/document/d/10959y7wDlf9LBVqUfJEgZkLx-iAj9tYOEuHEm9hPEDY/edit",
+        "date": "2026-11-25",
+        "kind": "团队材料",
+        "note": "多版本及个人贡献边界见共享证据。"
+      },
+      {
+        "label": "Edelman 定制 CV 归档",
+        "url": "https://www.dropbox.com/preview/%E7%AE%80%E5%8E%86/%E5%85%B7%E4%BD%93%E6%8A%95%E9%80%92/Zhang_Zhe_CV_2.1.2_Edelman.pdf",
+        "date": "2026-11-25",
+        "kind": "历史个人材料",
+        "note": "11/10 版本，不证明实际提交。"
+      },
+      {
+        "label": "最新 CV 与项目证据核验说明",
+        "url": "evidence.html",
+        "date": "2026-11-25",
+        "kind": "本次共用证据",
+        "note": "CV 版本、学校档期、ABD/PAL 版本边界与来源索引"
+      }
+    ],
+    "gaps": [
+      "雇主原始邮件未在当前 Gmail 检索中取得（收尾 Page 保留截图转录）",
+      "准确提交时刻、回执与实际上传 CV",
+      "个人 PAL 贡献与锁定的运行版本"
+    ]
+  },
+  {
+    "page_id": "page_2225dfa701d881918e8420330e663213",
+    "filename": "benefit-cosmetics-2225dfa7.html",
+    "location": "Singapore",
+    "category": "trash",
+    "original_status": "调度台：废纸篓｜暂不投。原候选卡仍保留“待人工筛选｜来源匹配度：高”。",
+    "sources": [
+      {
+        "label": "原岗位卡（状态依据）",
+        "url": "https://chatgpt.com/space/page_2225dfa701d881918e8420330e663213",
+        "date": "2026-11-25",
+        "kind": "原始记录",
+        "note": "原页面最后更新 2026-11-23"
+      },
+      {
+        "label": "原岗位卡",
+        "url": "https://chatgpt.com/space/page_2225dfa701d881918e8420330e663213",
+        "date": "2026-11-25",
+        "kind": "个人岗位记录",
+        "note": "保留旧内容与原状态。"
+      },
+      {
+        "label": "岗位调度台",
+        "url": "https://chatgpt.com/space/page_63ef26ac3cfc81919b258f4932221be5",
+        "date": "2026-11-25",
+        "kind": "调度记录",
+        "note": "分类以调度台为准。"
+      },
+      {
+        "label": "通用 CV 2.1",
+        "url": "https://www.dropbox.com/preview/%E7%AE%80%E5%8E%86/%E9%80%9A%E7%94%A8%E6%A8%A1%E7%89%88/Zhang_Zhe_CV_2.1.pdf",
+        "date": "2026-11-25",
+        "kind": "个人材料",
+        "note": "2026-11-14 更新，本次已读取；不代表提交版本。"
+      },
+      {
+        "label": "雇主 JD",
+        "url": "https://jobs.smartrecruiters.com/lvmh2/744000152861180",
+        "date": "2026-11-25",
+        "kind": "官方招聘系统",
+        "note": "页面可读，未验证最终表单。"
+      },
+      {
+        "label": "NUS EBAC 公开时间表",
+        "url": "https://www.iss.nus.edu.sg/graduate-programmes/graduate-programmes/master-of-technology-in-enterprise-business-analytics",
+        "date": "2026-11-25",
+        "kind": "学校公开资料",
+        "note": "不是个人批准。"
+      },
+      {
+        "label": "最新 CV 与项目证据核验说明",
+        "url": "evidence.html",
+        "date": "2026-11-25",
+        "kind": "本次共用证据",
+        "note": "CV 版本、学校档期、ABD/PAL 版本边界与来源索引"
+      }
+    ],
+    "gaps": [
+      "高级 Excel 实操证明",
+      "个人可全职日期及校方认可",
+      "最终表单是否接受新申请未验证"
+    ]
+  },
+  {
+    "page_id": "page_45664bad128881918d24c07e28312821",
+    "filename": "parfums-christian-dior-45664bad.html",
+    "location": "Singapore",
+    "category": "trash",
+    "original_status": "调度台：废纸篓｜暂不投。原候选卡仍保留“待人工筛选｜来源匹配度：较高”。",
+    "sources": [
+      {
+        "label": "原岗位卡（状态依据）",
+        "url": "https://chatgpt.com/space/page_45664bad128881918d24c07e28312821",
+        "date": "2026-11-25",
+        "kind": "原始记录",
+        "note": "原页面最后更新 2026-11-23"
+      },
+      {
+        "label": "原岗位卡",
+        "url": "https://chatgpt.com/space/page_45664bad128881918d24c07e28312821",
+        "date": "2026-11-25",
+        "kind": "个人岗位记录",
+        "note": "保留旧内容与原状态。"
+      },
+      {
+        "label": "岗位调度台",
+        "url": "https://chatgpt.com/space/page_63ef26ac3cfc81919b258f4932221be5",
+        "date": "2026-11-25",
+        "kind": "调度记录",
+        "note": "分类以调度台为准。"
+      },
+      {
+        "label": "通用 CV 2.1",
+        "url": "https://www.dropbox.com/preview/%E7%AE%80%E5%8E%86/%E9%80%9A%E7%94%A8%E6%A8%A1%E7%89%88/Zhang_Zhe_CV_2.1.pdf",
+        "date": "2026-11-25",
+        "kind": "个人材料",
+        "note": "2026-11-14 更新，本次已读取；不代表提交版本。"
+      },
+      {
+        "label": "雇主 ATS JD",
+        "url": "https://jobs.smartrecruiters.com/LVMH2/744000151759079-data-analytics-project-management-intern-travel-retail",
+        "date": "2026-11-25",
+        "kind": "官方招聘系统",
+        "note": "可读；最终表单未验证。"
+      },
+      {
+        "label": "旧 LVMH 标识",
+        "url": "https://www.lvmh.com/en/join-us/our-job-offers/PCD22399",
+        "date": "2026-11-25",
+        "kind": "历史原始链接",
+        "note": "原卡标为失效，与 ATS 映射未证实。"
+      },
+      {
+        "label": "ABD 团队报告",
+        "url": "https://docs.google.com/document/d/1gFOwc6cYNRKl0Jw86Zb8n-H07BcX3_eVthJ5Hr0Q8KY/edit",
+        "date": "2026-11-25",
+        "kind": "团队材料",
+        "note": "较后执行章节；个人贡献仍待核。"
+      },
+      {
+        "label": "NUS EBAC 公开时间表",
+        "url": "https://www.iss.nus.edu.sg/graduate-programmes/graduate-programmes/master-of-technology-in-enterprise-business-analytics",
+        "date": "2026-11-25",
+        "kind": "学校资料",
+        "note": "不是个人批准。"
+      },
+      {
+        "label": "最新 CV 与项目证据核验说明",
+        "url": "evidence.html",
+        "date": "2026-11-25",
+        "kind": "本次共用证据",
+        "note": "CV 版本、学校档期、ABD/PAL 版本边界与来源索引"
+      }
+    ],
+    "gaps": [
+      "ATS 与旧岗位编号对应",
+      "六个月全职档期与学校认可",
+      "Power Query/Power Pivot/Power BI 实操证据",
+      "实际个人团队贡献"
+    ]
+  }
+]

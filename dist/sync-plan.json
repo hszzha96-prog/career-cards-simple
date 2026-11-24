@@ -1,0 +1,249 @@
+{
+  "snapshot_date": "2026-11-25",
+  "mode": "prepare-only",
+  "historical_receipt": "sync/2026-11-25-pages-receipt.json",
+  "cards": [
+    {
+      "page_id": "page_d6faeef22fe48191971c01df78843569",
+      "filename": "shopback-d6faeef2.html",
+      "company": "ShopBack",
+      "role": "Data Analyst (Internship) (H1 2027)",
+      "category": "candidate",
+      "sha256": "4fd1fdc5efb595c3f5d4c72ee0a3adf4ee937b906330a0c2eac8b8466bef04a6",
+      "previous_sha256": "4fd1fdc5efb595c3f5d4c72ee0a3adf4ee937b906330a0c2eac8b8466bef04a6",
+      "change": "unchanged",
+      "uploaded_by_this_build": false
+    },
+    {
+      "page_id": "page_c62ff839fe8c8191a1b91a67d3431602",
+      "filename": "siemens-c62ff839.html",
+      "company": "Siemens",
+      "role": "TSP Strategy & Analytics Intern, ASEAN",
+      "category": "candidate",
+      "sha256": "5f7561ce609aec21178f54765bc3bbb802d8fb1545eb6325ee058fad5a003b7d",
+      "previous_sha256": "5f7561ce609aec21178f54765bc3bbb802d8fb1545eb6325ee058fad5a003b7d",
+      "change": "unchanged",
+      "uploaded_by_this_build": false
+    },
+    {
+      "page_id": "page_00449f51eaac81919fe23d930b52ea52",
+      "filename": "publicis-groupe-00449f51.html",
+      "company": "Publicis Groupe",
+      "role": "Junior Analyst (Commerce)",
+      "category": "candidate",
+      "sha256": "744b29af60a10394888d44599a96d79f6404246a3257811343b79a76b7cd8fec",
+      "previous_sha256": "744b29af60a10394888d44599a96d79f6404246a3257811343b79a76b7cd8fec",
+      "change": "unchanged",
+      "uploaded_by_this_build": false
+    },
+    {
+      "page_id": "page_b7ab13b824b88191bdb2d287bd731871",
+      "filename": "publicis-digitas-apac-b7ab13b8.html",
+      "company": "Publicis / Digitas APAC",
+      "role": "Data Analyst Intern",
+      "category": "candidate",
+      "sha256": "e46396662b1a47fe970c43e03dcb3f26fdba2c338eece3e6f76a68b025762e01",
+      "previous_sha256": "e46396662b1a47fe970c43e03dcb3f26fdba2c338eece3e6f76a68b025762e01",
+      "change": "unchanged",
+      "uploaded_by_this_build": false
+    },
+    {
+      "page_id": "page_8306f8869c90819189d01bf6db752df7",
+      "filename": "marriott-8306f886.html",
+      "company": "Marriott",
+      "role": "Intern, Commercial Analytics (Jan–June 2027)",
+      "category": "candidate",
+      "sha256": "6c1d1e69ce7c8918ac40a3da13991e6fb945ff4683c1fab2d6a2065e494bdbb0",
+      "previous_sha256": "6c1d1e69ce7c8918ac40a3da13991e6fb945ff4683c1fab2d6a2065e494bdbb0",
+      "change": "unchanged",
+      "uploaded_by_this_build": false
+    },
+    {
+      "page_id": "page_04e1cb2978388191973e43ea459c81bc",
+      "filename": "deloitte-digital-04e1cb29.html",
+      "company": "Deloitte Digital",
+      "role": "Graduate Analyst, Marketing, Commerce & Product",
+      "category": "candidate",
+      "sha256": "1fd11893ee63091d7cdbd92324a7100c8181c0e400f5d0b1c4578113ff76dd15",
+      "previous_sha256": "1fd11893ee63091d7cdbd92324a7100c8181c0e400f5d0b1c4578113ff76dd15",
+      "change": "unchanged",
+      "uploaded_by_this_build": false
+    },
+    {
+      "page_id": "page_9e43317211308191a0036e43d4cdf27a",
+      "filename": "tiktok-shop-9e433172.html",
+      "company": "TikTok Shop",
+      "role": "Operations Business Analyst",
+      "category": "candidate",
+      "sha256": "312564be14e7b88a7e9790216135be8d97b64a891e40425fed91b4454c3aec32",
+      "previous_sha256": "312564be14e7b88a7e9790216135be8d97b64a891e40425fed91b4454c3aec32",
+      "change": "unchanged",
+      "uploaded_by_this_build": false
+    },
+    {
+      "page_id": "page_f7760f4268788191b0b72f729e8bd0ba",
+      "filename": "shopee-f7760f42.html",
+      "company": "Shopee",
+      "role": "Marketing Associate, Livestream Team",
+      "category": "candidate",
+      "sha256": "eed6452a87ade3151d9aaa4ba5911cb0081adce7f8bddd499942de9409257626",
+      "previous_sha256": "eed6452a87ade3151d9aaa4ba5911cb0081adce7f8bddd499942de9409257626",
+      "change": "unchanged",
+      "uploaded_by_this_build": false
+    },
+    {
+      "page_id": "page_3f738fc97b3c81919284600c5949c345",
+      "filename": "upstride-3f738fc9.html",
+      "company": "UpStride",
+      "role": "MarTech Consultant",
+      "category": "candidate",
+      "sha256": "594318e52aaa6ac54215ad2bcf0359c328bdf1292856aa73625a90c2eac6548b",
+      "previous_sha256": "594318e52aaa6ac54215ad2bcf0359c328bdf1292856aa73625a90c2eac6548b",
+      "change": "unchanged",
+      "uploaded_by_this_build": false
+    },
+    {
+      "page_id": "page_5b8bd2a94ca881918818f570209e38ea",
+      "filename": "shopee-5b8bd2a9.html",
+      "company": "Shopee",
+      "role": "Regional Content Specialist, Regional Brand & Growth Marketing",
+      "category": "candidate",
+      "sha256": "a88880526c6256ef17bded6adb9435dd4031893214272b00668ee74267d379c6",
+      "previous_sha256": "a88880526c6256ef17bded6adb9435dd4031893214272b00668ee74267d379c6",
+      "change": "unchanged",
+      "uploaded_by_this_build": false
+    },
+    {
+      "page_id": "page_7974d07ca818819181490083456a53b3",
+      "filename": "monee-7974d07c.html",
+      "company": "Monee",
+      "role": "Data Analyst (2027 Graduate)",
+      "category": "candidate",
+      "sha256": "b174a57eef28dfb09213f2d0bccc3ca15a8f30e44680431182b73518c44ae29a",
+      "previous_sha256": "b174a57eef28dfb09213f2d0bccc3ca15a8f30e44680431182b73518c44ae29a",
+      "change": "unchanged",
+      "uploaded_by_this_build": false
+    },
+    {
+      "page_id": "page_23d792a0583881919b99645e37448a77",
+      "filename": "youtrip-23d792a0.html",
+      "company": "YouTrip",
+      "role": "Data Analytics Intern",
+      "category": "applied",
+      "sha256": "3937e514c76912dfe9ce7feaa05cecbf8846629cbf4e179c6d972ad63f27d275",
+      "previous_sha256": "3937e514c76912dfe9ce7feaa05cecbf8846629cbf4e179c6d972ad63f27d275",
+      "change": "unchanged",
+      "uploaded_by_this_build": false
+    },
+    {
+      "page_id": "page_c72af3ce6374819191458f07b06e875a",
+      "filename": "tiktok-c72af3ce.html",
+      "company": "TikTok",
+      "role": "Business Analyst Graduate (GBS) - 2027 Start",
+      "category": "applied",
+      "sha256": "1dc247f1708830896b4cc70c729282dbf3825e754ed230241430e396a564a4d4",
+      "previous_sha256": "1dc247f1708830896b4cc70c729282dbf3825e754ed230241430e396a564a4d4",
+      "change": "unchanged",
+      "uploaded_by_this_build": false
+    },
+    {
+      "page_id": "page_50a93140f10c819191aaf1ce1bb553a3",
+      "filename": "shopee-50a93140.html",
+      "company": "Shopee",
+      "role": "Business Planning Analyst - Regional Cross Border Commercial (2027 Graduate)",
+      "category": "applied",
+      "sha256": "808f03d3c1140d26832156746a05790ff3a54fc8984624ad9513185dfcc30e30",
+      "previous_sha256": "808f03d3c1140d26832156746a05790ff3a54fc8984624ad9513185dfcc30e30",
+      "change": "unchanged",
+      "uploaded_by_this_build": false
+    },
+    {
+      "page_id": "page_9cb96a2db3dc8191857fe7f58c90022c",
+      "filename": "xiaomi-9cb96a2d.html",
+      "company": "Xiaomi",
+      "role": "Data Analyst Intern",
+      "category": "applied",
+      "sha256": "954540a2b9cce0d65d72eb654ee66459cbf2bea06de5dcada0a3e254113446da",
+      "previous_sha256": "954540a2b9cce0d65d72eb654ee66459cbf2bea06de5dcada0a3e254113446da",
+      "change": "unchanged",
+      "uploaded_by_this_build": false
+    },
+    {
+      "page_id": "page_64c3a63987d0819195c514e1dd41caf1",
+      "filename": "julius-baer-64c3a639.html",
+      "company": "Julius Baer",
+      "role": "具体岗位待核对",
+      "category": "incomplete",
+      "sha256": "031cac86e42064489f3839db7103d8ccbd1aa15c03d0c0d8c8767f44ebcb273a",
+      "previous_sha256": "031cac86e42064489f3839db7103d8ccbd1aa15c03d0c0d8c8767f44ebcb273a",
+      "change": "unchanged",
+      "uploaded_by_this_build": false
+    },
+    {
+      "page_id": "page_e2e474322c4c8191ab5db42916bd8a68",
+      "filename": "mediacorp-e2e47432.html",
+      "company": "Mediacorp",
+      "role": "具体岗位待核对",
+      "category": "incomplete",
+      "sha256": "b8554999b41c125b8a5fd2e177518c0b5b405ba4d40d92daae4750bd4fe9736c",
+      "previous_sha256": "b8554999b41c125b8a5fd2e177518c0b5b405ba4d40d92daae4750bd4fe9736c",
+      "change": "unchanged",
+      "uploaded_by_this_build": false
+    },
+    {
+      "page_id": "page_c43cc81dbf8881918dd3326206102380",
+      "filename": "yokogawa-c43cc81d.html",
+      "company": "Yokogawa",
+      "role": "具体岗位待核对",
+      "category": "incomplete",
+      "sha256": "487c213a18ec8e75295724fc3dadecc70c63f865b309a4e21d8a007acfec77c1",
+      "previous_sha256": "487c213a18ec8e75295724fc3dadecc70c63f865b309a4e21d8a007acfec77c1",
+      "change": "unchanged",
+      "uploaded_by_this_build": false
+    },
+    {
+      "page_id": "page_1d812a3e27dc8191a393c22536e130e3",
+      "filename": "fano-1d812a3e.html",
+      "company": "Fano",
+      "role": "具体岗位待核对",
+      "category": "incomplete",
+      "sha256": "ac55b1edda3d5230c276ec3a0da681a52262a4f738c14215e5bfd3f0882e9bf8",
+      "previous_sha256": "ac55b1edda3d5230c276ec3a0da681a52262a4f738c14215e5bfd3f0882e9bf8",
+      "change": "unchanged",
+      "uploaded_by_this_build": false
+    },
+    {
+      "page_id": "page_dd3d04f7972c8191b9a49be83faf2e88",
+      "filename": "edelman-intelligence-dd3d04f7.html",
+      "company": "Edelman Intelligence",
+      "role": "Research Analyst Intern (Jan–Jun 2027)",
+      "category": "closed",
+      "sha256": "b3d7b5f7c0bea2b99b607f22fa54d30f6651ff9c352fa5259e734fdbe8e65fcf",
+      "previous_sha256": "b3d7b5f7c0bea2b99b607f22fa54d30f6651ff9c352fa5259e734fdbe8e65fcf",
+      "change": "unchanged",
+      "uploaded_by_this_build": false
+    },
+    {
+      "page_id": "page_2225dfa701d881918e8420330e663213",
+      "filename": "benefit-cosmetics-2225dfa7.html",
+      "company": "Benefit Cosmetics",
+      "role": "Business Analyst Intern, SEA",
+      "category": "trash",
+      "sha256": "57fe719980ef9d9f6379b7cf371b77e217011e3ad5114c175346d649e825d968",
+      "previous_sha256": "57fe719980ef9d9f6379b7cf371b77e217011e3ad5114c175346d649e825d968",
+      "change": "unchanged",
+      "uploaded_by_this_build": false
+    },
+    {
+      "page_id": "page_45664bad128881918d24c07e28312821",
+      "filename": "parfums-christian-dior-45664bad.html",
+      "company": "Parfums Christian Dior",
+      "role": "Data Analytics & Project Management Intern, Travel Retail",
+      "category": "trash",
+      "sha256": "b9ef0c69267f278575d2cf15f633c8c0c37b8751d180838d9518c1ac639c7ae4",
+      "previous_sha256": "b9ef0c69267f278575d2cf15f633c8c0c37b8751d180838d9518c1ac639c7ae4",
+      "change": "unchanged",
+      "uploaded_by_this_build": false
+    }
+  ]
+}

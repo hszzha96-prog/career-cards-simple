@@ -1,0 +1,4796 @@
+[
+  {
+    "page_id": "page_d6faeef22fe48191971c01df78843569",
+    "company": "ShopBack",
+    "role": "Data Analyst (Internship) (H1 2027)",
+    "category": "candidate",
+    "filename": "shopback-d6faeef2.html",
+    "hero": "围绕 SQL、指标质量与 AI 工作流准备 ShopBack 实习；现有经历可支撑需求与测试讨论，六个月档期和独立实操仍待核。",
+    "pill": "先核六个月档期",
+    "employment": "全职实习 · 现场",
+    "short_id": "岗位号待核",
+    "kpis": [
+      {
+        "label": "APPLICATION · 投递状态",
+        "value": "候选·待筛选",
+        "note": "沿用原卡待人工筛选状态，本轮未记为实际投递。"
+      },
+      {
+        "label": "TERM · 实习期限",
+        "value": "至少 6 个月",
+        "note": "JD 为 2027 上半年全职，准确起止日待核。"
+      },
+      {
+        "label": "LOCATION · 工作地点",
+        "value": "新加坡现场",
+        "note": "JD 仅考虑位于新加坡的候选人，资格仍待核。"
+      },
+      {
+        "label": "REQUIREMENT · 核心门槛",
+        "value": "SQL + GenAI",
+        "note": "需补可展示查询与 AI 实践，技能表不足以证明。"
+      }
+    ],
+    "employer": [
+      {
+        "label": "招聘核验",
+        "value": "2026-11-25：Lever 列表仍显示 Apply"
+      },
+      {
+        "label": "岗位档期",
+        "value": "H1 2027；至少六个月全职"
+      },
+      {
+        "label": "工作地点",
+        "value": "新加坡现场；候选人须位于当地"
+      },
+      {
+        "label": "核心能力",
+        "value": "SQL、指标建模、质量检查、可展示 GenAI"
+      },
+      {
+        "label": "待确认",
+        "value": "详情 403；最终表单、截止及合同待核"
+      }
+    ],
+    "employer_note": "2026-11-25 可确认雇主列表仍列此岗，官方索引可读 JD；详情直连受限，最终表单是否收件尚未验证。",
+    "personal": [
+      {
+        "label": "本科",
+        "value": "Liverpool 商科本科，2026.06 完成"
+      },
+      {
+        "label": "硕士",
+        "value": "NUS-ISS EBAC，2026.08 起在读"
+      },
+      {
+        "label": "所在地",
+        "value": "CV 记载 Singapore，不等同工作资格"
+      },
+      {
+        "label": "全职档期",
+        "value": "历史 3–8 月设想须再核雇主及学校"
+      },
+      {
+        "label": "工作资格",
+        "value": "本人有效准证及适用条件待核"
+      }
+    ],
+    "personal_note": "本科和 EBAC 在读有据，但历史 3–8 月设想不是已批准安排；须核六个月起止日、学校允许范围及本人有效工作资格。",
+    "dimensions": [
+      {
+        "name": "SQL 与指标",
+        "status": "仅列技能",
+        "note": "CV 列 SQL，尚缺去重、关联和指标口径的独立查询证据。",
+        "has_evidence": false
+      },
+      {
+        "name": "数据质量",
+        "status": "相关经历",
+        "note": "6Estates 有测试样本准备，尚无生产监控或告警成果。",
+        "has_evidence": true
+      },
+      {
+        "name": "AI 工作流",
+        "status": "方案有据",
+        "note": "GGU 有 Python 提示流程设计，生产集成未证实。",
+        "has_evidence": true
+      },
+      {
+        "name": "商业分析与 BI",
+        "status": "部分有据",
+        "note": "PwC Excel、Ogilvy 研究可迁移，BI 文件待补。",
+        "has_evidence": true
+      },
+      {
+        "name": "需求与协作",
+        "status": "相关经历",
+        "note": "GGU 有三家企业需求收集及 AI、UI 团队协作。",
+        "has_evidence": true
+      }
+    ],
+    "matrix": [
+      {
+        "need": "SQL 查询与指标层",
+        "evidence": "CV 技能栏；独立查询待补",
+        "verdict": "待举证"
+      },
+      {
+        "need": "质量校验与告警",
+        "evidence": "6Estates 文档与测试样本准备",
+        "verdict": "准备经验可迁移"
+      },
+      {
+        "need": "GenAI 实践",
+        "evidence": "GGU 六维反馈提示流程设计",
+        "verdict": "设计不等于部署"
+      },
+      {
+        "need": "业务看板",
+        "evidence": "PwC Excel 与商业演示",
+        "verdict": "BI 实操作品待补"
+      },
+      {
+        "need": "澄清业务需求",
+        "evidence": "GGU 三家教育企业需求",
+        "verdict": "有相关经历"
+      }
+    ],
+    "steps": [
+      {
+        "title": "核对六个月档期",
+        "text": "先确认雇主接受的准确起止日，再核学校本批次实习安排及个人资格；历史设想不能当作批准。"
+      },
+      {
+        "title": "补 SQL 与 AI 证据",
+        "text": "整理一个可复算指标查询及 AI 工作流演示，解释输入输出、失败案例和本人负责部分。"
+      },
+      {
+        "title": "准备质量与需求案例",
+        "text": "分别从 6Estates 和 GGU 选一件真实工作，写清准备动作、交付物与尚未证实的结果。"
+      },
+      {
+        "title": "核入口与去重",
+        "text": "决定推进前核实精确岗位表单、截止及同岗回执；仅本人实际提交后才新增申请记录。"
+      }
+    ],
+    "dedup_note": "以 ShopBack＋岗位名＋Lever 渠道 ID 识别同岗；其他 ShopBack 岗位单独记录，雇主编号仍待核。",
+    "status_label": "候选·待筛选",
+    "eligibility_title": "招聘与申请资格",
+    "match_title": "核心能力匹配",
+    "match_left_title": "能力画像",
+    "match_right_title": "JD × 个人证据矩阵",
+    "projects_title": "两段相关经历",
+    "projects": [
+      {
+        "name": "6Estates · 贷前 AI 测试准备",
+        "subtitle": "2026.06–09｜实习经历",
+        "intro": "为个人及中小企业贷前流程整理文档与测试样本，可用于说明质量检查的准备方法。",
+        "bullets": [
+          "梳理个人与中小企业贷前业务流程",
+          "按文档类型、格式及图像质量分类",
+          "准备银行及注册文件修改样本，支持一致性测试"
+        ],
+        "boundary": "已有证据支持测试准备与样本整理，尚不支持本人完成测试执行、开发风控模型或部署生产告警，也不虚构效率提升。",
+        "english": ""
+      },
+      {
+        "name": "GGU · AI 面试反馈方案",
+        "subtitle": "2025.05–09｜实习经历",
+        "intro": "收集教育企业需求，与 AI 和界面团队协作，设计面试反馈流程，可说明需求转译与方案边界。",
+        "bullets": [
+          "收集三家新加坡教育企业需求",
+          "与 AI 程序员及 UI 设计人员协作",
+          "提出 API 整合及 Python 六维反馈提示流程"
+        ],
+        "boundary": "CV 记载的是需求、方案和工作流设计；未证实生产 API 集成、模型训练或准确率提升，讲解时只认领本人有据的部分。",
+        "english": ""
+      }
+    ],
+    "prep_title": "申请行动与面试预练",
+    "questions": [
+      {
+        "en": "How would you define a trustworthy cashback conversion metric?",
+        "zh": "如何定义可靠的返现转化指标？"
+      },
+      {
+        "en": "How would you join orders, clicks and cashback events without double counting?",
+        "zh": "SQL 多表关联如何避免重复计数？"
+      },
+      {
+        "en": "Design an AI assistant that answers business-metric questions safely.",
+        "zh": "设计回答指标问题的 AI 助手。"
+      },
+      {
+        "en": "A dashboard metric drops sharply overnight. What do you check first?",
+        "zh": "看板指标一夜骤降，先查什么？"
+      },
+      {
+        "en": "Tell us about a time you clarified an ambiguous request.",
+        "zh": "讲一个澄清模糊需求的真实例子。"
+      }
+    ],
+    "question_kind": "面试预练",
+    "question_note": "此处是预练，不代表面试邀约。",
+    "application_note": "原卡为候选、待人工筛选，未计入实投。2026-11-25 限定检索 9月1日至11月25日相关公司及申请关键词未命中；不据此断言从未投递，也不改变原状态。",
+    "cv_note": "以本轮读取的最新通用 CV 2.1 为准备基线；该岗提交版本未记录，本轮未制作或提交定制简历。",
+    "storage_key": "career-simple-page_d6faeef22fe48191971c01df78843569-prep-v1"
+  },
+  {
+    "page_id": "page_c62ff839fe8c8191a1b91a67d3431602",
+    "company": "Siemens",
+    "role": "TSP Strategy & Analytics Intern, ASEAN",
+    "category": "candidate",
+    "filename": "siemens-c62ff839.html",
+    "hero": "以商业研究和预测验证材料准备 Siemens ASEAN 策略分析实习；重点讲清区域差异、管理汇报与团队项目中的本人边界。",
+    "pill": "先核实习安排",
+    "employment": "全职实习",
+    "short_id": "岗位号待核",
+    "kpis": [
+      {
+        "label": "APPLICATION · 投递状态",
+        "value": "候选·待筛选",
+        "note": "沿用原卡待人工筛选状态，本轮未记为实际投递。"
+      },
+      {
+        "label": "TERM · 实习档期",
+        "value": "起止日待核",
+        "note": "全职实习已显示，起止日与最短时长尚未明确。"
+      },
+      {
+        "label": "FOCUS · 工作主题",
+        "value": "ASEAN 分析",
+        "note": "围绕区域业务表现、预测及管理层报告提供支持。"
+      },
+      {
+        "label": "TOOLS · 工具门槛",
+        "value": "Excel / 统计",
+        "note": "Power BI 有要求，Python、SQL 等可加分。"
+      }
+    ],
+    "employer": [
+      {
+        "label": "招聘核验",
+        "value": "2026-11-25：雇主 LinkedIn 显示 Apply"
+      },
+      {
+        "label": "岗位性质",
+        "value": "Full-time / Internship"
+      },
+      {
+        "label": "学历方向",
+        "value": "商业、分析等相关专业在读"
+      },
+      {
+        "label": "工作重点",
+        "value": "区域表现、预测、管理汇报及流程自动化"
+      },
+      {
+        "label": "待确认",
+        "value": "Siemens ATS 编号、表单、时长与截止待核"
+      }
+    ],
+    "employer_note": "2026-11-25 可读雇主 LinkedIn JD；尚未核到精确 Siemens ATS 编号和表单，起止日与最短时长仍待确认。",
+    "personal": [
+      {
+        "label": "本科",
+        "value": "Liverpool 商科本科，2026.06 完成"
+      },
+      {
+        "label": "硕士",
+        "value": "NUS-ISS EBAC，2026.08 起在读"
+      },
+      {
+        "label": "个人档期",
+        "value": "本批次学校日程及批准待核"
+      },
+      {
+        "label": "工作资格",
+        "value": "本人有效准证及适用条件待核"
+      },
+      {
+        "label": "CV 基线",
+        "value": "CV 2.1；提交该岗版本未记录"
+      }
+    ],
+    "personal_note": "EBAC 在读和 PwC Excel 经历有据；先取得实习日期再对照本人课程。PAL 仅按已读团队材料使用，个人贡献与版本待核。",
+    "dimensions": [
+      {
+        "name": "策略与业务拆解",
+        "status": "相关经历",
+        "note": "PwC、Ogilvy 可说明研究方法，不等于 ASEAN 业务经验。",
+        "has_evidence": true
+      },
+      {
+        "name": "预测与验证",
+        "status": "团队材料",
+        "note": "PAL 有时间验证与基线比较，版本及个人分工仍待核。",
+        "has_evidence": true
+      },
+      {
+        "name": "Excel 与汇报",
+        "status": "相关经历",
+        "note": "PwC 有 Excel 分析和商业模式演示记录。",
+        "has_evidence": true
+      },
+      {
+        "name": "自动化工具",
+        "status": "部分有据",
+        "note": "GGU 有流程设计；未见 Power Automate 实施证据。",
+        "has_evidence": true
+      },
+      {
+        "name": "跨团队推进",
+        "status": "相关经历",
+        "note": "GGU 可讲协作与需求澄清，不认领跨国运营结果。",
+        "has_evidence": true
+      }
+    ],
+    "matrix": [
+      {
+        "need": "区域业务表现分析",
+        "evidence": "PwC 行业研究与 Excel 分析",
+        "verdict": "方法可迁移"
+      },
+      {
+        "need": "预测、回归与验证",
+        "evidence": "PAL 时间验证、MA4 基线",
+        "verdict": "团队版本与分工待核"
+      },
+      {
+        "need": "管理层演示",
+        "evidence": "PwC 商业模式演示",
+        "verdict": "有相关经历"
+      },
+      {
+        "need": "BI 与自动化",
+        "evidence": "GGU 工作流设计；BI 文件未见",
+        "verdict": "工具实操待补"
+      },
+      {
+        "need": "跨部门任务跟进",
+        "evidence": "GGU AI 与 UI 团队协作",
+        "verdict": "需选本人具体案例"
+      }
+    ],
+    "steps": [
+      {
+        "title": "核准实习日期",
+        "text": "先核雇主起止日、工时和最短时长，再与本人学校安排及有效资格逐项比对，保留待核项。"
+      },
+      {
+        "title": "整理一页业务汇报",
+        "text": "用 PwC 真实研究材料制作一页分析，注明指标口径、证据出处、业务含义和尚未核实的假设。"
+      },
+      {
+        "title": "锁定预测材料版本",
+        "text": "从 PAL 团队材料选定同一版本，写清时间验证、MA4 基线及本人贡献，不引用未锁定分数。"
+      },
+      {
+        "title": "核实官方岗位入口",
+        "text": "取得精确 ATS 编号与有效表单，推进前查同岗回执；其他 Siemens 岗位仍分开记录。"
+      }
+    ],
+    "dedup_note": "Siemens 此岗以 LinkedIn 4484887067 区分；雇主编号待核，不与同公司其他岗位合并。",
+    "status_label": "候选·待筛选",
+    "eligibility_title": "招聘与申请资格",
+    "match_title": "核心能力匹配",
+    "match_left_title": "能力画像",
+    "match_right_title": "JD × 个人证据矩阵",
+    "projects_title": "两段相关经历",
+    "projects": [
+      {
+        "name": "PwC · 行业与客户研究",
+        "subtitle": "2023.07–08｜实习经历",
+        "intro": "围绕新能源车、客户体验与售后议题整理资料，通过 Excel 分析和演示支持商业讨论。",
+        "bullets": [
+          "研究新能源车行业与客户体验",
+          "整理 Mercedes、BMW 等相关资料",
+          "用 Excel 分析并制作商业模式演示"
+        ],
+        "boundary": "这些经历可支持业务问题拆解与管理汇报，讲解时使用本人实际研究材料和工作范围；未证实本人完成预测上线或量化商业收益。",
+        "english": ""
+      },
+      {
+        "name": "PAL · 采购需求预测课程项目",
+        "subtitle": "团队课程材料｜个人分工待核",
+        "intro": "围绕 Iowa 零售商每周采购瓶数需求，以时间顺序验证和简单基线比较不同聚合层级。",
+        "bullets": [
+          "按时间顺序组织训练与验证",
+          "以 MA4 为基线比较预测表现",
+          "讨论门店×品类、品类与总量层级"
+        ],
+        "boundary": "团队材料存在多个版本，个人分工尚待核；不引用未锁定的最好分数，也不把滚动一步回放写成一次预测未来 26 周。",
+        "english": ""
+      }
+    ],
+    "prep_title": "申请行动与面试预练",
+    "questions": [
+      {
+        "en": "How would you explain a performance gap between two ASEAN markets?",
+        "zh": "如何解释两个 ASEAN 市场的业务差异？"
+      },
+      {
+        "en": "How would you validate a monthly forecast before presenting it?",
+        "zh": "月度预测在汇报前如何验证？"
+      },
+      {
+        "en": "Which recurring reporting task would you automate first?",
+        "zh": "先自动化哪一类重复报告？"
+      },
+      {
+        "en": "How would you turn a complex analysis into one management slide?",
+        "zh": "如何把复杂分析压缩成一页管理层汇报？"
+      },
+      {
+        "en": "Tell us how you followed up on a delayed cross-functional deliverable.",
+        "zh": "讲一个跟进跨团队延期交付的真实案例。"
+      }
+    ],
+    "question_kind": "面试预练",
+    "question_note": "此处是预练，不代表面试邀约。",
+    "application_note": "原卡为候选、待人工筛选，未计入实投。2026-11-25 限定检索 9月1日至11月25日相关公司及申请关键词未命中；不据此断言从未投递，也不改变原状态。",
+    "cv_note": "以本轮读取的最新通用 CV 2.1 为准备基线；该岗提交版本未记录，本轮未制作或提交定制简历。",
+    "storage_key": "career-simple-page_c62ff839fe8c8191a1b91a67d3431602-prep-v1"
+  },
+  {
+    "page_id": "page_00449f51eaac81919fe23d930b52ea52",
+    "company": "Publicis Groupe",
+    "role": "Junior Analyst (Commerce)",
+    "category": "candidate",
+    "filename": "publicis-groupe-00449f51.html",
+    "hero": "Publicis Commerce 需要把电商指标、SQL 与实验结果转成业务建议；营销研究和需求协作可迁移，查询与 BI 实作仍需补证。",
+    "pill": "先核全职资格",
+    "employment": "全职 · 合同待核",
+    "short_id": "176689",
+    "kpis": [
+      {
+        "label": "APPLICATION · 投递状态",
+        "value": "候选·待筛选",
+        "note": "沿用原卡待人工筛选状态，本轮未记为实际投递。"
+      },
+      {
+        "label": "TYPE · 岗位性质",
+        "value": "全职待核合同",
+        "note": "原卡识别为全职岗，不能自行改写为实习机会。"
+      },
+      {
+        "label": "ENTRY · 经验要求",
+        "value": "经验或应届路径",
+        "note": "一年相关经验，或相关应届且有分析项目或实习。"
+      },
+      {
+        "label": "TOOLS · 核心门槛",
+        "value": "SQL + BI",
+        "note": "需展示指标查询、看板及实验判断，不能只列工具。"
+      }
+    ],
+    "employer": [
+      {
+        "label": "招聘核验",
+        "value": "2026-11-25：官方 176689 索引可读"
+      },
+      {
+        "label": "岗位地点",
+        "value": "Singapore / Hybrid / Entry"
+      },
+      {
+        "label": "入门路径",
+        "value": "一年经验，或相关应届且有项目或实习"
+      },
+      {
+        "label": "工作重点",
+        "value": "电商数据、SQL、BI、A/B 与增长分析"
+      },
+      {
+        "label": "待确认",
+        "value": "详情 403；表单、截止、合同与到岗待核"
+      }
+    ],
+    "employer_note": "2026-11-25 官方索引和雇主 LinkedIn 支持岗位身份；官网详情直连受限，最终提交表单、截止及合同尚未核实。",
+    "personal": [
+      {
+        "label": "本科",
+        "value": "Liverpool 商科本科，2026.06 完成"
+      },
+      {
+        "label": "硕士",
+        "value": "NUS-ISS EBAC，2026.08 起在读"
+      },
+      {
+        "label": "应届认定",
+        "value": "以本科或硕士申请，需由雇主确认"
+      },
+      {
+        "label": "经验口径",
+        "value": "短期实习不能自动累计成一年相关全职"
+      },
+      {
+        "label": "全职资格",
+        "value": "最早到岗、学校安排与工作许可待核"
+      }
+    ],
+    "personal_note": "学历与多段实习有据，但不能自动等同一年全职经验；应届路径、最早全职到岗与学业兼容仍需确认，SQL 和 BI 实作待补。",
+    "dimensions": [
+      {
+        "name": "电商业务与指标",
+        "status": "部分有据",
+        "note": "Ogilvy 有营销研究，不等同交易运营或 ROAS 优化。",
+        "has_evidence": true
+      },
+      {
+        "name": "SQL 与数据质量",
+        "status": "待补实操",
+        "note": "CV 列 SQL；6Estates 样本准备不代替查询能力。",
+        "has_evidence": false
+      },
+      {
+        "name": "实验与增量分析",
+        "status": "待补证据",
+        "note": "尚缺可核的本人实验设计、计算过程与结论材料。",
+        "has_evidence": false
+      },
+      {
+        "name": "BI 与商业表达",
+        "status": "部分有据",
+        "note": "PwC Excel 与演示有据，交互看板文件待补。",
+        "has_evidence": true
+      },
+      {
+        "name": "AI 与跨团队协作",
+        "status": "相关经历",
+        "note": "GGU 需求及提示流程设计可迁移，生产应用未证实。",
+        "has_evidence": true
+      }
+    ],
+    "matrix": [
+      {
+        "need": "电商与营销指标",
+        "evidence": "Ogilvy 品牌、竞品及媒介研究",
+        "verdict": "研究经验可迁移"
+      },
+      {
+        "need": "SQL 与数据映射",
+        "evidence": "CV 列 SQL",
+        "verdict": "独立查询待补"
+      },
+      {
+        "need": "A/B 与增量判断",
+        "evidence": "个人可核实验作品未见",
+        "verdict": "待补证据"
+      },
+      {
+        "need": "BI 看板",
+        "evidence": "PwC Excel 与演示",
+        "verdict": "BI 文件待补"
+      },
+      {
+        "need": "团队需求与 AI",
+        "evidence": "GGU 需求收集及方案设计",
+        "verdict": "有相关经历"
+      }
+    ],
+    "steps": [
+      {
+        "title": "确认全职与应届路径",
+        "text": "说明本科完成和硕士在读情况，核实雇主认可的入门路径及到岗日期；不将短实习合并为一年全职。"
+      },
+      {
+        "title": "补齐 SQL 与看板",
+        "text": "以清楚标注的练习数据准备跨平台查询与看板，说明粒度、去重、口径及 QA，不冒充公司成果。"
+      },
+      {
+        "title": "准备实验判断过程",
+        "text": "写出主指标、随机单元和观察期，说明增量与归因的区别；未验证的课程结论不当作本人业绩。"
+      },
+      {
+        "title": "核表单与独立记录",
+        "text": "核实 176689 的表单和截止后再决定推进；与 Digitas 178728 分开，实际提交才更新状态。"
+      }
+    ],
+    "dedup_note": "176689 与 Digitas 178728 分开；LinkedIn 4474260443 仅为同岗渠道。",
+    "status_label": "候选·待筛选",
+    "eligibility_title": "招聘与申请资格",
+    "match_title": "核心能力匹配",
+    "match_left_title": "能力画像",
+    "match_right_title": "JD × 个人证据矩阵",
+    "projects_title": "两段相关经历",
+    "projects": [
+      {
+        "name": "Ogilvy · 营销与媒介研究",
+        "subtitle": "2024.07–08｜实习经历",
+        "intro": "围绕品牌合作、竞品活动和媒介支出整理研究，为后续营销规划提供可追溯的资料依据。",
+        "bullets": [
+          "研究 SuperX 品牌合作与竞品活动",
+          "整理 2023–24 互联网广告及媒介数据",
+          "使用财报、艺恩等资料支持 2025 规划"
+        ],
+        "boundary": "这是营销研究与规划支持，不能写成本人管理付费社媒账户、执行广告投放或提升 ROI；实际预算和转化成果均无已核证据。",
+        "english": ""
+      },
+      {
+        "name": "GGU · AI 面试反馈方案",
+        "subtitle": "2025.05–09｜实习经历",
+        "intro": "收集教育企业需求，与 AI 和界面团队协作，设计面试反馈流程，可说明需求转译与方案边界。",
+        "bullets": [
+          "收集三家新加坡教育企业需求",
+          "与 AI 程序员及 UI 设计人员协作",
+          "提出 API 整合及 Python 六维反馈提示流程"
+        ],
+        "boundary": "CV 记载的是需求、方案和工作流设计；未证实生产 API 集成、模型训练或准确率提升，讲解时只认领本人有据的部分。",
+        "english": ""
+      }
+    ],
+    "prep_title": "申请行动与面试预练",
+    "questions": [
+      {
+        "en": "GMV increased while ROAS fell. How would you investigate?",
+        "zh": "GMV 上升而 ROAS 下降，如何调查？"
+      },
+      {
+        "en": "Design a SQL dataset for campaign performance across marketplaces.",
+        "zh": "为跨平台活动表现设计 SQL 数据集。"
+      },
+      {
+        "en": "How would you assess whether an A/B test delivered incremental value?",
+        "zh": "如何判断 A/B 测试是否产生增量价值？"
+      },
+      {
+        "en": "What would you put on a commerce dashboard for a non-technical stakeholder?",
+        "zh": "给非技术人员的电商看板放什么？"
+      },
+      {
+        "en": "Tell us how you handled conflicting stakeholder definitions of success.",
+        "zh": "怎样处理不同团队对成功的定义冲突？"
+      }
+    ],
+    "question_kind": "面试预练",
+    "question_note": "此处是预练，不代表面试邀约。",
+    "application_note": "原卡为候选、待人工筛选，未计入实投。2026-11-25 限定检索 9月1日至11月25日相关公司及申请关键词未命中；不据此断言从未投递，也不改变原状态。",
+    "cv_note": "以本轮读取的最新通用 CV 2.1 为准备基线；该岗提交版本未记录，本轮未制作或提交定制简历。",
+    "storage_key": "career-simple-page_00449f51eaac81919fe23d930b52ea52-prep-v1"
+  },
+  {
+    "page_id": "page_b7ab13b824b88191bdb2d287bd731871",
+    "company": "Publicis / Digitas APAC",
+    "role": "Data Analyst Intern",
+    "category": "candidate",
+    "filename": "publicis-digitas-apac-b7ab13b8.html",
+    "hero": "Digitas 实习重视多源营销数据清洗、QA 和报告；营销研究与测试准备有相关依据，SQL、Python 独立操作和网站分析仍待补。",
+    "pill": "先补数据实操",
+    "employment": "实习 · Hybrid",
+    "short_id": "178728",
+    "kpis": [
+      {
+        "label": "APPLICATION · 投递状态",
+        "value": "候选·待筛选",
+        "note": "沿用原卡待人工筛选状态，本轮未记为实际投递。"
+      },
+      {
+        "label": "POSTED · 官方发布日期",
+        "value": "2026-10-19",
+        "note": "官方索引列明发布时间，不等于截止或仍可提交。"
+      },
+      {
+        "label": "TERM · 实习档期",
+        "value": "日期时长待核",
+        "note": "起止日、最短时长及每周工时均未取得确认。"
+      },
+      {
+        "label": "TOOLS · 核心工具",
+        "value": "Excel/SQL/Python",
+        "note": "岗位要求独立使用，技能列表不能证明熟练程度。"
+      }
+    ],
+    "employer": [
+      {
+        "label": "招聘核验",
+        "value": "2026-11-25：官方 178728 索引可读"
+      },
+      {
+        "label": "发布时间",
+        "value": "2026-10-19"
+      },
+      {
+        "label": "岗位地点",
+        "value": "Digitas APAC；新加坡 Hybrid 实习"
+      },
+      {
+        "label": "工作重点",
+        "value": "多源营销数据清洗、QA、报告及网站分析"
+      },
+      {
+        "label": "待确认",
+        "value": "详情 403；表单、日期、时长与工时待核"
+      }
+    ],
+    "employer_note": "2026-11-25 官方索引可确认岗位标题、编号及 JD；详情直连受限，实际申请入口、截止、起止日期与时长仍未证实。",
+    "personal": [
+      {
+        "label": "本科",
+        "value": "Liverpool 商科本科，2026.06 完成"
+      },
+      {
+        "label": "硕士",
+        "value": "NUS-ISS EBAC，2026.08 起在读"
+      },
+      {
+        "label": "工具背景",
+        "value": "CV 列 SQL、Python、Office；熟练度待证"
+      },
+      {
+        "label": "课程兼容",
+        "value": "须先取得工时与日期，再核学校安排"
+      },
+      {
+        "label": "工作资格",
+        "value": "本人有效准证及适用条件待核"
+      }
+    ],
+    "personal_note": "Ogilvy 和 6Estates 提供研究与质量准备场景，但不等于独立完成数据管线；SQL、Python 清洗及网站分析的本人作品仍待补。",
+    "dimensions": [
+      {
+        "name": "多源数据整理",
+        "status": "相关经历",
+        "note": "Ogilvy 整理媒介与财报资料，可迁移来源核对方法。",
+        "has_evidence": true
+      },
+      {
+        "name": "SQL 与 Python",
+        "status": "待补实操",
+        "note": "CV 列技能，GGU 有流程设计，独立清洗代码未见。",
+        "has_evidence": false
+      },
+      {
+        "name": "QA 与细节质量",
+        "status": "相关经历",
+        "note": "6Estates 有文档分类及测试样本准备，执行结果未证实。",
+        "has_evidence": true
+      },
+      {
+        "name": "营销洞察与汇报",
+        "status": "相关经历",
+        "note": "Ogilvy 研究、PwC Excel 演示提供可讲案例。",
+        "has_evidence": true
+      },
+      {
+        "name": "网站分析",
+        "status": "待补证据",
+        "note": "未见 GA、Adobe Analytics 或埋点实施的本人证据。",
+        "has_evidence": false
+      }
+    ],
+    "matrix": [
+      {
+        "need": "营销多源数据核对",
+        "evidence": "Ogilvy 财报及媒介资料研究",
+        "verdict": "整理方法可迁移"
+      },
+      {
+        "need": "SQL / Python 清洗",
+        "evidence": "CV 技能与 GGU 流程设计",
+        "verdict": "可重跑作品待补"
+      },
+      {
+        "need": "QA 计划与验证",
+        "evidence": "6Estates 样本准备",
+        "verdict": "不等于完成测试"
+      },
+      {
+        "need": "可视化与沟通",
+        "evidence": "PwC Excel 与商业演示",
+        "verdict": "具体报告待选"
+      },
+      {
+        "need": "网站分析与漏斗",
+        "evidence": "未取得工具或埋点作品",
+        "verdict": "待补证据"
+      }
+    ],
+    "steps": [
+      {
+        "title": "核对实习条件",
+        "text": "先确认日期、时长、工时与 Hybrid 到岗要求，再核个人在读资格、学校安排和准证条件。"
+      },
+      {
+        "title": "补可重跑清洗样例",
+        "text": "准备一份标明来源的练习数据，演示重复与缺失处理、映射及校验，保存查询代码和输出对照。"
+      },
+      {
+        "title": "整理 QA 与沟通案例",
+        "text": "用 6Estates 真实样本准备说明检查思路；用 Ogilvy 研究说明来源判断，不扩大为执行成果。"
+      },
+      {
+        "title": "核入口并区分岗位",
+        "text": "核实 178728 官方表单和截止，查对应回执；与 Commerce 176689 分离，按实际提交记状态。"
+      }
+    ],
+    "dedup_note": "Digitas 178728 独立保存；Commerce 176689 为另一岗位，不共享申请状态或进度。",
+    "status_label": "候选·待筛选",
+    "eligibility_title": "招聘与申请资格",
+    "match_title": "核心能力匹配",
+    "match_left_title": "能力画像",
+    "match_right_title": "JD × 个人证据矩阵",
+    "projects_title": "两段相关经历",
+    "projects": [
+      {
+        "name": "Ogilvy · 营销与媒介研究",
+        "subtitle": "2024.07–08｜实习经历",
+        "intro": "围绕品牌合作、竞品活动和媒介支出整理研究，为后续营销规划提供可追溯的资料依据。",
+        "bullets": [
+          "研究 SuperX 品牌合作与竞品活动",
+          "整理 2023–24 互联网广告及媒介数据",
+          "使用财报、艺恩等资料支持 2025 规划"
+        ],
+        "boundary": "这是营销研究与规划支持，不能写成本人管理付费社媒账户、执行广告投放或提升 ROI；实际预算和转化成果均无已核证据。",
+        "english": ""
+      },
+      {
+        "name": "6Estates · 贷前 AI 测试准备",
+        "subtitle": "2026.06–09｜实习经历",
+        "intro": "为个人及中小企业贷前流程整理文档与测试样本，可用于说明质量检查的准备方法。",
+        "bullets": [
+          "梳理个人与中小企业贷前业务流程",
+          "按文档类型、格式及图像质量分类",
+          "准备银行及注册文件修改样本，支持一致性测试"
+        ],
+        "boundary": "已有证据支持测试准备与样本整理，尚不支持本人完成测试执行、开发风控模型或部署生产告警，也不虚构效率提升。",
+        "english": ""
+      }
+    ],
+    "prep_title": "申请行动与面试预练",
+    "questions": [
+      {
+        "en": "Two marketing sources report different conversions. How do you reconcile them?",
+        "zh": "两个营销来源的转化数不一致，怎么核对？"
+      },
+      {
+        "en": "How would you clean a campaign export with duplicate and missing identifiers?",
+        "zh": "活动导出表存在重复与缺失 ID，如何清洗？"
+      },
+      {
+        "en": "What QA checks would you add before publishing a weekly report?",
+        "zh": "周报发布前加入哪些 QA？"
+      },
+      {
+        "en": "A website funnel suddenly loses half its users at one step. What would you do?",
+        "zh": "网站漏斗某步突然流失一半，怎么分析？"
+      },
+      {
+        "en": "Tell us about a personal passion that has helped others.",
+        "zh": "讲一个使别人受益的个人兴趣。"
+      }
+    ],
+    "question_kind": "面试预练",
+    "question_note": "此处是预练，不代表面试邀约。",
+    "application_note": "原卡为候选、待人工筛选，未计入实投。2026-11-25 限定检索 9月1日至11月25日相关公司及申请关键词未命中；不据此断言从未投递，也不改变原状态。",
+    "cv_note": "以本轮读取的最新通用 CV 2.1 为准备基线；该岗提交版本未记录，本轮未制作或提交定制简历。",
+    "storage_key": "career-simple-page_b7ab13b824b88191bdb2d287bd731871-prep-v1"
+  },
+  {
+    "page_id": "page_8306f8869c90819189d01bf6db752df7",
+    "company": "Marriott",
+    "role": "Intern, Commercial Analytics (Jan–June 2027)",
+    "category": "candidate",
+    "filename": "marriott-8306f886.html",
+    "hero": "Marriott 商业分析实习明确要求 2027 年 1–6 月全职；行业研究可支撑业务讨论，当前重点是核一月到岗、个人资格与 BI 实操。",
+    "pill": "先核一月到岗",
+    "employment": "六个月全职实习",
+    "short_id": "26092984",
+    "kpis": [
+      {
+        "label": "APPLICATION · 投递状态",
+        "value": "候选·待筛选",
+        "note": "沿用原卡待人工筛选状态，本轮未记为实际投递。"
+      },
+      {
+        "label": "TERM · 固定档期",
+        "value": "2027 年 1–6 月",
+        "note": "官网明确六个月全职，一月到岗不能自行改成三月。"
+      },
+      {
+        "label": "PERMIT · 身份要求",
+        "value": "个人许可待核",
+        "note": "官网列身份与准证类别，英国本科学位不能替代。"
+      },
+      {
+        "label": "TOOLS · 技术门槛",
+        "value": "SQL/Python/BI",
+        "note": "需要强 BI 实操证据，当前仅有部分工具技能记录。"
+      }
+    ],
+    "employer": [
+      {
+        "label": "招聘核验",
+        "value": "2026-11-25：官网 26092984 显示 Apply Now"
+      },
+      {
+        "label": "实习安排",
+        "value": "2027 年 1–6 月，六个月全职"
+      },
+      {
+        "label": "地点与学历",
+        "value": "新加坡区域办公室；相关专业及课程要求"
+      },
+      {
+        "label": "身份要求",
+        "value": "公民、PR 或有效学生／工作假期准证等条件"
+      },
+      {
+        "label": "技术与入口",
+        "value": "SQL/Python、强 BI；Oracle 表单未验证"
+      }
+    ],
+    "employer_note": "官网岗位 26092984 可读，Oracle 同编号路由无可读表单；仅确认 JD 和入口，不保证此刻仍收件，勿混入 26092980。",
+    "personal": [
+      {
+        "label": "本科",
+        "value": "Liverpool 商科本科，2026.06 完成"
+      },
+      {
+        "label": "硕士",
+        "value": "NUS-ISS EBAC，2026.08 起在读"
+      },
+      {
+        "label": "一月到岗",
+        "value": "本人能否从 1 月全职开始仍待核"
+      },
+      {
+        "label": "课程条件",
+        "value": "须用成绩单逐项核对 JD 要求"
+      },
+      {
+        "label": "身份与学校",
+        "value": "有效准证、学校安排及雇主认可待核"
+      }
+    ],
+    "personal_note": "历史 3–8 月设想与官网 1–6 月不一致，不能据此确认可实习；需核个人真实档期、成绩单和身份，并补 SQL 与 BI 作品。",
+    "dimensions": [
+      {
+        "name": "市场与客群分析",
+        "status": "相关经历",
+        "note": "PwC、Ogilvy 研究可迁移，尚无酒店分析项目。",
+        "has_evidence": true
+      },
+      {
+        "name": "SQL 与 Python",
+        "status": "仅列技能",
+        "note": "CV 列相关工具，独立查询与处理作品仍待补。",
+        "has_evidence": false
+      },
+      {
+        "name": "Power BI / Tableau",
+        "status": "待补证据",
+        "note": "未见本人完成的交互看板，不将团队报告视为实操。",
+        "has_evidence": false
+      },
+      {
+        "name": "项目推进",
+        "status": "相关经历",
+        "note": "GGU 需求收集与协作有据，可选真实交付案例。",
+        "has_evidence": true
+      },
+      {
+        "name": "商业表达",
+        "status": "相关经历",
+        "note": "PwC Excel 分析与商业模式演示可支撑说明。",
+        "has_evidence": true
+      }
+    ],
+    "matrix": [
+      {
+        "need": "市场份额与客群分析",
+        "evidence": "PwC 行业研究；Ogilvy 竞品资料",
+        "verdict": "方法可迁移"
+      },
+      {
+        "need": "SQL / Python 数据处理",
+        "evidence": "CV 技能栏",
+        "verdict": "本人作品待补"
+      },
+      {
+        "need": "Power BI / Tableau",
+        "evidence": "未取得已完成看板文件",
+        "verdict": "关键待补"
+      },
+      {
+        "need": "自动报告与项目跟进",
+        "evidence": "GGU 流程设计与团队协作",
+        "verdict": "自动化上线未证实"
+      },
+      {
+        "need": "管理汇报与沟通",
+        "evidence": "PwC Excel 与演示",
+        "verdict": "有相关经历"
+      }
+    ],
+    "steps": [
+      {
+        "title": "先核一月全职可行性",
+        "text": "确认本人能否在 2027 年 1 月开始六个月全职，并取得学校依据；若只能三月须雇主明确接受。"
+      },
+      {
+        "title": "逐项核身份与课程",
+        "text": "用有效身份文件及成绩单对照 JD 条件，再由雇主确认适用性；不以英国本科学位推断工作资格。"
+      },
+      {
+        "title": "补商业分析与 BI 证据",
+        "text": "以明确标注的练习数据展示 SQL 回算和交互看板，解释市场、客群及渠道指标，避免虚构酒店成果。"
+      },
+      {
+        "title": "核准精确申请入口",
+        "text": "仅核对 26092984 的表单、截止和回执；不得与同名 26092980 合并，真实提交后再记录进度。"
+      }
+    ],
+    "dedup_note": "此卡为 Marriott 26092984；同名 26092980 单独处理，不共用回执、状态或进度。",
+    "status_label": "候选·待筛选",
+    "eligibility_title": "招聘与申请资格",
+    "match_title": "核心能力匹配",
+    "match_left_title": "能力画像",
+    "match_right_title": "JD × 个人证据矩阵",
+    "projects_title": "两段相关经历",
+    "projects": [
+      {
+        "name": "PwC · 行业与客户研究",
+        "subtitle": "2023.07–08｜实习经历",
+        "intro": "围绕新能源车、客户体验与售后议题整理资料，通过 Excel 分析和演示支持商业讨论。",
+        "bullets": [
+          "研究新能源车行业与客户体验",
+          "整理 Mercedes、BMW 等相关资料",
+          "用 Excel 分析并制作商业模式演示"
+        ],
+        "boundary": "可用于说明商业问题拆解与汇报，不代表本人做过该雇主项目；未取得行业运营、预测上线或已实现商业收益的证据，不作结果承诺。",
+        "english": ""
+      },
+      {
+        "name": "Ogilvy · 营销与媒介研究",
+        "subtitle": "2024.07–08｜实习经历",
+        "intro": "围绕品牌合作、竞品活动和媒介支出整理研究，为后续营销规划提供可追溯的资料依据。",
+        "bullets": [
+          "研究 SuperX 品牌合作与竞品活动",
+          "整理 2023–24 互联网广告及媒介数据",
+          "使用财报、艺恩等资料支持 2025 规划"
+        ],
+        "boundary": "这是营销研究与规划支持，不能写成本人管理付费社媒账户、执行广告投放或提升 ROI；实际预算和转化成果均无已核证据。",
+        "english": ""
+      }
+    ],
+    "prep_title": "申请行动与面试预练",
+    "questions": [
+      {
+        "en": "How would you distinguish a market-share problem from a market-wide demand decline?",
+        "zh": "如何区分市场份额下降与整个市场需求下滑？"
+      },
+      {
+        "en": "How would you design a commercial dashboard for hotel leaders?",
+        "zh": "为酒店管理者设计商业看板。"
+      },
+      {
+        "en": "SQL results disagree with a BI total. How would you debug the issue?",
+        "zh": "SQL 与 BI 总数不一致，如何排查？"
+      },
+      {
+        "en": "A channel grows revenue but brings lower-quality demand. How would you evaluate it?",
+        "zh": "某渠道收入增长，但需求质量可能下降，如何评估？"
+      },
+      {
+        "en": "How would you deliver an urgent analysis across several departments?",
+        "zh": "多个部门急需分析时如何推进？"
+      }
+    ],
+    "question_kind": "面试预练",
+    "question_note": "此处是预练，不代表面试邀约。",
+    "application_note": "原卡为候选、待人工筛选，未计入实投。2026-11-25 限定检索 9月1日至11月25日相关公司及申请关键词未命中；不据此断言从未投递，也不改变原状态。",
+    "cv_note": "以本轮读取的最新通用 CV 2.1 为准备基线；该岗提交版本未记录，本轮未制作或提交定制简历。",
+    "storage_key": "career-simple-page_8306f8869c90819189d01bf6db752df7-prep-v1"
+  },
+  {
+    "page_id": "page_04e1cb2978388191973e43ea459c81bc",
+    "company": "Deloitte Digital",
+    "role": "Graduate Analyst, Marketing, Commerce & Product",
+    "category": "candidate",
+    "filename": "deloitte-digital-04e1cb29.html",
+    "hero": "Deloitte Digital 应届岗要求商业分析、较强 SQL 与付费社媒经验；营销研究可讲方法，实际投放和有效工作资格是关键缺口。",
+    "pill": "先核硬门槛",
+    "employment": "应届正式岗位",
+    "short_id": "116767",
+    "kpis": [
+      {
+        "label": "APPLICATION · 投递状态",
+        "value": "候选·待筛选",
+        "note": "沿用原卡待人工筛选状态，本轮未记为实际投递。"
+      },
+      {
+        "label": "TYPE · 岗位性质",
+        "value": "应届正式岗",
+        "note": "不是实习职位，硕士在读期间能否入职须另核实。"
+      },
+      {
+        "label": "PERMIT · 明确门槛",
+        "value": "有效工作资格",
+        "note": "JD 明确要求有效新加坡工作许可或身份，个人待核。"
+      },
+      {
+        "label": "GAP · 关键缺口",
+        "value": "付费社媒实操",
+        "note": "已有营销研究不等于管理投放，不能虚构预算或 ROI。"
+      }
+    ],
+    "employer": [
+      {
+        "label": "招聘核验",
+        "value": "2026-11-25：官方 116767 可读并显示 Apply"
+      },
+      {
+        "label": "发布日期",
+        "value": "2026-11-07"
+      },
+      {
+        "label": "身份硬条件",
+        "value": "有效新加坡工作许可或身份"
+      },
+      {
+        "label": "能力门槛",
+        "value": "中高级 SQL、数据项目、客户分群与实验"
+      },
+      {
+        "label": "营销与安排",
+        "value": "含付费社媒管理；到岗、截止、最终表单待核"
+      }
+    ],
+    "employer_note": "2026-11-25 官方 JD 明示工作身份及营销能力要求；最终表单、截止和到岗未核，不推定雇主赞助准证，也不自行改为实习。",
+    "personal": [
+      {
+        "label": "本科",
+        "value": "Liverpool 商科本科，2026.06 完成"
+      },
+      {
+        "label": "硕士",
+        "value": "NUS-ISS EBAC，2026.08 起在读"
+      },
+      {
+        "label": "工作身份",
+        "value": "未取得本人当前有效许可凭证"
+      },
+      {
+        "label": "全职到岗",
+        "value": "硕士在读，最早正式入职日待核"
+      },
+      {
+        "label": "投放经验",
+        "value": "CV 仅有营销研究，无付费社媒管理记录"
+      }
+    ],
+    "personal_note": "商科背景和营销研究有据，但有效工作身份、全职到岗及付费社媒管理均未确认；SQL 也需用本人复杂查询和验证过程举证。",
+    "dimensions": [
+      {
+        "name": "商业问题拆解",
+        "status": "相关经历",
+        "note": "Ogilvy、PwC 有研究与汇报场景，可说明分析路径。",
+        "has_evidence": true
+      },
+      {
+        "name": "中高级 SQL",
+        "status": "仅列技能",
+        "note": "尚缺多表、窗口函数及查询核验的本人作品。",
+        "has_evidence": false
+      },
+      {
+        "name": "分群与实验",
+        "status": "待补证据",
+        "note": "原卡课程能力描述尚无锁定的个人作业支持。",
+        "has_evidence": false
+      },
+      {
+        "name": "付费社媒管理",
+        "status": "明确缺口",
+        "note": "Ogilvy 为研究支持，未证实本人操作账户或管理预算。",
+        "has_evidence": false
+      },
+      {
+        "name": "客户与团队表达",
+        "status": "相关经历",
+        "note": "GGU 需求澄清与 PwC 演示可提供真实案例。",
+        "has_evidence": true
+      }
+    ],
+    "matrix": [
+      {
+        "need": "业务问题与分析建议",
+        "evidence": "Ogilvy 营销研究、PwC 商业分析",
+        "verdict": "有相关经历"
+      },
+      {
+        "need": "中高级 SQL",
+        "evidence": "CV 列 SQL",
+        "verdict": "复杂查询待补"
+      },
+      {
+        "need": "客户分群与实验",
+        "evidence": "个人作业原件尚未核实",
+        "verdict": "待补证据"
+      },
+      {
+        "need": "增长营销与付费社媒",
+        "evidence": "Ogilvy 研究，不含投放管理",
+        "verdict": "明确缺口"
+      },
+      {
+        "need": "面向客户的报告",
+        "evidence": "PwC 演示与 GGU 需求协作",
+        "verdict": "具体交付物待选"
+      }
+    ],
+    "steps": [
+      {
+        "title": "先核工作身份与到岗",
+        "text": "确认本人是否符合 JD 的有效工作身份要求，再核正式到岗日与学业；不推定会获准证赞助。"
+      },
+      {
+        "title": "正面核对投放缺口",
+        "text": "如实说明 Ogilvy 仅做研究，核雇主是否接受可迁移经历；没有真实投放就不添加账户、预算或 ROI。"
+      },
+      {
+        "title": "准备查询与分析演示",
+        "text": "补一份可解释的复杂 SQL 练习及真实研究演示，标明练习、个人贡献和验证过程，避免冒充业绩。"
+      },
+      {
+        "title": "核官方表单与记录",
+        "text": "核实 116767 的最终表单和截止，再检查精确岗位回执；保留候选状态直至出现实际申请依据。"
+      }
+    ],
+    "dedup_note": "Deloitte 116767 与其他应届岗分开；LinkedIn 4476273357 仅为渠道标识。",
+    "status_label": "候选·待筛选",
+    "eligibility_title": "招聘与申请资格",
+    "match_title": "核心能力匹配",
+    "match_left_title": "能力画像",
+    "match_right_title": "JD × 个人证据矩阵",
+    "projects_title": "两段相关经历",
+    "projects": [
+      {
+        "name": "Ogilvy · 营销与媒介研究",
+        "subtitle": "2024.07–08｜实习经历",
+        "intro": "围绕品牌合作、竞品活动和媒介支出整理研究，为后续营销规划提供可追溯的资料依据。",
+        "bullets": [
+          "研究 SuperX 品牌合作与竞品活动",
+          "整理 2023–24 互联网广告及媒介数据",
+          "使用财报、艺恩等资料支持 2025 规划"
+        ],
+        "boundary": "这是营销研究与规划支持，不能写成本人管理付费社媒账户、执行广告投放或提升 ROI；实际预算和转化成果均无已核证据。",
+        "english": ""
+      },
+      {
+        "name": "PwC · 行业与客户研究",
+        "subtitle": "2023.07–08｜实习经历",
+        "intro": "围绕新能源车、客户体验与售后议题整理资料，通过 Excel 分析和演示支持商业讨论。",
+        "bullets": [
+          "研究新能源车行业与客户体验",
+          "整理 Mercedes、BMW 等相关资料",
+          "用 Excel 分析并制作商业模式演示"
+        ],
+        "boundary": "可用于说明商业问题拆解与汇报，不代表本人做过该雇主项目；未取得行业运营、预测上线或已实现商业收益的证据，不作结果承诺。",
+        "english": ""
+      }
+    ],
+    "prep_title": "申请行动与面试预练",
+    "questions": [
+      {
+        "en": "A client says marketing is not working. How would you turn that into an analytical problem?",
+        "zh": "客户说营销没效果，如何变成分析问题？"
+      },
+      {
+        "en": "How would you build customer segments and decide whether they are useful?",
+        "zh": "如何建立客户分群并判断是否有用？"
+      },
+      {
+        "en": "What would make a campaign ROI comparison misleading?",
+        "zh": "哪些情况会让活动 ROI 对比误导？"
+      },
+      {
+        "en": "What paid-social campaign work have you personally done?",
+        "zh": "你本人实际做过哪些付费社媒活动？"
+      },
+      {
+        "en": "How would you explain a non-significant test result to a client?",
+        "zh": "如何向客户解释不显著的测试结果？"
+      }
+    ],
+    "question_kind": "面试预练",
+    "question_note": "此处是预练，不代表面试邀约。",
+    "application_note": "原卡为候选、待人工筛选，未计入实投。2026-11-25 限定检索 9月1日至11月25日相关公司及申请关键词未命中；不据此断言从未投递，也不改变原状态。",
+    "cv_note": "以本轮读取的最新通用 CV 2.1 为准备基线；该岗提交版本未记录，本轮未制作或提交定制简历。",
+    "storage_key": "career-simple-page_04e1cb2978388191973e43ea459c81bc-prep-v1"
+  },
+  {
+    "page_id": "page_9e43317211308191a0036e43d4cdf27a",
+    "company": "TikTok Shop",
+    "role": "Operations Business Analyst",
+    "category": "candidate",
+    "filename": "tiktok-shop-9e433172.html",
+    "hero": "客服运营分析与现有流程、数据质量经历有连接，但一年相关经验、SQL 和 BI 看板实作仍需先核，当前保留候选未投。",
+    "pill": "先核经验门槛",
+    "employment": "正式岗 · Regular",
+    "short_id": "A191186A",
+    "status_label": "候选未投",
+    "kpis": [
+      {
+        "label": "APPLICATION · 投递状态",
+        "value": "候选未投",
+        "note": "原卡待人工筛选，本轮未投递，也未改变候选状态。"
+      },
+      {
+        "label": "EXPERIENCE · 经验门槛",
+        "value": "至少一年",
+        "note": "需按实际职责与日期核算，不能简单累加所有实习。"
+      },
+      {
+        "label": "TYPE · 雇佣类型",
+        "value": "正式岗位",
+        "note": "官网标 Regular，到岗日及学校安排仍需分别核对。"
+      },
+      {
+        "label": "EVIDENCE · 核验日期",
+        "value": "2026-11-25",
+        "note": "官网 JD 可读并显示申请入口，未测试实际提交。"
+      }
+    ],
+    "employer": [
+      {
+        "label": "招聘入口",
+        "value": "官网 JD 可读，显示本岗 Apply"
+      },
+      {
+        "label": "核心职责",
+        "value": "客服 KPI、异常根因、多市场分析和报告"
+      },
+      {
+        "label": "经验要求",
+        "value": "至少一年相关分析／运营／BI 经验"
+      },
+      {
+        "label": "技能要求",
+        "value": "SQL、多源数据、BI 看板与沟通"
+      },
+      {
+        "label": "起止与资格",
+        "value": "到岗、截止及工作许可支持待核"
+      }
+    ],
+    "employer_note": "2026-11-25 官网可读并显示申请入口；这只能证明页面状态，未验证实际提交。它是正式客服运营岗，不能直接改作学校实习。",
+    "personal": [
+      {
+        "label": "本科",
+        "value": "Liverpool 商业管理本科，2026 年 6 月完成"
+      },
+      {
+        "label": "在读",
+        "value": "NUS-ISS EBAC，2026 年 8 月入学"
+      },
+      {
+        "label": "通用简历",
+        "value": "CV 2.1；可访问当前版更新于 2026-11-14"
+      },
+      {
+        "label": "相关经验",
+        "value": "短期实习已记录，一年相关经验口径待核"
+      },
+      {
+        "label": "作品缺口",
+        "value": "CV 列 SQL；本人 BI 与自动化成品待补"
+      }
+    ],
+    "personal_note": "现有短期实习能支撑流程和沟通案例，但不自动满足一年相关分析经验。先核雇主认可口径、全职档期，再补本人 SQL 与 BI 作品。",
+    "dimensions": [
+      {
+        "name": "客服 KPI",
+        "status": "可迁移经历",
+        "note": "6Estates 流程审阅可迁移到问题拆解；真实客服指标与工单分析案例仍缺。",
+        "has_evidence": true
+      },
+      {
+        "name": "SQL 多源数据",
+        "status": "仅列技能",
+        "note": "CV 列 SQL；需补联表、去重、时区及指标口径的可运行代码。",
+        "has_evidence": false
+      },
+      {
+        "name": "数据质量",
+        "status": "相关经历",
+        "note": "6Estates 有文件分类与一致性测试准备；未证明生产管道维护或缺陷修复。",
+        "has_evidence": true
+      },
+      {
+        "name": "BI 自动化",
+        "status": "待补作品",
+        "note": "PwC Excel 呈现与 GGU 提示工作流可迁移；定时报告和 BI 刷新成果待补。",
+        "has_evidence": true
+      },
+      {
+        "name": "需求沟通",
+        "status": "相关经历",
+        "note": "GGU 与三家教育企业及 AI/UI 团队协作；应讲本人角色、取舍与实际结果。",
+        "has_evidence": true
+      }
+    ],
+    "matrix": [
+      {
+        "need": "客服指标与根因",
+        "evidence": "流程审阅、商业研究",
+        "verdict": "需补客服场景"
+      },
+      {
+        "need": "SQL 多源分析",
+        "evidence": "CV 技能自述",
+        "verdict": "查询作品待核"
+      },
+      {
+        "need": "准确性与一致性",
+        "evidence": "6Estates 测试样本准备",
+        "verdict": "有相关经历"
+      },
+      {
+        "need": "自助 BI 与报表",
+        "evidence": "Excel 呈现、Python 工作流",
+        "verdict": "成品待补"
+      },
+      {
+        "need": "跨团队沟通",
+        "evidence": "GGU 三家企业需求",
+        "verdict": "有直接证据"
+      }
+    ],
+    "projects": [
+      {
+        "name": "6Estates 贷前 AI 测试准备",
+        "subtitle": "个人实习 · Jun–Sep 2026",
+        "intro": "围绕文件、流程和一致性准备测试材料，可用于解释数据质量意识与异常定义方法。",
+        "bullets": [
+          "审阅个人及 SME 贷前申请流程",
+          "按类型、格式和质量整理文件样本",
+          "准备解析和跨文件一致性测试场景"
+        ],
+        "boundary": "这是测试准备与需求审阅经历，不是客服分析或生产数据管道项目；不声明已修复系统、训练模型或实现量化业务提升。",
+        "english": ""
+      },
+      {
+        "name": "PAL 周采购预测",
+        "subtitle": "课程团队项目 · 个人份额待核",
+        "intro": "团队材料涉及时间验证和不同聚合层级的误差，可迁移到客服指标切片与解释方法。",
+        "bullets": [
+          "比较门店×酒类、酒类与每周总量",
+          "使用时间验证并对照 MA4 基线",
+          "解释整体指标可能掩盖局部误差"
+        ],
+        "boundary": "项目材料存在多个运行版本，本次未独立重跑或确认个人份额；不混用成绩，不把方法迁移写成真实客服或库存业务成果。",
+        "english": ""
+      }
+    ],
+    "steps": [
+      {
+        "title": "核一年经验",
+        "text": "按非重叠日期和实际职责整理经历，先由雇主确认哪些工作可计入相关分析经验，不直接累加实习。"
+      },
+      {
+        "title": "确认全职档期",
+        "text": "对照本人课程、项目与答辩安排，核本岗开始日和工作资格；未经双方确认，不转换成学校实习。"
+      },
+      {
+        "title": "补 SQL 与看板",
+        "text": "准备含联表、去重、指标字典、刷新校验和异常调查的个人样例，清楚注明练习数据与本人工作。"
+      },
+      {
+        "title": "再做推进决定",
+        "text": "核对 TikTok 全球两岗规则及本人已用名额，再到原调度台决定是否推进；本地练习不改变状态。"
+      }
+    ],
+    "application_note": "原卡为待人工筛选、当前未投递。本次在 2026-11-14 至 11-25 范围检索 Gmail，未找到本岗确认回执；未命中不证明从未申请。同公司 GBS 回执不计入本岗。",
+    "cv_note": "尚未提交本岗材料；当前通用 CV 2.1 仅作准备基线。项目归属与作品核实后再定制，不把草稿记为提交版。",
+    "dedup_note": "TikTok + A191186A 独立保留；与已投 GBS A106562 分开，另需核公司全球最多两岗规则。",
+    "eligibility_title": "招聘与申请资格",
+    "match_title": "核心能力匹配",
+    "match_left_title": "能力画像",
+    "match_right_title": "JD × 个人证据矩阵",
+    "projects_title": "两段相关经历",
+    "prep_title": "申请行动与面试预练",
+    "questions": [
+      {
+        "en": "How would you investigate a sudden rise in support resolution time?",
+        "zh": "处理时长突然升高，你如何定位？"
+      },
+      {
+        "en": "How would you join ticket, order and contact data without double counting?",
+        "zh": "工单、订单和联系记录如何联表避免重复？"
+      },
+      {
+        "en": "What would you include in a self-service operations dashboard?",
+        "zh": "自助客服看板应包括什么？"
+      },
+      {
+        "en": "Describe a data inconsistency you investigated.",
+        "zh": "讲一个你实际接触的数据不一致问题。"
+      },
+      {
+        "en": "How would you prioritise an urgent request against a recurring report?",
+        "zh": "临时紧急请求与固定报告冲突时如何安排？"
+      }
+    ],
+    "question_kind": "面试预练",
+    "question_note": "此处是预练，不代表面试邀约。",
+    "storage_key": "career-simple-page_9e43317211308191a0036e43d4cdf27a-prep-v1"
+  },
+  {
+    "page_id": "page_f7760f4268788191b0b72f729e8bd0ba",
+    "company": "Shopee",
+    "role": "Marketing Associate, Livestream Team",
+    "category": "candidate",
+    "filename": "shopee-f7760f42.html",
+    "hero": "这是一份以直播制作、现场设备与活动执行为主的岗位；摄影和营销研究可迁移，但 OBS、推流及真实直播作品仍需补证。",
+    "pill": "直播实操待补",
+    "employment": "全职 · 新加坡",
+    "short_id": "岗位号待核",
+    "status_label": "候选未投",
+    "kpis": [
+      {
+        "label": "APPLICATION · 投递状态",
+        "value": "候选未投",
+        "note": "原卡待人工筛选且偏执行，本轮保持候选状态。"
+      },
+      {
+        "label": "FOCUS · 岗位重心",
+        "value": "直播制作",
+        "note": "设备搭建、实时管理和活动执行是核心工作内容。"
+      },
+      {
+        "label": "SKILLS · 实操门槛",
+        "value": "OBS 待举证",
+        "note": "摄影与航拍经验可迁移，不能替代直播推流实操。"
+      },
+      {
+        "label": "START · 到岗日期",
+        "value": "待核",
+        "note": "正式全职到岗与本人 EBAC 学业安排尚未确认。"
+      }
+    ],
+    "employer": [
+      {
+        "label": "招聘入口",
+        "value": "雇主 LinkedIn JD 可读并显示 Apply"
+      },
+      {
+        "label": "核心职责",
+        "value": "大促直播策划、设备搭建与现场执行"
+      },
+      {
+        "label": "分析部分",
+        "value": "主播激励、活动指标和直播复盘"
+      },
+      {
+        "label": "实操要求",
+        "value": "OBS、相机、灯光、收音及直播制作"
+      },
+      {
+        "label": "未核项目",
+        "value": "官网岗位号、截止及正式到岗日期"
+      }
+    ],
+    "employer_note": "2026-11-25 雇主 LinkedIn 可读，但官网独立申请页与岗位编号未核实。分析复盘服务于直播执行，不能将岗位改写为纯数据分析。",
+    "personal": [
+      {
+        "label": "本科",
+        "value": "Liverpool 商业管理本科，2026 年 6 月完成"
+      },
+      {
+        "label": "在读",
+        "value": "NUS-ISS EBAC，2026 年 8 月入学"
+      },
+      {
+        "label": "通用简历",
+        "value": "CV 2.1；可访问当前版更新于 2026-11-14"
+      },
+      {
+        "label": "相关基础",
+        "value": "航拍项目、校园活动领导及营销研究"
+      },
+      {
+        "label": "主要缺口",
+        "value": "没有已核实的 OBS 或商业直播制作记录"
+      }
+    ],
+    "personal_note": "CV 支持航拍领导、操作手册及营销研究，却未证明 OBS、直播收音或现场切换能力。先确认职业方向与全职档期，再补真实操作证据。",
+    "dimensions": [
+      {
+        "name": "直播制作",
+        "status": "可迁移基础",
+        "note": "航拍与操作手册体现设备意识；OBS、切换台、收音和推流均需另外举证。",
+        "has_evidence": true
+      },
+      {
+        "name": "活动执行",
+        "status": "相关经历",
+        "note": "校园活动领导可用于讲分工与现场组织；不把营销研究写成商业大促执行。",
+        "has_evidence": true
+      },
+      {
+        "name": "KPI 复盘",
+        "status": "待补场景",
+        "note": "Excel 和商业分析训练可支撑指标设计；尚缺真实直播漏斗与主播激励复盘。",
+        "has_evidence": true
+      },
+      {
+        "name": "跨团队协同",
+        "status": "相关经历",
+        "note": "GGU 多方需求与社团领导有依据；KOL 合作与商业交付成果尚未确认。",
+        "has_evidence": true
+      },
+      {
+        "name": "内容判断",
+        "status": "相关研究",
+        "note": "Ogilvy 品牌和竞品活动研究可支持策划假设；本人直播脚本与转化证据待补。",
+        "has_evidence": true
+      }
+    ],
+    "matrix": [
+      {
+        "need": "直播器材及排障",
+        "evidence": "航拍和操作手册",
+        "verdict": "不能替代直播"
+      },
+      {
+        "need": "活动策划执行",
+        "evidence": "校园活动领导",
+        "verdict": "部分可迁移"
+      },
+      {
+        "need": "直播指标复盘",
+        "evidence": "PwC Excel 分析",
+        "verdict": "缺直播案例"
+      },
+      {
+        "need": "跨团队协调",
+        "evidence": "GGU 与社团经历",
+        "verdict": "有相关证据"
+      },
+      {
+        "need": "品牌与内容",
+        "evidence": "Ogilvy 竞品研究",
+        "verdict": "需本人作品"
+      }
+    ],
+    "projects": [
+      {
+        "name": "校园航拍与活动组织",
+        "subtitle": "个人领导经历 · CV 已记录",
+        "intro": "航拍项目与部门操作手册可以支撑设备、安全和分工叙述，适合说明现场工作习惯。",
+        "bullets": [
+          "带领航拍项目与大学活动",
+          "编制设备、安全与操作手册",
+          "以真实事件说明现场分工和处理"
+        ],
+        "boundary": "航拍和校园组织不等于商业直播或 OBS 使用；不能补写直播销售、商业客户或转化成果，未做过的环节应明确作为待学习项。",
+        "english": ""
+      },
+      {
+        "name": "Ogilvy 营销研究",
+        "subtitle": "个人实习 · Jul–Aug 2024",
+        "intro": "品牌联名、竞品活动和媒体数据研究，可用于解释如何形成内容方向和验证假设。",
+        "bullets": [
+          "研究 Snowbeer superX 品牌合作",
+          "分析竞品活动与广告支出趋势",
+          "把观察转成可验证的策划假设"
+        ],
+        "boundary": "CV 支持的是分析与规划建议，未证明本人执行直播营销、负责投放或提升转化；课程或演练方案应与商业实绩分别说明。",
+        "english": ""
+      }
+    ],
+    "steps": [
+      {
+        "title": "确认目标方向",
+        "text": "先决定是否愿意以直播电商执行作为工作主线，结合实际任务判断兴趣，不因有指标复盘就视作纯分析岗。"
+      },
+      {
+        "title": "核全职安排",
+        "text": "确认雇主开始日期、全职要求及学校安排；正式岗位不能在未经雇主和学校同意时写为实习。"
+      },
+      {
+        "title": "补直播作品",
+        "text": "制作或整理真实 OBS 与现场设备演练，注明本人操作、故障处理和结果；练习作品明确标注练习。"
+      },
+      {
+        "title": "保留独立记录",
+        "text": "核门槛后在原调度台做决定；本岗与 Shopee 跨境规划及区域内容岗分开，不复用其他岗位回执。"
+      }
+    ],
+    "application_note": "原卡记录待人工筛选、当前未投递。本次 2026-11-14 至 11-25 的公司相关 Gmail 检索未找到直播岗确认回执；Shopee 跨境规划已投回执不能作为本岗申请凭证。",
+    "cv_note": "尚未提交本岗材料；当前通用 CV 2.1 仅作准备基线。项目归属与作品核实后再定制，不把草稿记为提交版。",
+    "dedup_note": "Shopee 直播岗，新加坡；渠道号4432244072，与跨境规划及区域内容岗分开。",
+    "eligibility_title": "招聘与申请资格",
+    "match_title": "核心能力匹配",
+    "match_left_title": "能力画像",
+    "match_right_title": "JD × 个人证据矩阵",
+    "projects_title": "两段相关经历",
+    "prep_title": "申请行动与面试预练",
+    "questions": [
+      {
+        "en": "How would you plan a double-digit sales livestream?",
+        "zh": "如何筹备一次大促直播？"
+      },
+      {
+        "en": "What would you do if audio failed during a live broadcast?",
+        "zh": "直播收音故障时如何处理？"
+      },
+      {
+        "en": "Which metrics distinguish engagement from commercial impact?",
+        "zh": "哪些指标分别代表互动与商业效果？"
+      },
+      {
+        "en": "How would you evaluate a host incentive scheme?",
+        "zh": "如何评估主播激励？"
+      },
+      {
+        "en": "How does your photography experience transfer to livestream work?",
+        "zh": "摄影经历能迁移哪些能力？"
+      }
+    ],
+    "question_kind": "面试预练",
+    "question_note": "此处是预练，不代表面试邀约。",
+    "storage_key": "career-simple-page_f7760f4268788191b0b72f729e8bd0ba-prep-v1"
+  },
+  {
+    "page_id": "page_3f738fc97b3c81919284600c5949c345",
+    "company": "UpStride",
+    "role": "MarTech Consultant",
+    "category": "candidate",
+    "filename": "upstride-3f738fc9.html",
+    "hero": "初级 MarTech 岗连接营销、数据与客户方案，现有研究和 AI 需求经历可衔接；全职档期与 CEP/CDP 实施作品仍需先补。",
+    "pill": "优先复核",
+    "employment": "全职 · 0–2 年",
+    "short_id": "岗位号待核",
+    "status_label": "候选未投",
+    "kpis": [
+      {
+        "label": "APPLICATION · 投递状态",
+        "value": "候选未投",
+        "note": "原卡待人工筛选且优先看，本轮保留候选未投。"
+      },
+      {
+        "label": "EXPERIENCE · 经验要求",
+        "value": "0–2 年",
+        "note": "官网欢迎应届，现有短期营销与技术实习可对照。"
+      },
+      {
+        "label": "TYPE · 雇佣类型",
+        "value": "全职",
+        "note": "当前没有明确到岗日，仍需核对本人学业安排。"
+      },
+      {
+        "label": "GAP · 核心缺口",
+        "value": "CEP/CDP",
+        "note": "需求与提示工作流有依据，真实平台实施尚待补。"
+      }
+    ],
+    "employer": [
+      {
+        "label": "招聘入口",
+        "value": "官网 JD 可读，显示申请入口"
+      },
+      {
+        "label": "经验口径",
+        "value": "0–2 年相关经历，欢迎应届"
+      },
+      {
+        "label": "业务职责",
+        "value": "CRM 旅程、客户分群及实验衡量"
+      },
+      {
+        "label": "交付内容",
+        "value": "CEP/CDP 配置、客户方案和演示"
+      },
+      {
+        "label": "起止与编号",
+        "value": "开始日、截止及独立招聘编号未列"
+      }
+    ],
+    "employer_note": "2026-11-25 官网明确全职并欢迎应届，职责同时包含策略、执行和平台配置。页面未见明确到岗或截止日期，不能推定可按学校档期入职。",
+    "personal": [
+      {
+        "label": "本科",
+        "value": "Liverpool 商业管理本科，2026 年 6 月完成"
+      },
+      {
+        "label": "在读",
+        "value": "NUS-ISS EBAC，2026 年 8 月入学"
+      },
+      {
+        "label": "通用简历",
+        "value": "CV 2.1；可访问当前版更新于 2026-11-14"
+      },
+      {
+        "label": "相关经历",
+        "value": "Ogilvy 研究、PwC 呈现、GGU 需求工作"
+      },
+      {
+        "label": "平台证据",
+        "value": "没有已核实的 CEP/CDP 正式实施经历"
+      }
+    ],
+    "personal_note": "现有营销、Excel 呈现和 AI 需求经历可支持初级顾问叙述；课程分群与实验不能写作客户上线成果。先核全职档期，再整理本人案例。",
+    "dimensions": [
+      {
+        "name": "客户旅程",
+        "status": "可迁移经历",
+        "note": "营销研究与需求梳理可支撑场景设计；课程 RFM 方案需补原材料及本人贡献。",
+        "has_evidence": true
+      },
+      {
+        "name": "CEP/CDP",
+        "status": "待补实作",
+        "note": "GGU 有 API 整合建议，但不是 CEP/CDP 上线；真实分群、触发和配置作品待补。",
+        "has_evidence": false
+      },
+      {
+        "name": "增量与实验",
+        "status": "课程与团队证据",
+        "note": "课程对照案例和 ABD 局限讨论可迁移；不能写为客户增量利润或真实商户实验。",
+        "has_evidence": true
+      },
+      {
+        "name": "数据与查询",
+        "status": "部分有依据",
+        "note": "PwC 有 Excel 分析，CV 列 SQL；分群查询、事件去重与身份合并示例仍需补齐。",
+        "has_evidence": true
+      },
+      {
+        "name": "客户沟通",
+        "status": "相关经历",
+        "note": "GGU 多方需求和 PwC 研究呈现有依据；准备本人参与的需求取舍及可公开演示。",
+        "has_evidence": true
+      }
+    ],
+    "matrix": [
+      {
+        "need": "CRM 客户旅程",
+        "evidence": "营销研究、课程分群",
+        "verdict": "需原案例"
+      },
+      {
+        "need": "CEP/CDP 配置",
+        "evidence": "API 整合建议",
+        "verdict": "不是实施证据"
+      },
+      {
+        "need": "实验与增量",
+        "evidence": "课程案例、ABD 讨论",
+        "verdict": "非客户实绩"
+      },
+      {
+        "need": "数据处理",
+        "evidence": "Excel 实践、SQL 自述",
+        "verdict": "查询待补"
+      },
+      {
+        "need": "演示与客户沟通",
+        "evidence": "GGU、PwC",
+        "verdict": "有相关证据"
+      }
+    ],
+    "projects": [
+      {
+        "name": "GGU AI 评估需求与工作流",
+        "subtitle": "个人实习 · May–Sep 2025",
+        "intro": "三家教育企业需求和 Python 提示工作流，为解释目标、流程及客户沟通提供具体案例。",
+        "bullets": [
+          "收集教育企业的需求",
+          "与 AI 程序员及 UI 设计师协作",
+          "设计 Python 提示工作流并提出 API 方案"
+        ],
+        "boundary": "这是需求、工作流设计和 API 集成建议，不是 CDP/CEP 上线证明；不能将提议改成生产部署、已实现节时或客户商业效果。",
+        "english": ""
+      },
+      {
+        "name": "营销研究与客户旅程案例",
+        "subtitle": "Ogilvy 实习 + 原卡课程线索",
+        "intro": "营销研究有 CV 依据；课程分群和旅程案例可作练习作品，但仍须补材料和本人分工。",
+        "bullets": [
+          "用市场与竞品研究形成业务假设",
+          "用 RFM 案例说明人群与触发",
+          "用对照及利润口径设计评估方案"
+        ],
+        "boundary": "课程方案不等于真实商户实验或客户运营结果；本人贡献与原材料尚需核对，不声称已配置平台、上线旅程或获得增量利润。",
+        "english": ""
+      }
+    ],
+    "steps": [
+      {
+        "title": "确认到岗和意愿",
+        "text": "核全职开始日，并确认自己接受客户沟通、平台配置与执行工作；如需学校实习安排，须另行确认。"
+      },
+      {
+        "title": "整理旅程案例",
+        "text": "用一份真实课程材料串起人群、触发、触点、对照与指标，注明教学性质及自己负责部分。"
+      },
+      {
+        "title": "补配置与查询",
+        "text": "准备分群查询、事件去重及简单平台配置样例；只把实际操作写为经验，未执行部分标为方案。"
+      },
+      {
+        "title": "再定制申请材料",
+        "text": "核门槛后整理简历与简短动机说明，并附可公开作品；由本人在原调度台决定推进及实际提交。"
+      }
+    ],
+    "application_note": "原卡为待人工筛选、优先看，当前未投递。2026-11-14 至 11-25 的限定 Gmail 检索未找到本岗确认回执；未命中不证明从未申请，本轮未发送申请邮件或更改状态。",
+    "cv_note": "尚未提交本岗材料；当前通用 CV 2.1 仅作准备基线。项目归属与作品核实后再定制，不把草稿记为提交版。",
+    "dedup_note": "UpStride 新加坡 MarTech 岗；渠道号4489065453，同岗仅保留一条记录。",
+    "eligibility_title": "招聘与申请资格",
+    "match_title": "核心能力匹配",
+    "match_left_title": "能力画像",
+    "match_right_title": "JD × 个人证据矩阵",
+    "projects_title": "两段相关经历",
+    "prep_title": "申请行动与面试预练",
+    "questions": [
+      {
+        "en": "Design a reactivation journey for dormant customers.",
+        "zh": "为沉默客户设计唤回旅程。"
+      },
+      {
+        "en": "How would you configure and validate a segment in a CDP?",
+        "zh": "如何在 CDP 配置并验证分群？"
+      },
+      {
+        "en": "How would you measure incremental campaign profit?",
+        "zh": "如何测量营销的增量利润？"
+      },
+      {
+        "en": "How would you explain a technical limitation to a client?",
+        "zh": "如何向客户解释技术限制？"
+      },
+      {
+        "en": "Show a slide that turns analysis into a decision.",
+        "zh": "用一页演示把分析转成决策。"
+      }
+    ],
+    "question_kind": "面试预练",
+    "question_note": "此处是预练，不代表面试邀约。",
+    "storage_key": "career-simple-page_3f738fc97b3c81919284600c5949c345-prep-v1"
+  },
+  {
+    "page_id": "page_5b8bd2a94ca881918818f570209e38ea",
+    "company": "Shopee",
+    "role": "Regional Content Specialist, Regional Brand & Growth Marketing",
+    "category": "candidate",
+    "filename": "shopee-5b8bd2a9.html",
+    "hero": "岗位重心是 Monee 区域 SEO 内容交付，AI 工作流和营销研究仅部分可迁移；两年相关内容经验及搜索工具作品尚未举证。",
+    "pill": "先核两年经验",
+    "employment": "全职 · 区域内容",
+    "short_id": "岗位号待核",
+    "status_label": "候选未投",
+    "kpis": [
+      {
+        "label": "APPLICATION · 投递状态",
+        "value": "候选未投",
+        "note": "原卡待人工筛选，经验门槛待核，未改为已投。"
+      },
+      {
+        "label": "EXPERIENCE · 经验门槛",
+        "value": "至少两年",
+        "note": "需真实 SEO、数字内容或编辑经历，不能按兴趣折算。"
+      },
+      {
+        "label": "TOOLS · 工具证据",
+        "value": "待补",
+        "note": "相关搜索工具未见实际操作证据，需补个人作品。"
+      },
+      {
+        "label": "FOCUS · 工作重心",
+        "value": "SEO 内容",
+        "note": "支持 Monee 区域内容交付，不等同金融数据分析。"
+      }
+    ],
+    "employer": [
+      {
+        "label": "招聘入口",
+        "value": "雇主 LinkedIn JD 可读并显示 Apply"
+      },
+      {
+        "label": "服务业务",
+        "value": "支持 Monee 的区域 SEO 内容工作"
+      },
+      {
+        "label": "经验要求",
+        "value": "原卡记至少两年相关内容／SEO 经验"
+      },
+      {
+        "label": "核心技能",
+        "value": "搜索意图、内容优化、AI 流程及协调"
+      },
+      {
+        "label": "未核项目",
+        "value": "官网岗位号、截止和全职开始日期"
+      }
+    ],
+    "employer_note": "2026-11-25 雇主渠道可读；两年经验沿用原卡核验记录，官网独立页仍待核。虽服务 Monee，本岗为区域内容工作，身份单独保留。",
+    "personal": [
+      {
+        "label": "本科",
+        "value": "Liverpool 商业管理本科，2026 年 6 月完成"
+      },
+      {
+        "label": "在读",
+        "value": "NUS-ISS EBAC，2026 年 8 月入学"
+      },
+      {
+        "label": "通用简历",
+        "value": "CV 2.1；可访问当前版更新于 2026-11-14"
+      },
+      {
+        "label": "相关基础",
+        "value": "Ogilvy 营销研究、GGU 提示工作流"
+      },
+      {
+        "label": "主要缺口",
+        "value": "两年内容经验、SEO 作品及工具均未举证"
+      }
+    ],
+    "personal_note": "CV 没有两年专业 SEO 或内容岗位经历，也未列相关工具。学习资料整理、摄影兴趣和 AI 使用不能替代经验门槛，先补证再投入深度定制。",
+    "dimensions": [
+      {
+        "name": "搜索意图",
+        "status": "待补证据",
+        "note": "市场研究可支持判断，但缺关键词、搜索结果意图及页面优化作品，暂不认定 SEO 实操。",
+        "has_evidence": false
+      },
+      {
+        "name": "AI 内容流程",
+        "status": "可迁移经历",
+        "note": "GGU 提示工作流有依据；访谈评估不等于规模化 SEO 内容生产或搜索流量成果。",
+        "has_evidence": true
+      },
+      {
+        "name": "SEO 测量",
+        "status": "待补证据",
+        "note": "分析训练可迁移，尚无 GSC、GA 或 Ahrefs 数据与真实内容实验记录。",
+        "has_evidence": false
+      },
+      {
+        "name": "区域协作",
+        "status": "相关经历",
+        "note": "GGU 跨职能沟通与双语能力有依据；多市场内容审校和本地化交付尚缺。",
+        "has_evidence": true
+      },
+      {
+        "name": "编辑经验",
+        "status": "年限待核",
+        "note": "CV 的营销研究和摄影领导不能替代两年专业内容经验，需要时间、职责及作品证明。",
+        "has_evidence": false
+      }
+    ],
+    "matrix": [
+      {
+        "need": "至少两年内容经验",
+        "evidence": "当前 CV 未见对应记录",
+        "verdict": "先核硬门槛"
+      },
+      {
+        "need": "搜索意图与优化",
+        "evidence": "营销研究可迁移",
+        "verdict": "缺 SEO 作品"
+      },
+      {
+        "need": "AI 内容质量",
+        "evidence": "GGU 提示工作流",
+        "verdict": "不同业务场景"
+      },
+      {
+        "need": "搜索工具与实验",
+        "evidence": "未见实际操作记录",
+        "verdict": "待补证据"
+      },
+      {
+        "need": "跨市场协作",
+        "evidence": "GGU 沟通、双语能力",
+        "verdict": "部分可迁移"
+      }
+    ],
+    "projects": [
+      {
+        "name": "GGU 提示与评估工作流",
+        "subtitle": "个人实习 · 非 SEO 项目",
+        "intro": "访谈评估流程可用于解释结构化输出与质量审阅，但需要清楚区分业务场景和成果边界。",
+        "bullets": [
+          "分析语言、逻辑和语境维度",
+          "设计 Python 提示工作流",
+          "与企业及技术团队讨论需求"
+        ],
+        "boundary": "现有证据支持提示设计与需求工作，不证明 SEO 规模化交付或搜索排名提升；API 建议不能当作上线，输出质量仍需实际记录。",
+        "english": ""
+      },
+      {
+        "name": "Ogilvy 市场与媒体研究",
+        "subtitle": "个人实习 · Jul–Aug 2024",
+        "intro": "广告支出、媒体趋势和竞品研究可以说明来源判断及业务解释，不直接构成内容运营经验。",
+        "bullets": [
+          "收集公司报告及媒体市场资料",
+          "分析广告支出和品牌合作",
+          "形成基于证据的规划建议"
+        ],
+        "boundary": "不声称本人编辑 SEO 内容、操作搜索工具或取得流量增长；研究与专业内容运营是不同证据，无法据此推算两年相关从业经验。",
+        "english": ""
+      }
+    ],
+    "steps": [
+      {
+        "title": "先核经验门槛",
+        "text": "整理实际内容工作的时段、职责、发布作品和证明；没有足够依据时保留待核，不用兴趣或工具使用替代。"
+      },
+      {
+        "title": "补 SEO 工具证据",
+        "text": "如有实际经验，展示本人关键词判断、页面优化、搜索表现及操作记录，明确数据来源和观察期间。"
+      },
+      {
+        "title": "核到岗与正式要求",
+        "text": "确认官网岗位身份、全职起始日和工作资格，再对照本人学业安排；不自行变更为学校实习。"
+      },
+      {
+        "title": "由本人决定取舍",
+        "text": "核完硬门槛后在调度台选择推进或暂不投；练习勾选只保存学习进度，不形成申请或自动改变候选状态。"
+      }
+    ],
+    "application_note": "原卡为待人工筛选、经验门槛待核，当前未投递。2026-11-14 至 11-25 的限定 Gmail 检索未找到本岗回执；Shopee 跨境规划或 Monee 数据分析记录不能混入本岗。",
+    "cv_note": "尚未提交本岗材料；当前通用 CV 2.1 仅作准备基线。项目归属与作品核实后再定制，不把草稿记为提交版。",
+    "dedup_note": "Shopee 区域内容岗，渠道号4450318922；与 Monee 数据岗及跨境规划岗分开。",
+    "eligibility_title": "招聘与申请资格",
+    "match_title": "核心能力匹配",
+    "match_left_title": "能力画像",
+    "match_right_title": "JD × 个人证据矩阵",
+    "projects_title": "两段相关经历",
+    "prep_title": "申请行动与面试预练",
+    "questions": [
+      {
+        "en": "How would you distinguish informational and transactional search intent?",
+        "zh": "怎样区分信息型和交易型搜索意图？"
+      },
+      {
+        "en": "How would you audit an AI-generated finance article?",
+        "zh": "如何审核 AI 生成的金融内容？"
+      },
+      {
+        "en": "Why might impressions rise while clicks fall?",
+        "zh": "曝光升高但点击减少可能意味着什么？"
+      },
+      {
+        "en": "How would you coordinate content delivery across markets?",
+        "zh": "多市场内容交付如何协调？"
+      },
+      {
+        "en": "What evidence demonstrates your two years of relevant experience?",
+        "zh": "什么证据能证明两年相关经验？"
+      }
+    ],
+    "question_kind": "面试预练",
+    "question_note": "此处是预练，不代表面试邀约。",
+    "storage_key": "career-simple-page_5b8bd2a94ca881918818f570209e38ea-prep-v1"
+  },
+  {
+    "page_id": "page_7974d07ca818819181490083456a53b3",
+    "company": "Monee",
+    "role": "Data Analyst (2027 Graduate)",
+    "category": "candidate",
+    "filename": "monee-7974d07c.html",
+    "hero": "6Estates 贷前数据与 ABD 融资研究可连接零售金融；先核雇佣性质，以及最迟2027年7月毕业、最迟8月到岗的要求。",
+    "pill": "A 级优先复核",
+    "employment": "雇佣性质待核",
+    "short_id": "岗位号待核",
+    "status_label": "评估中·未投",
+    "kpis": [
+      {
+        "label": "APPLICATION · 投递状态",
+        "value": "评估中·未投",
+        "note": "原卡仍为尚未投递，准备和预练不会改变该状态。"
+      },
+      {
+        "label": "GRADUATION · 毕业要求",
+        "value": "最迟 2027.07",
+        "note": "毕业完成口径及具体截止日，须由学校及 HR 确认。"
+      },
+      {
+        "label": "START · 入职要求",
+        "value": "最迟 2027.08",
+        "note": "最迟八月到岗，具体开始日及本人全职资格待确认。"
+      },
+      {
+        "label": "TYPE · 雇佣性质",
+        "value": "待核",
+        "note": "雇主渠道的志愿者标签仍存在，官网本岗表单未取得。"
+      }
+    ],
+    "employer": [
+      {
+        "label": "招聘入口",
+        "value": "LinkedIn 可读；官网 Jobs 返回动态壳"
+      },
+      {
+        "label": "雇佣性质",
+        "value": "Volunteer 标签冲突，带薪正式性质待核"
+      },
+      {
+        "label": "毕业与入职",
+        "value": "毕业最迟2027年7月；到岗最迟8月"
+      },
+      {
+        "label": "核心要求",
+        "value": "相关学历、SQL、Python 和可视化"
+      },
+      {
+        "label": "身份与申请",
+        "value": "官方编号、截止、许可支持及申请表待核"
+      }
+    ],
+    "employer_note": "2026-11-25 雇主渠道仍标 Volunteer，官网本岗申请表未取得。保留性质冲突，不认定已关闭，也不自行改为带薪全职。",
+    "personal": [
+      {
+        "label": "本科",
+        "value": "Liverpool 商业管理本科，2026 年 6 月完成"
+      },
+      {
+        "label": "在读",
+        "value": "NUS-ISS EBAC，2026 年 8 月入学"
+      },
+      {
+        "label": "通用简历",
+        "value": "CV 2.1；可访问当前版更新于 2026-11-14"
+      },
+      {
+        "label": "毕业档期",
+        "value": "本人 2026 入学批次完成与授予日期待核"
+      },
+      {
+        "label": "资格路径",
+        "value": "是否接受已完成本科且硕士在读，须问 HR"
+      }
+    ],
+    "personal_note": "本科已完成，但不自动解除硕士在读与到岗约束。需核本批次课程、项目、答辩及毕业信日期，并由 HR 确认本科资格能否满足应届口径。",
+    "dimensions": [
+      {
+        "name": "零售金融",
+        "status": "相关经历",
+        "note": "6Estates 贷前流程与文件测试准备有依据；不等于授信、还款风险或贷款审批建模。",
+        "has_evidence": true
+      },
+      {
+        "name": "指标与判断",
+        "status": "团队项目证据",
+        "note": "ABD 涉及融资比率和样本审计；个人贡献待核，政策暴露也不能当作实际获得贷款。",
+        "has_evidence": true
+      },
+      {
+        "name": "SQL / Python",
+        "status": "部分有依据",
+        "note": "CV 列两项技能，GGU 有 Python 工作流；金融联表、清洗和验证代码仍待补。",
+        "has_evidence": true
+      },
+      {
+        "name": "可视化报告",
+        "status": "成品待补",
+        "note": "PwC Excel 呈现有依据；ABD 的 Power BI Desktop 刷新未完成，不当作交付看板。",
+        "has_evidence": true
+      },
+      {
+        "name": "需求与自动化",
+        "status": "相关经历",
+        "note": "GGU 需求协作、6Estates 流程审阅可支持沟通；生产自动化和节时收益尚无证据。",
+        "has_evidence": true
+      }
+    ],
+    "matrix": [
+      {
+        "need": "金融数据理解",
+        "evidence": "6Estates 贷前流程",
+        "verdict": "有相关经历"
+      },
+      {
+        "need": "指标及样本判断",
+        "evidence": "ABD 团队报告",
+        "verdict": "个人贡献待核"
+      },
+      {
+        "need": "SQL / Python",
+        "evidence": "技能自述、GGU 工作流",
+        "verdict": "需数据作品"
+      },
+      {
+        "need": "管理看板",
+        "evidence": "PwC Excel；ABD BI 未完成",
+        "verdict": "待补成品"
+      },
+      {
+        "need": "需求与流程优化",
+        "evidence": "GGU、6Estates",
+        "verdict": "不宣称生产收益"
+      }
+    ],
+    "projects": [
+      {
+        "name": "6Estates 贷前 AI Agent",
+        "subtitle": "个人实习 · Jun–Sep 2026",
+        "intro": "围绕个人及 SME 申请流程、文件验证和测试样本准备，建立与金融数据质量的具体连接。",
+        "bullets": [
+          "审阅文档收集与初步评估流程",
+          "分类身份、税务和企业登记样本",
+          "准备解析及跨文件一致性场景"
+        ],
+        "boundary": "不声明独立贷款风险模型、真实审批或业务提升；CV 支持的是需求与测试准备，实际执行、系统开发及模型效果须有另外证据。",
+        "english": ""
+      },
+      {
+        "name": "ABD 专利质押与融资研究",
+        "subtitle": "团队报告 · 后版执行记录已核",
+        "intro": "报告后版记录模型执行与样本追溯，可用于讲金融指标、证据审计及分析局限，个人贡献仍待确认。",
+        "bullets": [
+          "后版含 16 组设计和执行日志",
+          "15,883 条排除 185 singleton 后为 15,698",
+          "按版本区分旧编码冲突和后续解释"
+        ],
+        "boundary": "本次未重跑底层代码；团队或 AI 辅助执行不能归为个人独立完成。旧均值冲突已有版本解释，不能继续当作当前未解决结论。",
+        "english": ""
+      }
+    ],
+    "steps": [
+      {
+        "title": "先核官方岗位",
+        "text": "取得官方编号、具体申请入口、付薪与合同性质及工作资格口径，保留当前 Volunteer 冲突直到得到证明。"
+      },
+      {
+        "title": "确认毕业与到岗",
+        "text": "请校方说明本人批次的完成与毕业证明日期，再由 HR 确认本科资格、最迟七月毕业和最迟八月到岗的口径。"
+      },
+      {
+        "title": "锁定个人项目证据",
+        "text": "对照 ABD 后版日志与团队分工，标明自己实际完成和复核的部分；补 SQL、Python 与本人看板作品。"
+      },
+      {
+        "title": "核门槛后再推进",
+        "text": "硬条件确认后再定制 CV 并由本人决定提交；保持与 Shopee 已投跨境规划岗分开，不重复记录。"
+      }
+    ],
+    "application_note": "原卡为评估中、尚未投递。2026-11-14 至 11-25 的限定 Gmail 检索未找到本岗申请确认；领英订阅邮件只是职位来源，Shopee 跨境规划回执属于另一岗位，不计入 Monee。",
+    "cv_note": "尚未提交本岗材料；当前通用 CV 2.1 仅作准备基线。项目归属与作品核实后再定制，不把草稿记为提交版。",
+    "dedup_note": "Monee 应届数据岗，渠道号4444958990；独立于 Shopee J02059381。",
+    "eligibility_title": "招聘与申请资格",
+    "match_title": "核心能力匹配",
+    "match_left_title": "能力画像",
+    "match_right_title": "JD × 个人证据矩阵",
+    "projects_title": "两段相关经历",
+    "prep_title": "申请行动与面试预练",
+    "questions": [
+      {
+        "en": "Why Monee and retail finance?",
+        "zh": "为什么选择 Monee 与零售金融？"
+      },
+      {
+        "en": "How would you calculate application and approval conversion rates in SQL?",
+        "zh": "用 SQL 如何计算申请和审批转化率？"
+      },
+      {
+        "en": "How would you test document consistency in Python?",
+        "zh": "如何用 Python 检查文件一致性？"
+      },
+      {
+        "en": "How do you reconcile conflicting versions of an analysis report?",
+        "zh": "面对 ABD 不同版本的样本和执行表述，如何复核？"
+      },
+      {
+        "en": "Design a dashboard for a retail finance manager.",
+        "zh": "为零售金融经理设计一个看板。"
+      }
+    ],
+    "question_kind": "面试预练",
+    "question_note": "此处是预练，不代表面试邀约。",
+    "storage_key": "career-simple-page_7974d07ca818819181490083456a53b3-prep-v1"
+  },
+  {
+    "page_id": "page_23d792a0583881919b99645e37448a77",
+    "company": "YouTrip",
+    "role": "Data Analytics Intern",
+    "category": "applied",
+    "filename": "youtrip-23d792a0.html",
+    "hero": "雇主已确认收件，继续围绕多源 KPI、分析粒度和数据质量预练；申请里填写的三至八月全职安排，仍需学校与雇主确认。",
+    "pill": "已收件·继续预练",
+    "employment": "实习 · 六个月起",
+    "short_id": "岗位号待核",
+    "status_label": "已投·等消息",
+    "kpis": [
+      {
+        "label": "APPLICATION · 投递状态",
+        "value": "已投·等消息",
+        "note": "11 月 15 日雇主确认收件，尚未核实面试邀约。"
+      },
+      {
+        "label": "COMMITMENT · 时长",
+        "value": "至少六个月",
+        "note": "表单最低要求六个月，本人填写三至八月全职。"
+      },
+      {
+        "label": "WEEK · 每周安排",
+        "value": "五天",
+        "note": "本人申请填写每周五天，此声明不等于学校批准。"
+      },
+      {
+        "label": "CV · 实投版本",
+        "value": "待确认",
+        "note": "回执只记录上传文件名，不能锁定内部简历版本。"
+      }
+    ],
+    "employer": [
+      {
+        "label": "招聘入口",
+        "value": "雇主 LinkedIn JD 可读并显示 Apply"
+      },
+      {
+        "label": "岗位类型",
+        "value": "新加坡 Data Analytics Intern"
+      },
+      {
+        "label": "数据范围",
+        "value": "交易、渠道、App 使用和金融数据"
+      },
+      {
+        "label": "核心工作",
+        "value": "数据转换、抽取、KPI 与交互报告"
+      },
+      {
+        "label": "最低安排",
+        "value": "申请表要求至少六个月、每周五天"
+      }
+    ],
+    "employer_note": "2026-11-25 雇主渠道可读，独立申请页的当前开放状态未核实。已有收件回执单独成立；公开入口状态与个人申请状态分别记录，不重复申请。",
+    "personal": [
+      {
+        "label": "本科",
+        "value": "Liverpool 商业管理本科，2026 年 6 月完成"
+      },
+      {
+        "label": "在读",
+        "value": "NUS-ISS EBAC，2026 年 8 月入学"
+      },
+      {
+        "label": "通用简历",
+        "value": "CV 2.1；可访问当前版更新于 2026-11-14"
+      },
+      {
+        "label": "本人申请档期",
+        "value": "2027 年 3–8 月，六个月、每周五天"
+      },
+      {
+        "label": "工作资格",
+        "value": "表单填 Others；学校及雇主接受情况待核"
+      }
+    ],
+    "personal_note": "三至八月和每周五天来自这次提交副本，是本人声明而非学校批准；零周通知期也不代表可立即无条件全职。实际工作资格与档期仍需核对。",
+    "dimensions": [
+      {
+        "name": "数据转换",
+        "status": "可迁移经历",
+        "note": "6Estates 文件分类与流程审阅有依据；多源转换脚本和元数据字典仍待补。",
+        "has_evidence": true
+      },
+      {
+        "name": "KPI 与看板",
+        "status": "相关基础",
+        "note": "PwC Excel 分析及呈现可迁移；需本人能解释指标口径、刷新和校验的看板。",
+        "has_evidence": true
+      },
+      {
+        "name": "分析粒度",
+        "status": "项目材料",
+        "note": "PAL 团队资料和申请陈述涉及不同聚合误差；具体成绩需锁定版本与个人份额。",
+        "has_evidence": true
+      },
+      {
+        "name": "质量验证",
+        "status": "相关经历",
+        "note": "6Estates 一致性测试准备有依据；可补连接前后总量、空值和重复核验样例。",
+        "has_evidence": true
+      },
+      {
+        "name": "业务沟通",
+        "status": "相关经历",
+        "note": "GGU 需求沟通和 PwC 商业呈现有依据；准备本人如何澄清问题并解释结果的故事。",
+        "has_evidence": true
+      }
+    ],
+    "matrix": [
+      {
+        "need": "多源数据转换",
+        "evidence": "6Estates 流程与样本",
+        "verdict": "代码待补"
+      },
+      {
+        "need": "业务 KPI 报告",
+        "evidence": "PwC Excel 呈现",
+        "verdict": "看板待补"
+      },
+      {
+        "need": "合适分析粒度",
+        "evidence": "PAL 时间与聚合验证",
+        "verdict": "贡献待核"
+      },
+      {
+        "need": "数据质量",
+        "evidence": "6Estates 测试准备",
+        "verdict": "有相关证据"
+      },
+      {
+        "need": "利益相关方沟通",
+        "evidence": "GGU、PwC",
+        "verdict": "有相关证据"
+      }
+    ],
+    "projects": [
+      {
+        "name": "PAL 周采购预测",
+        "subtitle": "团队项目 + 已提交的本人陈述",
+        "intro": "申请副本和团队材料涉及时间验证、移动平均基线及聚合误差，可用于讨论指标是否服务业务。",
+        "bullets": [
+          "区分门店×酒类与总体误差",
+          "使用时间验证和 MA4 基线",
+          "说明滚动一步与多步预测的差别"
+        ],
+        "boundary": "申请陈述证明当时写了什么，不能替代代码审计或贡献认证；多版本成绩不能混用，不宣称真实库存收益或一次预测未来二十六周。",
+        "english": ""
+      },
+      {
+        "name": "数据质量与业务呈现",
+        "subtitle": "6Estates + PwC 个人实习",
+        "intro": "文件测试准备与 Excel 行业分析可以组成从原始数据到可解释指标的叙述，成果各自归属。",
+        "bullets": [
+          "6Estates：分类并准备测试样本",
+          "6Estates：准备跨文件一致性场景",
+          "PwC：Excel 行业分析与结果呈现"
+        ],
+        "boundary": "两段经历来自不同实习，不能拼成已上线的交易系统或同一项目；不声明已交付 Power BI 看板，也不补写节时或业务收益。",
+        "english": ""
+      }
+    ],
+    "steps": [
+      {
+        "title": "保持等待状态",
+        "text": "已有雇主收件，未见实质新进展；继续留意本岗邮件，预练勾选不当作面试邀约，也不触发重复申请。"
+      },
+      {
+        "title": "核学校与档期",
+        "text": "对照三至八月、每周五天的本人提交声明，确认学校安排、雇主接受度和工作资格，不把表单填写当审批。"
+      },
+      {
+        "title": "归档真实附件",
+        "text": "如能取得当时上传文件，核对回执中的 Zhang_Zhe_CV_.docx；当前定制版只作参考，不能代替。"
+      },
+      {
+        "title": "完成针对性预练",
+        "text": "用 PAL 粒度、6Estates 质量和钱包 KPI 预练；十一月二十五日跟进参考由本人决定，不自动发信。"
+      }
+    ],
+    "application_note": "本次重读 2026-11-15 00:33:34 SGT 提交成功副本及 00:35:04 雇主收件邮件。11/14–11/25 限定检索未见本岗测评、面试或结果；收件不代表入围，原状态保持等待消息。",
+    "cv_note": "回执仅记 Zhang_Zhe_CV_.docx，内部版本待核；现存 2.1.3 只是参考，不是提交证明。",
+    "dedup_note": "YouTrip 新加坡数据分析实习；渠道号4462134177，多渠道保留一岗一条。",
+    "eligibility_title": "招聘与申请资格",
+    "match_title": "核心能力匹配",
+    "match_left_title": "能力画像",
+    "match_right_title": "JD × 个人证据矩阵",
+    "projects_title": "两段相关经历",
+    "prep_title": "申请行动与面试预练",
+    "questions": [
+      {
+        "en": "Which KPIs would you define for a multi-currency wallet?",
+        "zh": "多币种钱包应如何定义 KPI？"
+      },
+      {
+        "en": "How would you join app events with transaction data?",
+        "zh": "App 事件与交易数据如何联接？"
+      },
+      {
+        "en": "Why can aggregate forecast accuracy hide poor local performance?",
+        "zh": "为什么总体预测指标可能掩盖局部问题？"
+      },
+      {
+        "en": "How would you investigate a KPI drop before reporting it?",
+        "zh": "汇报 KPI 下跌前先查什么？"
+      },
+      {
+        "en": "How would you turn a stakeholder question into a useful report?",
+        "zh": "怎样把业务问题变成有用报告？"
+      }
+    ],
+    "question_kind": "面试预练",
+    "question_note": "此处是预练，不代表面试邀约。",
+    "storage_key": "career-simple-page_23d792a0583881919b99645e37448a77-prep-v1"
+  },
+  {
+    "page_id": "page_c72af3ce6374819191458f07b06e875a",
+    "company": "TikTok",
+    "role": "Business Analyst Graduate (GBS) - 2027 Start",
+    "category": "applied",
+    "filename": "tiktok-c72af3ce.html",
+    "hero": "本岗已有雇主收件，预练主线是商业化、销售运营和目标拆解；需核全职档期、轮岗意愿及全球两岗规则，不与 Shop 客服岗混用。",
+    "pill": "已收件·继续预练",
+    "employment": "正式岗 · 2027 应届",
+    "short_id": "A106562",
+    "status_label": "已投·等消息",
+    "kpis": [
+      {
+        "label": "APPLICATION · 投递状态",
+        "value": "已投·等消息",
+        "note": "11 月 15 日雇主确认收件，本轮未核实新邀约。"
+      },
+      {
+        "label": "ROTATION · 培养方向",
+        "value": "销售与数据",
+        "note": "官方索引提及轮岗，实际安排与本人意愿需要确认。"
+      },
+      {
+        "label": "LIMIT · 申请限制",
+        "value": "最多两岗待核",
+        "note": "官方索引有全球两岗限制，需核当前规则和已用名额。"
+      },
+      {
+        "label": "START · 到岗日期",
+        "value": "待核",
+        "note": "需说明毕业和可到岗日，具体口径仍待 HR 确认。"
+      }
+    ],
+    "employer": [
+      {
+        "label": "招聘入口",
+        "value": "官方原页正文加载受限，标题仍对应本岗"
+      },
+      {
+        "label": "岗位身份",
+        "value": "GBS，Singapore，A106562"
+      },
+      {
+        "label": "职责方向",
+        "value": "商业化、目标拆解与销售运营分析"
+      },
+      {
+        "label": "培养方向",
+        "value": "官方索引提及数据与销售轮岗"
+      },
+      {
+        "label": "规则与时点",
+        "value": "全球两岗限制和到岗口径需复核"
+      }
+    ],
+    "employer_note": "2026-11-25 官方原页只返回加载壳，职责依据官网索引和原卡；索引不能证明此刻可提交。当前开放状态待核，但不因此改动已有收件或标结束。",
+    "personal": [
+      {
+        "label": "本科",
+        "value": "Liverpool 商业管理本科，2026 年 6 月完成"
+      },
+      {
+        "label": "在读",
+        "value": "NUS-ISS EBAC，2026 年 8 月入学"
+      },
+      {
+        "label": "通用简历",
+        "value": "CV 2.1；可访问当前版更新于 2026-11-14"
+      },
+      {
+        "label": "相关基础",
+        "value": "Ogilvy 营销研究与 GGU 跨团队需求"
+      },
+      {
+        "label": "本人待确认",
+        "value": "全职可到岗日、销售与数据轮岗意愿"
+      }
+    ],
+    "personal_note": "商业本科、营销研究与沟通经历可衔接 GBS，但需要明确毕业、可到岗日和轮岗意愿。现有实习不等于广告产品经营或销售绩效管理成果。",
+    "dimensions": [
+      {
+        "name": "商业化营销",
+        "status": "相关经历",
+        "note": "Ogilvy 品牌、竞品与广告支出研究有依据；真实广告产品经营和销售绩效经验仍缺。",
+        "has_evidence": true
+      },
+      {
+        "name": "目标与指标",
+        "status": "可迁移基础",
+        "note": "商业分析和 PwC 研究可支持目标拆解；需补销售漏斗与过程指标的本人示例。",
+        "has_evidence": true
+      },
+      {
+        "name": "专项分析",
+        "status": "项目材料",
+        "note": "PAL 与 ABD 支持分析讨论；须区分个人份额、团队输出和商业因果，不混用结果。",
+        "has_evidence": true
+      },
+      {
+        "name": "沟通与影响",
+        "status": "相关经历",
+        "note": "GGU、EY 团队与社团领导有 CV 依据；用真实分歧和方案取舍说明本人作用。",
+        "has_evidence": true
+      },
+      {
+        "name": "轮岗适应",
+        "status": "意愿待核",
+        "note": "咨询、营销与 AI 实习显示多方向接触；是否愿意接受销售和数据轮岗由本人确认。",
+        "has_evidence": true
+      }
+    ],
+    "matrix": [
+      {
+        "need": "数字营销理解",
+        "evidence": "Ogilvy 广告与竞品研究",
+        "verdict": "有相关证据"
+      },
+      {
+        "need": "目标拆解",
+        "evidence": "商业课程、PwC",
+        "verdict": "需实际示例"
+      },
+      {
+        "need": "异常与专项分析",
+        "evidence": "PAL、ABD 团队材料",
+        "verdict": "贡献待核"
+      },
+      {
+        "need": "沟通影响",
+        "evidence": "GGU 与领导经历",
+        "verdict": "有相关证据"
+      },
+      {
+        "need": "接受轮岗",
+        "evidence": "多方向实习背景",
+        "verdict": "本人意愿待核"
+      }
+    ],
+    "projects": [
+      {
+        "name": "Ogilvy 数字营销研究",
+        "subtitle": "个人实习 · Jul–Aug 2024",
+        "intro": "以广告支出、品牌联名和竞品活动为材料，说明如何理解市场变化并提出有依据的规划建议。",
+        "bullets": [
+          "研究品牌合作与竞品活动",
+          "分析二〇二三至二四年广告支出",
+          "结合媒体趋势解释业务假设"
+        ],
+        "boundary": "CV 没有证明本人执行广告投放、管理广告产品或取得 ROAS 提升；应讲实际分析和建议，不把客户采纳及收益补作成果。",
+        "english": ""
+      },
+      {
+        "name": "GGU 需求与评估工作流",
+        "subtitle": "个人实习 · May–Sep 2025",
+        "intro": "企业需求与跨职能协作为解释客户痛点、方案取舍和指标沟通提供案例，保持本人职责边界。",
+        "bullets": [
+          "收集三家教育公司的需求",
+          "与 AI 程序员和 UI 设计师协作",
+          "设计提示工作流并提出 API 整合"
+        ],
+        "boundary": "API 整合是建议，工作流设计也不等于已部署商业化系统；不增加销售、转化或节时数字，只描述有依据的需求和设计工作。",
+        "english": ""
+      }
+    ],
+    "steps": [
+      {
+        "title": "保持已投待消息",
+        "text": "本岗已确认收件，继续按 A106562 留意招聘方实质更新；没有邀约时仅做预练，不升为流程中。"
+      },
+      {
+        "title": "确认到岗和轮岗",
+        "text": "明确本人学业完成与可全职日期，并确认是否接受销售、数据轮岗；不替自己做无法履行的到岗承诺。"
+      },
+      {
+        "title": "核全球申请名额",
+        "text": "核实公司及关联公司最多两岗规则与本人全部有效申请，再决定其他 TikTok 岗位，避免误用名额。"
+      },
+      {
+        "title": "补商业化案例",
+        "text": "围绕广告收入、目标拆解和销售沟通练习，用 Ogilvy 与 GGU 的真实角色举例，同时补实际提交附件。"
+      }
+    ],
+    "application_note": "2026-11-15 00:09:34 SGT 回执确认收到 GBS 2027 Start 申请，正在审阅。11/14–11/25 限定检索未见实质后续；收件非面试，仍等消息。",
+    "cv_note": "实际上传的 CV 版本仍待确认；当前通用 CV 2.1 仅用于预练和证据对照，不以现有归档文件代替提交证明。",
+    "dedup_note": "TikTok A106562 与 Shop 客服 A191186A 分开，其他岗位回执不能混入。",
+    "eligibility_title": "招聘与申请资格",
+    "match_title": "核心能力匹配",
+    "match_left_title": "能力画像",
+    "match_right_title": "JD × 个人证据矩阵",
+    "projects_title": "两段相关经历",
+    "prep_title": "申请行动与面试预练",
+    "questions": [
+      {
+        "en": "How would you diagnose a shortfall in advertising revenue?",
+        "zh": "广告收入低于目标如何拆解？"
+      },
+      {
+        "en": "How would you set targets for a sales team?",
+        "zh": "如何设销售团队目标？"
+      },
+      {
+        "en": "What did your marketing research change in your thinking?",
+        "zh": "营销研究如何改变你的判断？"
+      },
+      {
+        "en": "How would you communicate an unexpected result to sales stakeholders?",
+        "zh": "怎样向销售团队解释意外分析结果？"
+      },
+      {
+        "en": "Why are you willing to rotate between data and sales?",
+        "zh": "为什么愿意数据与销售轮岗？"
+      }
+    ],
+    "question_kind": "面试预练",
+    "question_note": "此处是预练，不代表面试邀约。",
+    "storage_key": "career-simple-page_c72af3ce6374819191458f07b06e875a-prep-v1"
+  },
+  {
+    "page_id": "page_50a93140f10c819191aaf1ce1bb553a3",
+    "company": "Shopee",
+    "role": "Business Planning Analyst - Regional Cross Border Commercial (2027 Graduate)",
+    "category": "applied",
+    "filename": "shopee-50a93140.html",
+    "hero": "跨境商业规划岗已获收件确认，准备重点是利润驱动、预测与业务建议；咨询研究可迁移，Excel 财务模型和实际提交版仍待补核。",
+    "pill": "已收件·继续预练",
+    "employment": "全职 · 2027 应届",
+    "short_id": "J02059381",
+    "status_label": "已投·等消息",
+    "kpis": [
+      {
+        "label": "APPLICATION · 投递状态",
+        "value": "已投·等消息",
+        "note": "11 月 15 日 Shopee 确认收件，尚未核实面试。"
+      },
+      {
+        "label": "FOCUS · 岗位重心",
+        "value": "商业规划",
+        "note": "围绕收入、成本、利润和预测形成可行动的建议。"
+      },
+      {
+        "label": "TOOLS · 主要工具",
+        "value": "Excel / PPT",
+        "note": "高级模型与 SQL 作品待补，技能自述不等于成品。"
+      },
+      {
+        "label": "START · 入职日期",
+        "value": "待核",
+        "note": "本岗具体毕业与到岗口径不能套用 Monee 的日期。"
+      }
+    ],
+    "employer": [
+      {
+        "label": "招聘入口",
+        "value": "雇主 LinkedIn 可读并显示 Apply"
+      },
+      {
+        "label": "岗位身份",
+        "value": "J02059381，跨境商业规划，2027 应届"
+      },
+      {
+        "label": "核心职责",
+        "value": "收入、成本、利润分析及商业计划"
+      },
+      {
+        "label": "工具与经历",
+        "value": "Excel/PPT；相关战略或商业分析实习"
+      },
+      {
+        "label": "待核事项",
+        "value": "官网独立申请页、毕业口径和入职日期"
+      }
+    ],
+    "employer_note": "2026-11-25 雇主渠道可读并标全职，官网独立申请页仍未核实。毕业和开始日期要按本岗确认，不能沿用 Monee 七月、八月的门槛。",
+    "personal": [
+      {
+        "label": "本科",
+        "value": "Liverpool 商业管理本科，2026 年 6 月完成"
+      },
+      {
+        "label": "在读",
+        "value": "NUS-ISS EBAC，2026 年 8 月入学"
+      },
+      {
+        "label": "通用简历",
+        "value": "CV 2.1；可访问当前版更新于 2026-11-14"
+      },
+      {
+        "label": "相关经历",
+        "value": "PwC 策略研究、Ogilvy 营销数据研究"
+      },
+      {
+        "label": "主要缺口",
+        "value": "高级 Excel 财务模型及实际提交版本待核"
+      }
+    ],
+    "personal_note": "咨询与营销研究支持商业分析叙述，PAL 可讨论预测方法；但融资比率或周需求预测不等于电商 P&L。需补本人可复核的驱动模型与档期。",
+    "dimensions": [
+      {
+        "name": "利润驱动",
+        "status": "可迁移基础",
+        "note": "商业训练、PwC 和 ABD 可支持指标讨论；融资比率不等于电商 P&L，需实际模型。",
+        "has_evidence": true
+      },
+      {
+        "name": "预测与情景",
+        "status": "项目材料",
+        "note": "PAL 包含时间验证及基线；周采购预测需转成商业驱动练习，不能写成公司预算经验。",
+        "has_evidence": true
+      },
+      {
+        "name": "市场研究",
+        "status": "相关经历",
+        "note": "Ogilvy 与 PwC 有市场和竞品研究依据；跨境商家、消费者和定价场景仍需补齐。",
+        "has_evidence": true
+      },
+      {
+        "name": "Excel 与报告",
+        "status": "相关基础",
+        "note": "PwC 有 Excel 分析和商业呈现，CV 列 SQL；高级函数与财务模型要用作品证明。",
+        "has_evidence": true
+      },
+      {
+        "name": "建议与沟通",
+        "status": "相关经历",
+        "note": "GGU 需求和咨询呈现支持表达能力；建议是否实施及利润影响未证实，不能混写。",
+        "has_evidence": true
+      }
+    ],
+    "matrix": [
+      {
+        "need": "收入成本与利润",
+        "evidence": "商业训练、PwC",
+        "verdict": "缺 P&L 模型"
+      },
+      {
+        "need": "预测与规划",
+        "evidence": "PAL 团队项目",
+        "verdict": "方法可迁移"
+      },
+      {
+        "need": "市场消费者研究",
+        "evidence": "Ogilvy、PwC",
+        "verdict": "有相关证据"
+      },
+      {
+        "need": "Excel/PPT/SQL",
+        "evidence": "Excel 实践、SQL 自述",
+        "verdict": "高级作品待补"
+      },
+      {
+        "need": "管理建议与呈现",
+        "evidence": "咨询呈现、GGU",
+        "verdict": "实施结果待核"
+      }
+    ],
+    "projects": [
+      {
+        "name": "PwC 汽车行业策略研究",
+        "subtitle": "个人实习 · Jul–Aug 2023",
+        "intro": "市场、客户体验与售后研究及 Excel 呈现，可用于说明如何整理业务驱动与解释研究发现。",
+        "bullets": [
+          "研究新能源车市场及商业模式",
+          "分析奔驰与宝马等行业资料",
+          "用 Excel 分析数据并呈现发现"
+        ],
+        "boundary": "不声明负责客户预算、跨境电商 P&L 或已实施财务模型；真实研究可作为驱动假设的起点，额外场景应标为练习和待验证。",
+        "english": ""
+      },
+      {
+        "name": "PAL 预测与误差评估",
+        "subtitle": "课程团队项目 · 个人贡献待核",
+        "intro": "时间验证、基线和粒度比较可支撑预测讨论，需把方法经验与商业计划中的预算承诺区分。",
+        "bullets": [
+          "比较时间切分下的预测表现",
+          "以 MA4 作为可解释基线",
+          "考察不同聚合层级的误差差异"
+        ],
+        "boundary": "团队材料有多个运行版本，未独立重跑或确认个人份额；不能加入混杂成绩，不将周采购预测改成已完成公司收入预算或库存收益。",
+        "english": ""
+      }
+    ],
+    "steps": [
+      {
+        "title": "保持已投状态",
+        "text": "按 J02059381 留意收件后的实质更新；没有正式测评或面试邀约前，预练不改变已投等待消息状态。"
+      },
+      {
+        "title": "补驱动型模型",
+        "text": "准备能解释收入、成本、利润及情景假设的 Excel 练习，附口径和校验；明确不是原雇主实际预算。"
+      },
+      {
+        "title": "核本人档期",
+        "text": "取得本岗毕业及正式入职口径，再对照 EBAC 项目和答辩安排；不挪用其他应届岗位的日期结论。"
+      },
+      {
+        "title": "核实提交附件",
+        "text": "如能取得最终上传文件再归档；提交前截图不是最终附件证明，同时用真实项目继续五道专属预练。"
+      }
+    ],
+    "application_note": "2026-11-15 01:01:00 SGT 邮件确认收到跨境商业规划申请，只通知入围者下一步。11/14–11/25 限定检索未见实质新进展，保持已投等消息，不混入其他岗位。",
+    "cv_note": "原卡提交前截图显示 Zhang_Zhe_CV_2.1.pdf；回执未证明最终上传附件，实际版本待确认，不能只凭截图锁定。",
+    "dedup_note": "Shopee J02059381 与直播、区域内容及 Monee 数据岗分开，同岗多渠道保留一条。",
+    "eligibility_title": "招聘与申请资格",
+    "match_title": "核心能力匹配",
+    "match_left_title": "能力画像",
+    "match_right_title": "JD × 个人证据矩阵",
+    "projects_title": "两段相关经历",
+    "prep_title": "申请行动与面试预练",
+    "questions": [
+      {
+        "en": "Revenue grew but margin fell. How would you investigate?",
+        "zh": "收入上升但利润率下降，如何分析？"
+      },
+      {
+        "en": "Build a simple forecast for a cross-border business.",
+        "zh": "如何为跨境业务建立简明预测？"
+      },
+      {
+        "en": "How would you assess a pricing change?",
+        "zh": "怎样评估一次定价调整？"
+      },
+      {
+        "en": "How do you explain forecast error to management?",
+        "zh": "怎样向管理层解释预测偏差？"
+      },
+      {
+        "en": "What would you put in a monthly P&L commentary?",
+        "zh": "月度 P&L 评论应包括什么？"
+      }
+    ],
+    "question_kind": "面试预练",
+    "question_note": "此处是预练，不代表面试邀约。",
+    "storage_key": "career-simple-page_50a93140f10c819191aaf1ce1bb553a3-prep-v1"
+  },
+  {
+    "page_id": "page_9cb96a2db3dc8191857fe7f58c90022c",
+    "company": "Xiaomi",
+    "role": "Data Analyst Intern",
+    "category": "applied",
+    "filename": "xiaomi-9cb96a2d.html",
+    "hero": "小米岗位侧重 AI 数据标注与质量验证，6Estates 样本准备和 GGU 评估工作流可衔接；平台已转交，雇主收件及六个月档期待核。",
+    "pill": "平台已转交",
+    "employment": "实习 · 六个月起",
+    "short_id": "A119959",
+    "status_label": "已投·等消息",
+    "kpis": [
+      {
+        "label": "APPLICATION · 投递状态",
+        "value": "已投·等消息",
+        "note": "已核实 LinkedIn 平台转交，雇主独立收件待核。"
+      },
+      {
+        "label": "COMMITMENT · 时长",
+        "value": "至少六个月",
+        "note": "雇主要求至少六个月，较长档期优先，双方仍待确认。"
+      },
+      {
+        "label": "START · 到岗偏好",
+        "value": "尽快到岗优先",
+        "note": "不能把其他申请的三月开始安排视为本岗已接受。"
+      },
+      {
+        "label": "FOCUS · 工作内容",
+        "value": "AI 数据质量",
+        "note": "文本、查询和 SQL 数据标注，兼顾质量与模型评价。"
+      }
+    ],
+    "employer": [
+      {
+        "label": "招聘入口",
+        "value": "雇主 LinkedIn JD 可读并显示 Apply"
+      },
+      {
+        "label": "岗位身份",
+        "value": "新加坡 Data Analyst Intern，A119959"
+      },
+      {
+        "label": "核心工作",
+        "value": "标注、清洗、校验及 AI/LLM 数据准备"
+      },
+      {
+        "label": "基本资格",
+        "value": "相关本硕在读、中英双语和细致执行"
+      },
+      {
+        "label": "时间要求",
+        "value": "至少六个月，尽快到岗优先"
+      }
+    ],
+    "employer_note": "2026-11-25 雇主渠道可读，官方独立申请入口未核实。已有证据只确认平台转交，不证明雇主收件；六个月与开始日仍需针对本岗确认。",
+    "personal": [
+      {
+        "label": "本科",
+        "value": "Liverpool 商业管理本科，2026 年 6 月完成"
+      },
+      {
+        "label": "在读",
+        "value": "NUS-ISS EBAC，2026 年 8 月入学"
+      },
+      {
+        "label": "通用简历",
+        "value": "CV 2.1；可访问当前版更新于 2026-11-14"
+      },
+      {
+        "label": "相关经历",
+        "value": "6Estates 测试准备、GGU AI 评估工作流"
+      },
+      {
+        "label": "档期与语言",
+        "value": "中英双语为 CV 自述，实际到岗尚待确认"
+      }
+    ],
+    "personal_note": "在读学历、测试准备与 AI 工作流较相关，但即时到岗与学业安排可能冲突。YouTrip 三至八月声明不代表小米已接受，应针对本岗核对。",
+    "dimensions": [
+      {
+        "name": "数据标注",
+        "status": "相关基础",
+        "note": "6Estates 按类型、格式与质量整理文件；文本和 SQL 标注准则仍需另补实际样例。",
+        "has_evidence": true
+      },
+      {
+        "name": "清洗与校验",
+        "status": "相关经历",
+        "note": "解析及一致性测试准备有依据；规模化标注质量统计和缺陷修复闭环仍待举证。",
+        "has_evidence": true
+      },
+      {
+        "name": "AI / LLM 评估",
+        "status": "相关经历",
+        "note": "GGU 有评估与提示工作流设计；API 整合是建议，不宣称训练模型或提高精度。",
+        "has_evidence": true
+      },
+      {
+        "name": "SQL 理解",
+        "status": "仅列技能",
+        "note": "CV 列 SQL/Python；自然语言需求到查询的检查、错误分类和可运行样本仍待补。",
+        "has_evidence": false
+      },
+      {
+        "name": "双语与协作",
+        "status": "相关经历",
+        "note": "CV 语言能力、GGU 需求沟通和操作手册可迁移；需具体规则争议与复核案例。",
+        "has_evidence": true
+      }
+    ],
+    "matrix": [
+      {
+        "need": "标注规则与分类",
+        "evidence": "6Estates 文件分类",
+        "verdict": "相关基础"
+      },
+      {
+        "need": "清洗校验与例外",
+        "evidence": "一致性测试样本准备",
+        "verdict": "非生产修复"
+      },
+      {
+        "need": "AI/LLM 数据评价",
+        "evidence": "GGU 提示工作流",
+        "verdict": "非模型训练"
+      },
+      {
+        "need": "查询及 SQL 数据",
+        "evidence": "CV 技能自述",
+        "verdict": "实操待补"
+      },
+      {
+        "need": "双语沟通与细致执行",
+        "evidence": "CV、GGU 与手册经历",
+        "verdict": "有相关依据"
+      }
+    ],
+    "projects": [
+      {
+        "name": "6Estates 文件测试准备",
+        "subtitle": "个人实习 · Jun–Sep 2026",
+        "intro": "按项目要求分类文件并准备解析、一致性场景，适合说明数据规范、异常样例和预期结果。",
+        "bullets": [
+          "分类身份、税务及企业登记样本",
+          "按格式与图像质量整理材料",
+          "修改测试样本以准备一致性场景"
+        ],
+        "boundary": "修改的是测试样本，不代表改动真实客户材料；CV 支持测试准备而非独立执行测试、修复生产问题、审批贷款或取得模型效果。",
+        "english": ""
+      },
+      {
+        "name": "GGU AI 辅助访谈评估",
+        "subtitle": "个人实习 · May–Sep 2025",
+        "intro": "六维评价与 Python 提示工作流设计，可用于解释规则、输出质量和面向业务的需求沟通。",
+        "bullets": [
+          "收集三家教育企业需求",
+          "提出 SpeechAce 等 API 整合建议",
+          "设计内容分析及反馈提示工作流"
+        ],
+        "boundary": "API 整合仍是建议，未证明模型训练、生产部署或精度提升；标注准则和评价样例应基于本人实际做过的内容，不补写量化成果。",
+        "english": ""
+      }
+    ],
+    "steps": [
+      {
+        "title": "核实际开始时间",
+        "text": "确认雇主是否接受本人学校档期及至少六个月安排，不把“尽快到岗优先”忽略，也不沿用别岗的答复。"
+      },
+      {
+        "title": "补标注与 SQL 样例",
+        "text": "整理标签定义、边界例子、无法判定类和查询检查，注明本人操作、测试数据与预期输出。"
+      },
+      {
+        "title": "讲清质量与角色",
+        "text": "用 6Estates 测试准备和 GGU 工作流设计解释质量意识，区分提出方案、准备样本与实际部署执行。"
+      },
+      {
+        "title": "等待实质回复",
+        "text": "保持已投等消息；收到雇主收件、测评或面试时追加本岗证据，同时核当时上传文件，不重复提交或发信。"
+      }
+    ],
+    "application_note": "2026-11-15 00:45:04 SGT 邮件确认平台转交 A119959。11/14–11/25 限定检索未见雇主独立收件或实质新进展；平台凭证不等于雇主收件，仍等消息。",
+    "cv_note": "实际上传版本待核；归档 Xiaomi 2.1.4 仅作参考，不是提交证明。预练使用通用 CV 2.1。",
+    "dedup_note": "Xiaomi A119959，渠道号4456864873；标题的 2027 字样不另外计作一岗。",
+    "eligibility_title": "招聘与申请资格",
+    "match_title": "核心能力匹配",
+    "match_left_title": "能力画像",
+    "match_right_title": "JD × 个人证据矩阵",
+    "projects_title": "两段相关经历",
+    "prep_title": "申请行动与面试预练",
+    "questions": [
+      {
+        "en": "How would you write an annotation guideline for ambiguous queries?",
+        "zh": "遇到模糊查询需求如何写标注规则？"
+      },
+      {
+        "en": "How would you measure annotation quality?",
+        "zh": "标注质量如何衡量？"
+      },
+      {
+        "en": "How would you validate a natural-language-to-SQL example?",
+        "zh": "如何验证自然语言到 SQL 的样本？"
+      },
+      {
+        "en": "Tell us about a cross-document consistency test.",
+        "zh": "讲一个跨文件一致性测试场景。"
+      },
+      {
+        "en": "How would you handle repeated disagreement between annotators?",
+        "zh": "标注者反复意见不同如何处理？"
+      }
+    ],
+    "question_kind": "面试预练",
+    "question_note": "此处是预练，不代表面试邀约。",
+    "storage_key": "career-xiaomi-A119959-prep-v1"
+  },
+  {
+    "page_id": "page_64c3a63987d0819195c514e1dd41caf1",
+    "company": "Julius Baer",
+    "role": "具体岗位待核对",
+    "category": "incomplete",
+    "filename": "julius-baer-64c3a639.html",
+    "hero": "保留本人确认已投的历史记录；财富管理或数据方向均不能代替确切岗位，先补齐原申请身份，再恢复资格核验与准备。",
+    "pill": "岗位身份待补",
+    "employment": "岗位类型待核",
+    "short_id": "岗位号待核",
+    "status_label": "本人已投·待核",
+    "kpis": [
+      {
+        "label": "APPLICATION · 投递状态",
+        "value": "本人已投·待核",
+        "note": "保留本人确认已投记录，回执与雇主收件证据待核。"
+      },
+      {
+        "label": "IDENTITY · 岗位身份",
+        "value": "名称与编号待核",
+        "note": "公司已知；具体岗位、工作地点与招聘编号均待核。"
+      },
+      {
+        "label": "SCHEDULE · 档期",
+        "value": "起止与工时待核",
+        "note": "原卡未给确切任期，无法据此判断个人档期资格。"
+      },
+      {
+        "label": "EVIDENCE · 证据",
+        "value": "原JD与回执待补",
+        "note": "先找当次原始记录，再判断硬条件与准备方向。"
+      }
+    ],
+    "eligibility_title": "岗位身份与证据核验",
+    "employer": [
+      {
+        "label": "确切岗位",
+        "value": "名称、城市与招聘编号待核"
+      },
+      {
+        "label": "招聘状态",
+        "value": "未锁定同一岗位，无法核验是否仍开放"
+      },
+      {
+        "label": "岗位类型",
+        "value": "实习或正式岗、全职或兼职均待核"
+      },
+      {
+        "label": "任期与门槛",
+        "value": "起止日期、学历与工作许可要求待核"
+      },
+      {
+        "label": "原始来源",
+        "value": "原申请页、官方JD与提交回执待补"
+      }
+    ],
+    "employer_note": "截至2026-11-25，只能确认公司与历史已投报告。没有确切岗位和原JD，不能用当前官网其他职位代替，也不能给匹配评分。",
+    "personal": [
+      {
+        "label": "学历基线",
+        "value": "CV：利物浦大学商业管理本科已完成"
+      },
+      {
+        "label": "在读项目",
+        "value": "CV：NUS EBAC，2026年8月起在读"
+      },
+      {
+        "label": "档期资格",
+        "value": "本岗要求未知；个人可用期与校方认可待核"
+      },
+      {
+        "label": "CV材料",
+        "value": "可访问通用CV 2.1；实投版本尚未确认"
+      },
+      {
+        "label": "工作资格",
+        "value": "未取得该岗位对应的许可与资格证明"
+      }
+    ],
+    "personal_note": "已有学历与通用CV可作为准备基线，但不是该岗位资格通过或实际上传的证明。先锁定岗位，再核档期、校方认可与工作资格。",
+    "match_title": "匹配暂缓 · 证据待补",
+    "match_left_title": "五项证据缺口",
+    "match_right_title": "申请记录 × 待补证据",
+    "dimensions": [
+      {
+        "name": "岗位身份",
+        "status": "待补证据",
+        "note": "公司已知，确切岗位、城市与编号尚未锁定；不能由公司行业推导申请方向。",
+        "has_evidence": false
+      },
+      {
+        "name": "原始JD",
+        "status": "待补证据",
+        "note": "未取得与当次申请对应的原始JD，职责与硬条件均暂缓判断，也不先做能力匹配。",
+        "has_evidence": false
+      },
+      {
+        "name": "实际提交",
+        "status": "待补证据",
+        "note": "本人已投报告保留；平台提交、雇主收件和准备稿需要分别取得证据，不能互相替代。",
+        "has_evidence": false
+      },
+      {
+        "name": "上传CV",
+        "status": "待补证据",
+        "note": "已有通用准备材料，但实际上传附件与版本对应关系未确认，不假定某份CV已经提交。",
+        "has_evidence": false
+      },
+      {
+        "name": "后续阶段",
+        "status": "待补证据",
+        "note": "回执、测评、面试或结果尚缺同岗证据；检索未命中不等于从未申请，也不改原状态。",
+        "has_evidence": false
+      }
+    ],
+    "matrix": [
+      {
+        "need": "本人历史记录",
+        "evidence": "10月23日投递记录及后续盘点记为本人已投。",
+        "verdict": "保留已投报告"
+      },
+      {
+        "need": "岗位身份",
+        "evidence": "确切名称、城市及编号待补",
+        "verdict": "暂缓匹配"
+      },
+      {
+        "need": "原始JD",
+        "evidence": "未锁定与当次提交对应的版本",
+        "verdict": "职责不推测"
+      },
+      {
+        "need": "实际上传CV",
+        "evidence": "未确认当次上传文件；目前只有通用准备基线。",
+        "verdict": "提交版待核"
+      },
+      {
+        "need": "提交与后续",
+        "evidence": "未取得同岗回执或阶段证明",
+        "verdict": "原状态不变"
+      },
+      {
+        "need": "一岗一条",
+        "evidence": "不得把公司名映射成当前官网任一财富管理或数据岗位。",
+        "verdict": "先核身份再归并"
+      }
+    ],
+    "projects_title": "已有材料与缺口",
+    "projects": [
+      {
+        "name": "本人历史记录",
+        "subtitle": "申请线索 · 非项目匹配",
+        "intro": "原卡记录本人确认已投，目前用于保留申请历史；公司名称本身不能支撑岗位职责或能力结论。",
+        "bullets": [
+          "10月23日投递记录及后续盘点记为本人已投。",
+          "原申请的岗位名、城市与编号均待核对。",
+          "检索未命中不推翻本人已投报告。"
+        ],
+        "boundary": "这段展示的是申请线索，不是岗位匹配或雇主收件证明。找到原申请页和回执后，才能把具体岗位与提交事件逐项对应。",
+        "english": ""
+      },
+      {
+        "name": "现有准备材料",
+        "subtitle": "CV与团队材料 · 等待岗位身份",
+        "intro": "通用CV与ABD、PAL团队资料可作准备资料库；当前没有确切JD，因此暂不挑选所谓最匹配的项目。",
+        "bullets": [
+          "通用CV 2.1可作本次准备基线。",
+          "团队材料须再核本人分工及实际交付。",
+          "实际上传版本以当次申请记录为准。"
+        ],
+        "boundary": "材料存在不代表已经提交，也不代表与该岗位相关。ABD、PAL须在职责相关且个人贡献有据时使用，不预设效果或量化成果。",
+        "english": ""
+      }
+    ],
+    "prep_title": "补齐证据后再准备",
+    "steps": [
+      {
+        "title": "01 找到岗位身份",
+        "text": "从当次申请页或确认邮件找出岗位全名、城市与编号，记录来源和日期，再对照这张原卡。"
+      },
+      {
+        "title": "02 区分提交证据",
+        "text": "分别记录准备稿、平台提交及雇主收件证据；没有回执时保留本人报告，不把两者混同。"
+      },
+      {
+        "title": "03 核对上传版本",
+        "text": "按上传附件名称或申请页面比对CV内容与版本，避免把现有通用稿当成当次提交文件。"
+      },
+      {
+        "title": "04 回到同一张卡",
+        "text": "证据补齐后更新本卡的岗位身份和后续记录，再开展资格与JD匹配，不凭公司名新增岗位。"
+      }
+    ],
+    "questions": [
+      {
+        "en": "Which exact role did I apply for?",
+        "zh": "找到岗位全名、城市和编号；保留当次来源与日期。"
+      },
+      {
+        "en": "What proves submission rather than preparation?",
+        "zh": "分别核对准备稿、平台提交和雇主收件的证据。"
+      },
+      {
+        "en": "Which CV was actually uploaded?",
+        "zh": "用申请附件或上传记录确认版本，不凭文件存在判断。"
+      },
+      {
+        "en": "Is this the same role as an existing record?",
+        "zh": "不得把公司名映射成当前官网任一财富管理或数据岗位。"
+      },
+      {
+        "en": "What is the latest verified stage?",
+        "zh": "补齐同岗后续记录；尚未确认的阶段继续写待核。"
+      }
+    ],
+    "question_kind": "证据核对",
+    "question_note": "这些是补证检查，不是面试预测；岗位确认后再开展专属预练。",
+    "application_note": "10月23日投递记录及后续盘点记为本人已投。2026-11-25 Gmail 有界检索未取得同岗回执；这不推翻本人报告，也不证明雇主收件，原状态保持。",
+    "cv_note": "通用CV 2.1仅作为本次准备基线；实际上传文件、版本与提交时间待核，不能据文件存在认定已提交。",
+    "dedup_note": "沿用本卡 Page ID 作临时唯一键；先核岗位名、城市和编号，不把同公司其他岗位并入。",
+    "storage_key": "career-simple-page_64c3a63987d0819195c514e1dd41caf1-prep-v1"
+  },
+  {
+    "page_id": "page_e2e474322c4c8191ab5db42916bd8a68",
+    "company": "Mediacorp",
+    "role": "具体岗位待核对",
+    "category": "incomplete",
+    "filename": "mediacorp-e2e47432.html",
+    "hero": "本人已报告投递新传媒，但浏览过分析或媒体岗位不能证明实际申请方向；这张卡先补齐岗位与提交证据，不先做匹配。",
+    "pill": "岗位身份待补",
+    "employment": "岗位类型待核",
+    "short_id": "岗位号待核",
+    "status_label": "本人已投·待核",
+    "kpis": [
+      {
+        "label": "APPLICATION · 投递状态",
+        "value": "本人已投·待核",
+        "note": "保留本人确认已投记录，回执与雇主收件证据待核。"
+      },
+      {
+        "label": "IDENTITY · 岗位身份",
+        "value": "名称与编号待核",
+        "note": "公司已知；具体岗位、工作地点与招聘编号均待核。"
+      },
+      {
+        "label": "SCHEDULE · 档期",
+        "value": "起止与工时待核",
+        "note": "原卡未给确切任期，无法据此判断个人档期资格。"
+      },
+      {
+        "label": "EVIDENCE · 证据",
+        "value": "原JD与回执待补",
+        "note": "先找当次原始记录，再判断硬条件与准备方向。"
+      }
+    ],
+    "eligibility_title": "岗位身份与证据核验",
+    "employer": [
+      {
+        "label": "确切岗位",
+        "value": "名称、城市与招聘编号待核"
+      },
+      {
+        "label": "招聘状态",
+        "value": "未锁定同一岗位，无法核验是否仍开放"
+      },
+      {
+        "label": "岗位类型",
+        "value": "实习或正式岗、全职或兼职均待核"
+      },
+      {
+        "label": "任期与门槛",
+        "value": "起止日期、学历与工作许可要求待核"
+      },
+      {
+        "label": "原始来源",
+        "value": "原申请页、官方JD与提交回执待补"
+      }
+    ],
+    "employer_note": "截至2026-11-25，只能确认公司与历史已投报告。没有确切岗位和原JD，不能用当前官网其他职位代替，也不能给匹配评分。",
+    "personal": [
+      {
+        "label": "学历基线",
+        "value": "CV：利物浦大学商业管理本科已完成"
+      },
+      {
+        "label": "在读项目",
+        "value": "CV：NUS EBAC，2026年8月起在读"
+      },
+      {
+        "label": "档期资格",
+        "value": "本岗要求未知；个人可用期与校方认可待核"
+      },
+      {
+        "label": "CV材料",
+        "value": "可访问通用CV 2.1；实投版本尚未确认"
+      },
+      {
+        "label": "工作资格",
+        "value": "未取得该岗位对应的许可与资格证明"
+      }
+    ],
+    "personal_note": "已有学历与通用CV可作为准备基线，但不是该岗位资格通过或实际上传的证明。先锁定岗位，再核档期、校方认可与工作资格。",
+    "match_title": "匹配暂缓 · 证据待补",
+    "match_left_title": "五项证据缺口",
+    "match_right_title": "申请记录 × 待补证据",
+    "dimensions": [
+      {
+        "name": "岗位身份",
+        "status": "待补证据",
+        "note": "公司已知，确切岗位、城市与编号尚未锁定；不能由公司行业推导申请方向。",
+        "has_evidence": false
+      },
+      {
+        "name": "原始JD",
+        "status": "待补证据",
+        "note": "未取得与当次申请对应的原始JD，职责与硬条件均暂缓判断，也不先做能力匹配。",
+        "has_evidence": false
+      },
+      {
+        "name": "实际提交",
+        "status": "待补证据",
+        "note": "本人已投报告保留；平台提交、雇主收件和准备稿需要分别取得证据，不能互相替代。",
+        "has_evidence": false
+      },
+      {
+        "name": "上传CV",
+        "status": "待补证据",
+        "note": "已有通用准备材料，但实际上传附件与版本对应关系未确认，不假定某份CV已经提交。",
+        "has_evidence": false
+      },
+      {
+        "name": "后续阶段",
+        "status": "待补证据",
+        "note": "回执、测评、面试或结果尚缺同岗证据；检索未命中不等于从未申请，也不改原状态。",
+        "has_evidence": false
+      }
+    ],
+    "matrix": [
+      {
+        "need": "本人历史记录",
+        "evidence": "10月23日本人报告已投新传媒，原卡保留该状态。",
+        "verdict": "保留已投报告"
+      },
+      {
+        "need": "岗位身份",
+        "evidence": "确切名称、城市及编号待补",
+        "verdict": "暂缓匹配"
+      },
+      {
+        "need": "原始JD",
+        "evidence": "未锁定与当次提交对应的版本",
+        "verdict": "职责不推测"
+      },
+      {
+        "need": "实际上传CV",
+        "evidence": "实际上传附件与申请页面尚未取得对应证据。",
+        "verdict": "提交版待核"
+      },
+      {
+        "need": "提交与后续",
+        "evidence": "未取得同岗回执或阶段证明",
+        "verdict": "原状态不变"
+      },
+      {
+        "need": "一岗一条",
+        "evidence": "浏览过分析或媒体岗位，不证明实际提交的是该方向。",
+        "verdict": "先核身份再归并"
+      }
+    ],
+    "projects_title": "已有材料与缺口",
+    "projects": [
+      {
+        "name": "本人历史记录",
+        "subtitle": "申请线索 · 非项目匹配",
+        "intro": "原卡记录本人确认已投，目前用于保留申请历史；公司名称本身不能支撑岗位职责或能力结论。",
+        "bullets": [
+          "10月23日本人报告已投新传媒，原卡保留该状态。",
+          "历史浏览方向与实际提交岗位必须分开。",
+          "检索未命中不推翻本人已投报告。"
+        ],
+        "boundary": "这段展示的是申请线索，不是岗位匹配或雇主收件证明。找到原申请页和回执后，才能把具体岗位与提交事件逐项对应。",
+        "english": ""
+      },
+      {
+        "name": "现有准备材料",
+        "subtitle": "CV与团队材料 · 等待岗位身份",
+        "intro": "通用CV与ABD、PAL团队资料可作准备资料库；当前没有确切JD，因此暂不挑选所谓最匹配的项目。",
+        "bullets": [
+          "通用CV 2.1可作本次准备基线。",
+          "团队材料须再核本人分工及实际交付。",
+          "实际上传版本以当次申请记录为准。"
+        ],
+        "boundary": "材料存在不代表已经提交，也不代表与该岗位相关。ABD、PAL须在职责相关且个人贡献有据时使用，不预设效果或量化成果。",
+        "english": ""
+      }
+    ],
+    "prep_title": "补齐证据后再准备",
+    "steps": [
+      {
+        "title": "01 找到岗位身份",
+        "text": "从当次申请页或确认邮件找出岗位全名、城市与编号，记录来源和日期，再对照这张原卡。"
+      },
+      {
+        "title": "02 区分提交证据",
+        "text": "分别记录准备稿、平台提交及雇主收件证据；没有回执时保留本人报告，不把两者混同。"
+      },
+      {
+        "title": "03 核对上传版本",
+        "text": "按上传附件名称或申请页面比对CV内容与版本，避免把现有通用稿当成当次提交文件。"
+      },
+      {
+        "title": "04 回到同一张卡",
+        "text": "证据补齐后更新本卡的岗位身份和后续记录，再开展资格与JD匹配，不凭公司名新增岗位。"
+      }
+    ],
+    "questions": [
+      {
+        "en": "Which exact role did I apply for?",
+        "zh": "找到岗位全名、城市和编号；保留当次来源与日期。"
+      },
+      {
+        "en": "What proves submission rather than preparation?",
+        "zh": "分别核对准备稿、平台提交和雇主收件的证据。"
+      },
+      {
+        "en": "Which CV was actually uploaded?",
+        "zh": "用申请附件或上传记录确认版本，不凭文件存在判断。"
+      },
+      {
+        "en": "Is this the same role as an existing record?",
+        "zh": "浏览过分析或媒体岗位，不证明实际提交的是该方向。"
+      },
+      {
+        "en": "What is the latest verified stage?",
+        "zh": "补齐同岗后续记录；尚未确认的阶段继续写待核。"
+      }
+    ],
+    "question_kind": "证据核对",
+    "question_note": "这些是补证检查，不是面试预测；岗位确认后再开展专属预练。",
+    "application_note": "10月23日本人报告已投新传媒。2026-11-25 Gmail 有界检索未取得同岗回执；浏览记录不等于提交记录，检索未命中也不否定本人已投报告，原状态保持。",
+    "cv_note": "通用CV 2.1仅作为本次准备基线；实际上传文件、版本与提交时间待核，不能据文件存在认定已提交。",
+    "dedup_note": "沿用本卡 Page ID 作临时唯一键；浏览过的分析或媒体岗位不自动并入该申请。",
+    "storage_key": "career-simple-page_e2e474322c4c8191ab5db42916bd8a68-prep-v1"
+  },
+  {
+    "page_id": "page_c43cc81dbf8881918dd3326206102380",
+    "company": "Yokogawa",
+    "role": "具体岗位待核对",
+    "category": "incomplete",
+    "filename": "yokogawa-c43cc81d.html",
+    "hero": "横河已投记录继续保留；AI 与脱碳两份定制材料只证明准备方向，尚不足以拆成两次申请，先锁定实际提交岗位。",
+    "pill": "岗位身份待补",
+    "employment": "岗位类型待核",
+    "short_id": "岗位号待核",
+    "status_label": "本人已投·待核",
+    "kpis": [
+      {
+        "label": "APPLICATION · 投递状态",
+        "value": "本人已投·待核",
+        "note": "保留本人确认已投记录，回执与雇主收件证据待核。"
+      },
+      {
+        "label": "IDENTITY · 岗位身份",
+        "value": "名称与编号待核",
+        "note": "公司已知；具体岗位、工作地点与招聘编号均待核。"
+      },
+      {
+        "label": "SCHEDULE · 档期",
+        "value": "起止与工时待核",
+        "note": "原卡未给确切任期，无法据此判断个人档期资格。"
+      },
+      {
+        "label": "EVIDENCE · 证据",
+        "value": "原JD与回执待补",
+        "note": "先找当次原始记录，再判断硬条件与准备方向。"
+      }
+    ],
+    "eligibility_title": "岗位身份与证据核验",
+    "employer": [
+      {
+        "label": "确切岗位",
+        "value": "名称、城市与招聘编号待核"
+      },
+      {
+        "label": "招聘状态",
+        "value": "未锁定同一岗位，无法核验是否仍开放"
+      },
+      {
+        "label": "岗位类型",
+        "value": "实习或正式岗、全职或兼职均待核"
+      },
+      {
+        "label": "任期与门槛",
+        "value": "起止日期、学历与工作许可要求待核"
+      },
+      {
+        "label": "原始来源",
+        "value": "原申请页、官方JD与提交回执待补"
+      }
+    ],
+    "employer_note": "截至2026-11-25，只能确认公司与历史已投报告。没有确切岗位和原JD，不能用当前官网其他职位代替，也不能给匹配评分。",
+    "personal": [
+      {
+        "label": "学历基线",
+        "value": "CV：利物浦大学商业管理本科已完成"
+      },
+      {
+        "label": "在读项目",
+        "value": "CV：NUS EBAC，2026年8月起在读"
+      },
+      {
+        "label": "档期资格",
+        "value": "本岗要求未知；个人可用期与校方认可待核"
+      },
+      {
+        "label": "CV材料",
+        "value": "可访问通用CV 2.1；实投版本尚未确认"
+      },
+      {
+        "label": "工作资格",
+        "value": "未取得该岗位对应的许可与资格证明"
+      }
+    ],
+    "personal_note": "已有学历与通用CV可作为准备基线，但不是该岗位资格通过或实际上传的证明。先锁定岗位，再核档期、校方认可与工作资格。",
+    "match_title": "匹配暂缓 · 证据待补",
+    "match_left_title": "五项证据缺口",
+    "match_right_title": "申请记录 × 待补证据",
+    "dimensions": [
+      {
+        "name": "岗位身份",
+        "status": "待补证据",
+        "note": "公司已知，确切岗位、城市与编号尚未锁定；不能由公司行业推导申请方向。",
+        "has_evidence": false
+      },
+      {
+        "name": "原始JD",
+        "status": "待补证据",
+        "note": "未取得与当次申请对应的原始JD，职责与硬条件均暂缓判断，也不先做能力匹配。",
+        "has_evidence": false
+      },
+      {
+        "name": "实际提交",
+        "status": "待补证据",
+        "note": "本人已投报告保留；平台提交、雇主收件和准备稿需要分别取得证据，不能互相替代。",
+        "has_evidence": false
+      },
+      {
+        "name": "上传CV",
+        "status": "待补证据",
+        "note": "已有通用准备材料，但实际上传附件与版本对应关系未确认，不假定某份CV已经提交。",
+        "has_evidence": false
+      },
+      {
+        "name": "后续阶段",
+        "status": "待补证据",
+        "note": "回执、测评、面试或结果尚缺同岗证据；检索未命中不等于从未申请，也不改原状态。",
+        "has_evidence": false
+      }
+    ],
+    "matrix": [
+      {
+        "need": "本人历史记录",
+        "evidence": "10月23日本人报告已投横河，另有两份定制材料。",
+        "verdict": "保留已投报告"
+      },
+      {
+        "need": "岗位身份",
+        "evidence": "确切名称、城市及编号待补",
+        "verdict": "暂缓匹配"
+      },
+      {
+        "need": "原始JD",
+        "evidence": "未锁定与当次提交对应的版本",
+        "verdict": "职责不推测"
+      },
+      {
+        "need": "实际上传CV",
+        "evidence": "AI 与脱碳两版材料，尚不能确认实际上传哪一版。",
+        "verdict": "提交版待核"
+      },
+      {
+        "need": "提交与后续",
+        "evidence": "未取得同岗回执或阶段证明",
+        "verdict": "原状态不变"
+      },
+      {
+        "need": "一岗一条",
+        "evidence": "两份定制 CV 不等于两次投递，未证实前仍保留一条。",
+        "verdict": "先核身份再归并"
+      }
+    ],
+    "projects_title": "已有材料与缺口",
+    "projects": [
+      {
+        "name": "本人历史记录",
+        "subtitle": "申请线索 · 非项目匹配",
+        "intro": "原卡记录本人确认已投，目前用于保留申请历史；公司名称本身不能支撑岗位职责或能力结论。",
+        "bullets": [
+          "10月23日本人报告已投横河，另有两份定制材料。",
+          "AI 与脱碳版本存在，但提交对应关系待核。",
+          "检索未命中不推翻本人已投报告。"
+        ],
+        "boundary": "这段展示的是申请线索，不是岗位匹配或雇主收件证明。找到原申请页和回执后，才能把具体岗位与提交事件逐项对应。",
+        "english": ""
+      },
+      {
+        "name": "现有准备材料",
+        "subtitle": "CV与团队材料 · 等待岗位身份",
+        "intro": "通用CV与ABD、PAL团队资料可作准备资料库；当前没有确切JD，因此暂不挑选所谓最匹配的项目。",
+        "bullets": [
+          "通用CV 2.1可作本次准备基线。",
+          "团队材料须再核本人分工及实际交付。",
+          "实际上传版本以当次申请记录为准。"
+        ],
+        "boundary": "材料存在不代表已经提交，也不代表与该岗位相关。ABD、PAL须在职责相关且个人贡献有据时使用，不预设效果或量化成果。",
+        "english": ""
+      }
+    ],
+    "prep_title": "补齐证据后再准备",
+    "steps": [
+      {
+        "title": "01 找到岗位身份",
+        "text": "从当次申请页或确认邮件找出岗位全名、城市与编号，记录来源和日期，再对照这张原卡。"
+      },
+      {
+        "title": "02 区分提交证据",
+        "text": "分别记录准备稿、平台提交及雇主收件证据；没有回执时保留本人报告，不把两者混同。"
+      },
+      {
+        "title": "03 核对上传版本",
+        "text": "按上传附件名称或申请页面比对CV内容与版本，避免把现有通用稿当成当次提交文件。"
+      },
+      {
+        "title": "04 回到同一张卡",
+        "text": "证据补齐后更新本卡的岗位身份和后续记录，再开展资格与JD匹配，不凭公司名新增岗位。"
+      }
+    ],
+    "questions": [
+      {
+        "en": "Which exact role did I apply for?",
+        "zh": "找到岗位全名、城市和编号；保留当次来源与日期。"
+      },
+      {
+        "en": "What proves submission rather than preparation?",
+        "zh": "分别核对准备稿、平台提交和雇主收件的证据。"
+      },
+      {
+        "en": "Which CV was actually uploaded?",
+        "zh": "用申请附件或上传记录确认版本，不凭文件存在判断。"
+      },
+      {
+        "en": "Is this the same role as an existing record?",
+        "zh": "两份定制 CV 不等于两次投递，未证实前仍保留一条。"
+      },
+      {
+        "en": "What is the latest verified stage?",
+        "zh": "补齐同岗后续记录；尚未确认的阶段继续写待核。"
+      }
+    ],
+    "question_kind": "证据核对",
+    "question_note": "这些是补证检查，不是面试预测；岗位确认后再开展专属预练。",
+    "application_note": "10月23日本人报告已投横河，存在 AI 与脱碳两份材料。2026-11-25 Gmail 有界检索未取得同岗回执；材料数量不等于投递次数，仍保留原已投记录。",
+    "cv_note": "通用CV 2.1仅作为本次准备基线；实际上传文件、版本与提交时间待核，不能据文件存在认定已提交。",
+    "dedup_note": "沿用本卡 Page ID 作临时唯一键；两版定制 CV 不代表两次投递，未确认第二岗前不拆卡。",
+    "storage_key": "career-simple-page_c43cc81dbf8881918dd3326206102380-prep-v1"
+  },
+  {
+    "page_id": "page_1d812a3e27dc8191a393c22536e130e3",
+    "company": "Fano",
+    "role": "具体岗位待核对",
+    "category": "incomplete",
+    "filename": "fano-1d812a3e.html",
+    "hero": "保留本人确认已投的记录；语音识别业务与求职邮件草稿只是线索，先核具体岗位、发送或提交证据，再开展专属准备。",
+    "pill": "岗位身份待补",
+    "employment": "岗位类型待核",
+    "short_id": "岗位号待核",
+    "status_label": "本人已投·待核",
+    "kpis": [
+      {
+        "label": "APPLICATION · 投递状态",
+        "value": "本人已投·待核",
+        "note": "保留本人确认已投记录，回执与雇主收件证据待核。"
+      },
+      {
+        "label": "IDENTITY · 岗位身份",
+        "value": "名称与编号待核",
+        "note": "公司已知；具体岗位、工作地点与招聘编号均待核。"
+      },
+      {
+        "label": "SCHEDULE · 档期",
+        "value": "起止与工时待核",
+        "note": "原卡未给确切任期，无法据此判断个人档期资格。"
+      },
+      {
+        "label": "EVIDENCE · 证据",
+        "value": "原JD与回执待补",
+        "note": "先找当次原始记录，再判断硬条件与准备方向。"
+      }
+    ],
+    "eligibility_title": "岗位身份与证据核验",
+    "employer": [
+      {
+        "label": "确切岗位",
+        "value": "名称、城市与招聘编号待核"
+      },
+      {
+        "label": "招聘状态",
+        "value": "未锁定同一岗位，无法核验是否仍开放"
+      },
+      {
+        "label": "岗位类型",
+        "value": "实习或正式岗、全职或兼职均待核"
+      },
+      {
+        "label": "任期与门槛",
+        "value": "起止日期、学历与工作许可要求待核"
+      },
+      {
+        "label": "原始来源",
+        "value": "原申请页、官方JD与提交回执待补"
+      }
+    ],
+    "employer_note": "截至2026-11-25，只能确认公司与历史已投报告。没有确切岗位和原JD，不能用当前官网其他职位代替，也不能给匹配评分。",
+    "personal": [
+      {
+        "label": "学历基线",
+        "value": "CV：利物浦大学商业管理本科已完成"
+      },
+      {
+        "label": "在读项目",
+        "value": "CV：NUS EBAC，2026年8月起在读"
+      },
+      {
+        "label": "档期资格",
+        "value": "本岗要求未知；个人可用期与校方认可待核"
+      },
+      {
+        "label": "CV材料",
+        "value": "可访问通用CV 2.1；实投版本尚未确认"
+      },
+      {
+        "label": "工作资格",
+        "value": "未取得该岗位对应的许可与资格证明"
+      }
+    ],
+    "personal_note": "已有学历与通用CV可作为准备基线，但不是该岗位资格通过或实际上传的证明。先锁定岗位，再核档期、校方认可与工作资格。",
+    "match_title": "匹配暂缓 · 证据待补",
+    "match_left_title": "五项证据缺口",
+    "match_right_title": "申请记录 × 待补证据",
+    "dimensions": [
+      {
+        "name": "岗位身份",
+        "status": "待补证据",
+        "note": "公司已知，确切岗位、城市与编号尚未锁定；不能由公司行业推导申请方向。",
+        "has_evidence": false
+      },
+      {
+        "name": "原始JD",
+        "status": "待补证据",
+        "note": "未取得与当次申请对应的原始JD，职责与硬条件均暂缓判断，也不先做能力匹配。",
+        "has_evidence": false
+      },
+      {
+        "name": "实际提交",
+        "status": "待补证据",
+        "note": "本人已投报告保留；平台提交、雇主收件和准备稿需要分别取得证据，不能互相替代。",
+        "has_evidence": false
+      },
+      {
+        "name": "上传CV",
+        "status": "待补证据",
+        "note": "已有通用准备材料，但实际上传附件与版本对应关系未确认，不假定某份CV已经提交。",
+        "has_evidence": false
+      },
+      {
+        "name": "后续阶段",
+        "status": "待补证据",
+        "note": "回执、测评、面试或结果尚缺同岗证据；检索未命中不等于从未申请，也不改原状态。",
+        "has_evidence": false
+      }
+    ],
+    "matrix": [
+      {
+        "need": "本人历史记录",
+        "evidence": "10月23日本人报告已投，历史留有求职邮件草稿。",
+        "verdict": "保留已投报告"
+      },
+      {
+        "need": "岗位身份",
+        "evidence": "确切名称、城市及编号待补",
+        "verdict": "暂缓匹配"
+      },
+      {
+        "need": "原始JD",
+        "evidence": "未锁定与当次提交对应的版本",
+        "verdict": "职责不推测"
+      },
+      {
+        "need": "实际上传CV",
+        "evidence": "草稿及准备材料不能证明当次实际发送或上传的版本。",
+        "verdict": "提交版待核"
+      },
+      {
+        "need": "提交与后续",
+        "evidence": "未取得同岗回执或阶段证明",
+        "verdict": "原状态不变"
+      },
+      {
+        "need": "一岗一条",
+        "evidence": "求职草稿不等于已发送，业务关键词也不是确切岗位名。",
+        "verdict": "先核身份再归并"
+      }
+    ],
+    "projects_title": "已有材料与缺口",
+    "projects": [
+      {
+        "name": "本人历史记录",
+        "subtitle": "申请线索 · 非项目匹配",
+        "intro": "原卡记录本人确认已投，目前用于保留申请历史；公司名称本身不能支撑岗位职责或能力结论。",
+        "bullets": [
+          "10月23日本人报告已投，历史留有求职邮件草稿。",
+          "语音识别业务线索不能代替确切岗位名。",
+          "检索未命中不推翻本人已投报告。"
+        ],
+        "boundary": "这段展示的是申请线索，不是岗位匹配或雇主收件证明。找到原申请页和回执后，才能把具体岗位与提交事件逐项对应。",
+        "english": ""
+      },
+      {
+        "name": "现有准备材料",
+        "subtitle": "CV与团队材料 · 等待岗位身份",
+        "intro": "通用CV与ABD、PAL团队资料可作准备资料库；当前没有确切JD，因此暂不挑选所谓最匹配的项目。",
+        "bullets": [
+          "通用CV 2.1可作本次准备基线。",
+          "团队材料须再核本人分工及实际交付。",
+          "实际上传版本以当次申请记录为准。"
+        ],
+        "boundary": "材料存在不代表已经提交，也不代表与该岗位相关。ABD、PAL须在职责相关且个人贡献有据时使用，不预设效果或量化成果。",
+        "english": ""
+      }
+    ],
+    "prep_title": "补齐证据后再准备",
+    "steps": [
+      {
+        "title": "01 找到岗位身份",
+        "text": "从当次申请页或确认邮件找出岗位全名、城市与编号，记录来源和日期，再对照这张原卡。"
+      },
+      {
+        "title": "02 区分提交证据",
+        "text": "分别记录准备稿、平台提交及雇主收件证据；没有回执时保留本人报告，不把两者混同。"
+      },
+      {
+        "title": "03 核对上传版本",
+        "text": "按上传附件名称或申请页面比对CV内容与版本，避免把现有通用稿当成当次提交文件。"
+      },
+      {
+        "title": "04 回到同一张卡",
+        "text": "证据补齐后更新本卡的岗位身份和后续记录，再开展资格与JD匹配，不凭公司名新增岗位。"
+      }
+    ],
+    "questions": [
+      {
+        "en": "Which exact role did I apply for?",
+        "zh": "找到岗位全名、城市和编号；保留当次来源与日期。"
+      },
+      {
+        "en": "What proves submission rather than preparation?",
+        "zh": "分别核对准备稿、平台提交和雇主收件的证据。"
+      },
+      {
+        "en": "Which CV was actually uploaded?",
+        "zh": "用申请附件或上传记录确认版本，不凭文件存在判断。"
+      },
+      {
+        "en": "Is this the same role as an existing record?",
+        "zh": "求职草稿不等于已发送，业务关键词也不是确切岗位名。"
+      },
+      {
+        "en": "What is the latest verified stage?",
+        "zh": "补齐同岗后续记录；尚未确认的阶段继续写待核。"
+      }
+    ],
+    "question_kind": "证据核对",
+    "question_note": "这些是补证检查，不是面试预测；岗位确认后再开展专属预练。",
+    "application_note": "10月23日本人报告已投，历史提及语音识别业务及求职邮件草稿。2026-11-25 Gmail 有界检索未取得同岗回执；草稿不等于已发送，检索未命中不推翻本人报告。",
+    "cv_note": "通用CV 2.1仅作为本次准备基线；实际上传文件、版本与提交时间待核，不能据文件存在认定已提交。",
+    "dedup_note": "沿用本卡 Page ID 作临时唯一键；以岗位、地点和编号补证，不把草稿当另一条申请。",
+    "storage_key": "career-simple-page_1d812a3e27dc8191a393c22536e130e3-prep-v1"
+  },
+  {
+    "page_id": "page_dd3d04f7972c8191b9a49be83faf2e88",
+    "company": "Edelman Intelligence",
+    "role": "Research Analyst Intern (Jan–Jun 2027)",
+    "category": "closed",
+    "filename": "edelman-intelligence-dd3d04f7.html",
+    "hero": "本轮因2027年1月起全职要求与个人档期不合而结束；保留传播研究、资料质检与洞察表达的历史复盘，不重开申请。",
+    "pill": "已结束 · 档期不合",
+    "employment": "六个月全职实习",
+    "short_id": "LinkedIn 4470699820（渠道）",
+    "status_label": "已结束",
+    "kpis": [
+      {
+        "label": "APPLICATION · 投递状态",
+        "value": "已结束",
+        "note": "11月19日收尾记录明确档期不合，本轮保持结束。"
+      },
+      {
+        "label": "SCHEDULE · 招聘档期",
+        "value": "2027年1—6月",
+        "note": "要求一月起连续六个月全职，不能以三月起替代。"
+      },
+      {
+        "label": "AVAILABILITY · 历史安排",
+        "value": "3月起全职",
+        "note": "11月16日曾提一至二月兼职，三月起全职。"
+      },
+      {
+        "label": "REVIEW · 复盘用途",
+        "value": "仅历史练习",
+        "note": "岗位仍可读不改变个人结果，练习不产生新申请。"
+      }
+    ],
+    "eligibility_title": "招聘与申请资格",
+    "employer": [
+      {
+        "label": "岗位地点",
+        "value": "新加坡；研究分析实习"
+      },
+      {
+        "label": "任期要求",
+        "value": "2027年1—6月，六个月全职"
+      },
+      {
+        "label": "学历方向",
+        "value": "接受Business／Data Analytics等相关方向"
+      },
+      {
+        "label": "工具要求",
+        "value": "Office；BI、Python等加分，非已证实技能"
+      },
+      {
+        "label": "页面核验",
+        "value": "11月25日原JD可读；最终表单未验证"
+      }
+    ],
+    "employer_note": "2026-11-25原JD仍可读，但本人本轮已由11月19日收尾记录确认结束。招聘页面可见不改变档期结论，也不构成面试邀约。",
+    "personal": [
+      {
+        "label": "学历背景",
+        "value": "商业管理本科已完成，EBAC在读"
+      },
+      {
+        "label": "当时可用期",
+        "value": "11月16日提出2027年1—2月兼职"
+      },
+      {
+        "label": "当时全职期",
+        "value": "曾提出2027年3月1日—9月30日全职"
+      },
+      {
+        "label": "资格限制",
+        "value": "个人历史陈述，不等于校方批准"
+      },
+      {
+        "label": "本轮结果",
+        "value": "招聘方无法配合档期，已结束"
+      }
+    ],
+    "personal_note": "相关学历与研究经历不能抵消一月全职要求。上述档期仅是本次申请的历史陈述，毕业日期与学校认可待核，不能直接复用于其他岗位。",
+    "match_title": "历史能力对照",
+    "match_left_title": "相关经历与缺口",
+    "match_right_title": "原JD × 个人证据",
+    "dimensions": [
+      {
+        "name": "研究设计",
+        "status": "相关经历",
+        "note": "PwC行业研究与Ogilvy市场资料分析可迁移；亲手执行抽样、问卷或访谈的证据仍待补。",
+        "has_evidence": true
+      },
+      {
+        "name": "数据质量",
+        "status": "相关经历",
+        "note": "6Estates有文件分类和一致性样本准备；不等于独立执行统计质检，实际规则与结果待核。",
+        "has_evidence": true
+      },
+      {
+        "name": "AI媒体分析",
+        "status": "相关经历",
+        "note": "GGU有Python提示工作流与语言评价设计；尚无社交聆听或情绪分类部署的可核对成果。",
+        "has_evidence": true
+      },
+      {
+        "name": "洞察表达",
+        "status": "相关经历",
+        "note": "Ogilvy广告支出研究、PwC结果呈现支持表达；复盘时仍需标明本人负责的资料、图表与判断。",
+        "has_evidence": true
+      },
+      {
+        "name": "报告工具",
+        "status": "待补证据",
+        "note": "CV列Office、Python；Power BI、Tableau、SPSS作品未确认，不能扩写为熟练掌握。",
+        "has_evidence": false
+      }
+    ],
+    "matrix": [
+      {
+        "need": "研究问题与方法",
+        "evidence": "PwC行业研究、Ogilvy市场资料",
+        "verdict": "方法执行待举证"
+      },
+      {
+        "need": "数据收集与质检",
+        "evidence": "6Estates分类与测试样本准备",
+        "verdict": "限于准备工作"
+      },
+      {
+        "need": "AI辅助媒体分析",
+        "evidence": "GGU语言评价及提示工作流设计",
+        "verdict": "部署未证实"
+      },
+      {
+        "need": "客户洞察与报告",
+        "evidence": "广告支出研究、Excel结果呈现",
+        "verdict": "需说明本人分工"
+      },
+      {
+        "need": "Office与加分工具",
+        "evidence": "CV技能与相关工作记录",
+        "verdict": "BI作品待补"
+      }
+    ],
+    "projects_title": "两段历史相关经历",
+    "projects": [
+      {
+        "name": "Ogilvy｜媒体与竞品研究",
+        "subtitle": "传播研究 · CV证据",
+        "intro": "CV记载superX合作、竞品及广告支出研究，可用于复盘如何判断资料可靠性并形成传播洞察。",
+        "bullets": [
+          "先说明当时支持的研究问题与范围。",
+          "选一份本人整理的资料或图表讲口径。",
+          "区分观察事实、解释与尚未验证的假设。"
+        ],
+        "boundary": "现有证据支持研究与分析任务，不证明团队策略由本人独立制定或产生商业效果。复盘时只讲自己负责且能够核对的资料、判断与输出。",
+        "english": ""
+      },
+      {
+        "name": "6Estates｜测试样本准备",
+        "subtitle": "数据质量 · CV证据",
+        "intro": "CV记载按文件类型、格式与图像质量准备样本及一致性场景，可用于讨论后续验证需要哪些输入。",
+        "bullets": [
+          "说明如何按类型、格式和质量组织样本。",
+          "区分测试场景、预期结果与实际执行。",
+          "用难例解释为什么自动标签还需人工复核。"
+        ],
+        "boundary": "这里证明的是场景和样本准备，不是独立测试执行、产品修复或情绪分类部署。迁移到媒体质检时，用会如何做表达未实践的步骤。",
+        "english": ""
+      }
+    ],
+    "prep_title": "历史复盘与归档核对",
+    "steps": [
+      {
+        "title": "01 保持本轮结束",
+        "text": "保留11月19日档期沟通与收尾记录，本页勾选仅记录复盘进度，不生成跟进或再次申请。"
+      },
+      {
+        "title": "02 留住原始证据",
+        "text": "原卡保留十二道题和旧进度；本页精选练习另作本地复习，准确提交时刻与上传CV仍待核。"
+      },
+      {
+        "title": "03 练清真实分工",
+        "text": "选一段Ogilvy或6Estates经历，讲清资料、本人任务与边界，未核实的业务收益不要补写。"
+      },
+      {
+        "title": "04 复用筛选教训",
+        "text": "未来另遇新批次时先核开始日期、每周工时和连续时长；这条历史记录保持结束，不重开。"
+      }
+    ],
+    "questions": [
+      {
+        "en": "How would you design a study when a client says brand trust is falling?",
+        "zh": "历史复盘：先定受众、时期与决策，再区分访谈和定量样本。"
+      },
+      {
+        "en": "How would you validate AI sentiment labels across languages?",
+        "zh": "历史复盘：按语种与难例抽查，用人工规则核验标签错误。"
+      },
+      {
+        "en": "What would you check before comparing two weeks of media coverage?",
+        "zh": "历史复盘：先查来源覆盖、转载去重、时间窗与分母。"
+      },
+      {
+        "en": "What did you personally contribute to your Ogilvy or PwC research?",
+        "zh": "历史复盘：讲清本人负责的资料或图表，不包揽团队成果。"
+      },
+      {
+        "en": "Why can forecast rankings change after aggregation?",
+        "zh": "历史复盘：锁定同一运行版本，解释聚合误差与验证边界。"
+      }
+    ],
+    "question_kind": "归档复盘",
+    "question_note": "这些是历史模拟题，不代表面试邀约；勾选练习不重新激活本轮。",
+    "application_note": "本人报告已投；11月19日收尾Page转录邮件截图，确认因档期不合结束。2026-11-25 Gmail仅检得保存职位提醒，未取得雇主原邮件，不推翻收尾记录；感谢信为未发送草稿。",
+    "cv_note": "实际提交版待核。Dropbox有2.1.2 Edelman旧稿，含旧邮箱与Present表述；文件存在不证明已上传。",
+    "dedup_note": "以公司、研究实习、新加坡及2027年1—6月为同岗范围；未来批次分开，历史演练不创建申请。",
+    "storage_key": "career-simple-page_dd3d04f7972c8191b9a49be83faf2e88-prep-v1"
+  },
+  {
+    "page_id": "page_2225dfa701d881918e8420330e663213",
+    "company": "Benefit Cosmetics",
+    "role": "Business Analyst Intern, SEA",
+    "category": "trash",
+    "filename": "benefit-cosmetics-2225dfa7.html",
+    "hero": "本条已移入废纸篓并决定暂不投；仅保留东南亚经营分析、Excel报表与促销利润的历史复习，相关经历不代表零售实战。",
+    "pill": "废纸篓 · 暂不投",
+    "employment": "约六个月全职实习",
+    "short_id": "ATS 744000152861180（渠道）",
+    "status_label": "废纸篓",
+    "kpis": [
+      {
+        "label": "APPLICATION · 投递状态",
+        "value": "废纸篓·暂不投",
+        "note": "调度台已归档，原卡旧候选文案不触发重新激活。"
+      },
+      {
+        "label": "SCHEDULE · 开始时间",
+        "value": "12月或1月",
+        "note": "2026年12月或2027年1月开始，持续至六月。"
+      },
+      {
+        "label": "COMMITMENT · 工时",
+        "value": "约六个月全职",
+        "note": "历史三月起全职安排不同，个人与校方资格待核。"
+      },
+      {
+        "label": "TOOLS · 工具门槛",
+        "value": "高级Excel",
+        "note": "JD要求高级Excel，Power BI属于加分项。"
+      }
+    ],
+    "eligibility_title": "招聘与申请资格",
+    "employer": [
+      {
+        "label": "岗位地点",
+        "value": "新加坡；SEA业务分析实习"
+      },
+      {
+        "label": "任期要求",
+        "value": "2026年12月或2027年1月起，至6月"
+      },
+      {
+        "label": "工时要求",
+        "value": "全职约六个月"
+      },
+      {
+        "label": "核心工具",
+        "value": "高级Excel；Power BI加分"
+      },
+      {
+        "label": "页面核验",
+        "value": "11月25日雇主页可读；最终表单未验证"
+      }
+    ],
+    "employer_note": "2026-11-25雇主页面有兴趣入口，但未验证最终提交表单。调度台已明确暂不投；页面可见与原候选文案均不改变废纸篓状态。",
+    "personal": [
+      {
+        "label": "学历基线",
+        "value": "商业管理本科已完成，EBAC在读"
+      },
+      {
+        "label": "历史档期",
+        "value": "曾提出2027年3月起全职，非本岗批准"
+      },
+      {
+        "label": "Excel证据",
+        "value": "PwC行业数据分析；高级实操待举证"
+      },
+      {
+        "label": "零售经验",
+        "value": "未见本人负责零售P&L或预算的证据"
+      },
+      {
+        "label": "学校认可",
+        "value": "个人可全职期与校方认可待核"
+      }
+    ],
+    "personal_note": "Excel研究与营销资料分析可用于复习，但不足以证明高级工具熟练或零售损益责任。个人全职窗口及校方认可仍待核，本条保持暂不投。",
+    "match_title": "历史能力对照",
+    "match_left_title": "相关经历与缺口",
+    "match_right_title": "原JD × 个人证据",
+    "dimensions": [
+      {
+        "name": "零售经营指标",
+        "status": "相关经历",
+        "note": "PwC数据分析与Ogilvy市场趋势研究有迁移线索；门店生产力和sell-out口径案例仍待补。",
+        "has_evidence": true
+      },
+      {
+        "name": "财务与促销利润",
+        "status": "待补证据",
+        "note": "有Financial Management课程背景，未见本人承担零售损益或预算责任，课程不能代替实战。",
+        "has_evidence": false
+      },
+      {
+        "name": "Excel与报表",
+        "status": "相关经历",
+        "note": "CV支持PwC的Excel分析；高级函数、多表刷新及自动化报表文件尚未确认，不能扩大熟练度。",
+        "has_evidence": true
+      },
+      {
+        "name": "商业解读",
+        "status": "相关经历",
+        "note": "Ogilvy竞品研究与PwC商业模型呈现可作素材；尚需真实数据说明销量、价格和组合变化。",
+        "has_evidence": true
+      },
+      {
+        "name": "跨部门沟通",
+        "status": "相关经历",
+        "note": "GGU有三家教育公司的需求沟通；方法可以复盘，但未发生的零售财务协同不能改写成经历。",
+        "has_evidence": true
+      }
+    ],
+    "matrix": [
+      {
+        "need": "销售与门店指标",
+        "evidence": "PwC行业数据、Ogilvy趋势研究",
+        "verdict": "零售口径待补"
+      },
+      {
+        "need": "P&L与预算偏差",
+        "evidence": "财务课程与商业分析背景",
+        "verdict": "实际责任未证实"
+      },
+      {
+        "need": "促销盈利",
+        "evidence": "营销与竞品资料分析",
+        "verdict": "非增量利润实绩"
+      },
+      {
+        "need": "高级Excel报表",
+        "evidence": "PwC Excel分析、Office技能",
+        "verdict": "高级作品待补"
+      },
+      {
+        "need": "商业沟通",
+        "evidence": "GGU需求沟通与跨职能合作",
+        "verdict": "非零售协作案例"
+      }
+    ],
+    "projects_title": "两段历史相关经历",
+    "projects": [
+      {
+        "name": "PwC｜Excel与行业研究",
+        "subtitle": "研究资料 · CV证据",
+        "intro": "CV记载行业数据分析与商业模型呈现，可用于复习如何校验数据来源、统一比较口径并说明结论限制。",
+        "bullets": [
+          "选择一个本人实际整理的数据或图表。",
+          "说明资料出处、期间与比较口径。",
+          "讲清结果如何整理成可理解的业务呈现。"
+        ],
+        "boundary": "这段经历不证明本人承担零售P&L、预算或商业收益责任。只有找到对应文件后才能说明高级Excel操作，不能由Office技能反推。",
+        "english": ""
+      },
+      {
+        "name": "Ogilvy｜营销与竞品研究",
+        "subtitle": "营销情境 · CV证据",
+        "intro": "CV记载品牌合作、竞品活动及媒体支出分析，可用于复盘营销指标与业务结果之间需要哪些补充证据。",
+        "bullets": [
+          "明确本人负责的合作或竞品资料范围。",
+          "区分广告投入、传播指标与销售结果。",
+          "说明评估促销仍缺对照、成本与增量数据。"
+        ],
+        "boundary": "市场与媒体研究不等于促销增量实验，也不是零售利润实绩。可以解释分析方法与需要的数据，不能声称已经证明活动创造商业收益。",
+        "english": ""
+      }
+    ],
+    "prep_title": "历史复盘与归档核对",
+    "steps": [
+      {
+        "title": "01 保留暂不投决定",
+        "text": "调度台废纸篓分类与原卡较旧候选文字同时保留；本页仅历史复盘，不恢复候选或生成申请。"
+      },
+      {
+        "title": "02 留存归档日期",
+        "text": "保留11月23日移入及12月7日到期记录，作为历史调度信息；本地文件不按此自动删除。"
+      },
+      {
+        "title": "03 复习经营口径",
+        "text": "用历史模拟题练习销量、价格、组合与利润的区别；没有真实零售案例时明确只是分析方案。"
+      },
+      {
+        "title": "04 标出证据边界",
+        "text": "记录高级Excel作品、零售损益责任及档期的缺口，作为历史学习备注，不创建当前投递待办。"
+      }
+    ],
+    "questions": [
+      {
+        "en": "How would you explain a sales decline by country, channel and door?",
+        "zh": "归档复盘：先核期间、币种和可比门店，再拆销售变化。"
+      },
+      {
+        "en": "How would you judge whether a promotion was profitable?",
+        "zh": "归档复盘：区分营业额与增量利润，纳入成本和对照。"
+      },
+      {
+        "en": "What controls would you build into a monthly Excel reporting pack?",
+        "zh": "归档复盘：检查主键、总额、期间与版本，再谈自动刷新。"
+      },
+      {
+        "en": "How would you present a budget variance to the regional GM?",
+        "zh": "归档复盘：先讲最大因素、可控部分与解释的不确定性。"
+      },
+      {
+        "en": "Which parts of your PwC and Ogilvy work transfer to commercial analytics?",
+        "zh": "归档复盘：限定本人真实研究任务，说明零售损益缺口。"
+      }
+    ],
+    "question_kind": "归档复盘",
+    "question_note": "仅作历史学习与归档核对；勾选不会恢复候选，也不会产生投递动作。",
+    "application_note": "调度台记录2026-11-23 23:21:39 SGT移入废纸篓，12月7日同刻到期；无本岗已投证据。原卡仍留旧候选文案，当前保持暂不投，本地归档不自动删除或恢复。",
+    "cv_note": "未取得本岗已投证据，也没有已投版本记录；通用CV仅供历史复习对照，不据此生成提交记录。",
+    "dedup_note": "以Benefit、岗位全名和新加坡对应原卡；ATS编号仅作渠道标识，不与同集团其他品牌岗位混同。",
+    "storage_key": "career-simple-page_2225dfa701d881918e8420330e663213-prep-v1"
+  },
+  {
+    "page_id": "page_45664bad128881918d24c07e28312821",
+    "company": "Parfums Christian Dior",
+    "role": "Data Analytics & Project Management Intern, Travel Retail",
+    "category": "trash",
+    "filename": "parfums-christian-dior-45664bad.html",
+    "hero": "本条继续保留在废纸篓；历史复习聚焦报表、数据口径与操作文档，Power BI实操和旧编号映射仍待核，不恢复申请。",
+    "pill": "废纸篓 · 暂不投",
+    "employment": "六个月全职实习",
+    "short_id": "ATS 744000151759079（渠道）",
+    "status_label": "废纸篓",
+    "kpis": [
+      {
+        "label": "APPLICATION · 投递状态",
+        "value": "废纸篓·暂不投",
+        "note": "调度台明确归档，原候选文字保留但不恢复申请。"
+      },
+      {
+        "label": "SCHEDULE · 招聘档期",
+        "value": "2027年1—6月",
+        "note": "六个月全职要求明确，个人档期与学校认可待核。"
+      },
+      {
+        "label": "TOOLS · 工具门槛",
+        "value": "高级Excel＋BI",
+        "note": "Power Query等工具要求明确，个人实操文件待补。"
+      },
+      {
+        "label": "IDENTITY · 来源对应",
+        "value": "旧编号映射待核",
+        "note": "同名雇主ATS可读，尚未证实与旧PCD22399对应。"
+      }
+    ],
+    "eligibility_title": "招聘与申请资格",
+    "employer": [
+      {
+        "label": "岗位地点",
+        "value": "新加坡；Travel Retail数据与项目实习"
+      },
+      {
+        "label": "任期要求",
+        "value": "2027年1—6月，六个月全职"
+      },
+      {
+        "label": "学历要求",
+        "value": "数据或商业分析学历、同等相关经历"
+      },
+      {
+        "label": "工具要求",
+        "value": "Excel、Power Query／Pivot、Power BI"
+      },
+      {
+        "label": "来源限制",
+        "value": "11月25日ATS可读；表单与旧编号映射待核"
+      }
+    ],
+    "employer_note": "2026-11-25同名雇主ATS可读，最终表单未验证；与旧PCD22399的精确映射仍待核。以上信息只补充归档，不改变暂不投决定。",
+    "personal": [
+      {
+        "label": "学历基线",
+        "value": "商业管理本科已完成，EBAC在读"
+      },
+      {
+        "label": "历史档期",
+        "value": "曾提出2027年3月起全职，非本岗批准"
+      },
+      {
+        "label": "质量与流程",
+        "value": "6Estates样本准备、GGU工作流设计"
+      },
+      {
+        "label": "关键工具缺口",
+        "value": "未见Power Query或Power BI实操文件"
+      },
+      {
+        "label": "学校与资格",
+        "value": "六个月全职可用期、校方认可仍待核"
+      }
+    ],
+    "personal_note": "流程和文档经历可支持复盘思路，不证明已交付零售数据管道或Power BI系统。ABD无Desktop完成证据，个人分工及全职资格待核。",
+    "match_title": "历史能力对照",
+    "match_left_title": "相关经历与缺口",
+    "match_right_title": "原JD × 个人证据",
+    "dimensions": [
+      {
+        "name": "数据标准化",
+        "status": "相关经历",
+        "note": "6Estates有文件分类与一致性样本准备；可讨论数据规则，但尚无完成零售数据管道的证据。",
+        "has_evidence": true
+      },
+      {
+        "name": "报表自动化",
+        "status": "相关经历",
+        "note": "GGU的Python工作流设计提供流程思路；不等于Excel或BI自动刷新已经实施和验证。",
+        "has_evidence": true
+      },
+      {
+        "name": "指标治理",
+        "status": "团队材料",
+        "note": "ABD后版报告含样本及编码审计；个人分工待核，团队报告也不能直接当作零售KPI系统。",
+        "has_evidence": true
+      },
+      {
+        "name": "Power BI",
+        "status": "待补证据",
+        "note": "PwC Excel可视化有迁移线索，但Power BI实操作品未确认，ABD预备查询不等于Desktop完成。",
+        "has_evidence": false
+      },
+      {
+        "name": "SOP与沟通",
+        "status": "相关经历",
+        "note": "航拍操作手册被部门采用、GGU有需求沟通；支持文档方法，未证实门店培训或零售流程经验。",
+        "has_evidence": true
+      }
+    ],
+    "matrix": [
+      {
+        "need": "统一来源与数据规则",
+        "evidence": "6Estates文件与样本分类",
+        "verdict": "非生产数据管道"
+      },
+      {
+        "need": "报表刷新自动化",
+        "evidence": "GGU Python工作流设计",
+        "verdict": "实施结果待举证"
+      },
+      {
+        "need": "KPI口径与追溯",
+        "evidence": "ABD团队样本与编码审计",
+        "verdict": "本人分工待核"
+      },
+      {
+        "need": "Power BI看板",
+        "evidence": "无已完成Desktop或PBIX证据",
+        "verdict": "关键作品待补"
+      },
+      {
+        "need": "SOP与协作",
+        "evidence": "航拍手册被采用、GGU需求沟通",
+        "verdict": "零售场景待补"
+      }
+    ],
+    "projects_title": "两段历史相关经历",
+    "projects": [
+      {
+        "name": "6Estates｜数据验证准备",
+        "subtitle": "样本与规则 · CV证据",
+        "intro": "CV记载按文件类型、格式和图像质量组织样本并准备一致性场景，可复盘如何使后续数据核查更清楚。",
+        "bullets": [
+          "说明样本分类和异常情境的依据。",
+          "将输入、预期与实际结果分开记录。",
+          "解释哪些规则仍需后续执行才能验证。"
+        ],
+        "boundary": "现有证据限于场景和样本准备，不证明构建生产ETL或独立完成测试。用于零售数据题时，只解释可迁移方法，不虚构实际系统成果。",
+        "english": ""
+      },
+      {
+        "name": "航拍部门｜操作手册",
+        "subtitle": "SOP经验 · CV证据",
+        "intro": "CV记载设备选择、安全与操作手册被部门采用，可复盘如何把复杂流程写成他人能够遵循的操作顺序。",
+        "bullets": [
+          "以真实手册说明设备与操作步骤。",
+          "讲清安全检查及易出错的关键环节。",
+          "解释如何让使用者理解并遵循说明。"
+        ],
+        "boundary": "手册被采用支持真实文档与SOP经验，但不是零售或BI系统交付。复盘只谈可核对的手册内容，不把它改写成门店培训或看板实施。",
+        "english": ""
+      }
+    ],
+    "prep_title": "历史复盘与归档核对",
+    "steps": [
+      {
+        "title": "01 保持废纸篓状态",
+        "text": "原卡与调度台的历史文字同时保留；本条继续暂不投，练习不改变状态，也不生成申请动作。"
+      },
+      {
+        "title": "02 留存来源差异",
+        "text": "同名ATS与旧PCD22399的映射未证实，保留两条来源标识，不据标题相同自动合并新批次。"
+      },
+      {
+        "title": "03 练数据与文档",
+        "text": "以6Estates样本和真实操作手册复盘规则、异常与说明方式；零售或BI情境明确写作假设方案。"
+      },
+      {
+        "title": "04 保留能力缺口",
+        "text": "Power Query、Power BI、本人团队贡献及全职资格继续标待核，只记学习事项，不恢复候选。"
+      }
+    ],
+    "questions": [
+      {
+        "en": "How would you consolidate conflicting retail reports into one dataset?",
+        "zh": "归档复盘：先统一粒度、主键与币种，保留差异再对账。"
+      },
+      {
+        "en": "How would you make a weekly Power BI refresh trustworthy?",
+        "zh": "归档复盘：描述源检查与刷新日志；不声称已有PBIX交付。"
+      },
+      {
+        "en": "How would you document a KPI so store teams interpret it consistently?",
+        "zh": "归档复盘：写清分子分母、排除规则、示例及责任人。"
+      },
+      {
+        "en": "Which manual report task would you automate first?",
+        "zh": "归档复盘：比较频次、耗时与风险，不虚构节省结果。"
+      },
+      {
+        "en": "How would you resolve a mismatch without silently editing the source?",
+        "zh": "归档复盘：保留源值和修正规则，说明ABD中的真实分工。"
+      }
+    ],
+    "question_kind": "归档复盘",
+    "question_note": "仅作历史学习与归档核对；勾选不会重新激活岗位或启动申请。",
+    "application_note": "调度台记录2026-11-23 23:21:39 SGT移入废纸篓，12月7日同刻到期；无本岗已投证据。原卡仍留旧候选文字，当前保持暂不投；本地文件不会按到期日删除或恢复。",
+    "cv_note": "未取得本岗已投证据，实际提交版本无记录；通用CV只供历史对照，不能将准备材料改记为已上传。",
+    "dedup_note": "以Dior、岗位全名及新加坡对应原卡；ATS与旧PCD22399映射待核，不自动合并外部新批次。",
+    "storage_key": "career-simple-page_45664bad128881918d24c07e28312821-prep-v1"
+  }
+]

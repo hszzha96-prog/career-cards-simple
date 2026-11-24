@@ -1,0 +1,172 @@
+{
+  "cards": 22,
+  "categories": {
+    "candidate": 11,
+    "applied": 4,
+    "incomplete": 4,
+    "closed": 1,
+    "trash": 2
+  },
+  "local_links_checked": 202,
+  "unique_progress_keys": 22,
+  "records": [
+    {
+      "filename": "benefit-cosmetics-2225dfa7.html",
+      "page_id": "page_2225dfa701d881918e8420330e663213",
+      "category": "trash",
+      "progress_key": "career-simple-page_2225dfa701d881918e8420330e663213-prep-v1",
+      "sha256": "38b20d8acf8d99c21b1157d0a0f8a6e839098fece77dba729b5c86e47e4bbbeb"
+    },
+    {
+      "filename": "deloitte-digital-04e1cb29.html",
+      "page_id": "page_04e1cb2978388191973e43ea459c81bc",
+      "category": "candidate",
+      "progress_key": "career-simple-page_04e1cb2978388191973e43ea459c81bc-prep-v1",
+      "sha256": "702155ff86a8e89a772588d90d5603040379792674e63f0448da62a0ff20f8b3"
+    },
+    {
+      "filename": "edelman-intelligence-dd3d04f7.html",
+      "page_id": "page_dd3d04f7972c8191b9a49be83faf2e88",
+      "category": "closed",
+      "progress_key": "career-simple-page_dd3d04f7972c8191b9a49be83faf2e88-prep-v1",
+      "sha256": "ca95248ac958f38f9d2255950b1a4b15b53211e2adbca0774fac8da9eb738575"
+    },
+    {
+      "filename": "fano-1d812a3e.html",
+      "page_id": "page_1d812a3e27dc8191a393c22536e130e3",
+      "category": "incomplete",
+      "progress_key": "career-simple-page_1d812a3e27dc8191a393c22536e130e3-prep-v1",
+      "sha256": "426a1fe429437cf144e4703c2d9c6b65f8c64495625fd53247615ac845496551"
+    },
+    {
+      "filename": "julius-baer-64c3a639.html",
+      "page_id": "page_64c3a63987d0819195c514e1dd41caf1",
+      "category": "incomplete",
+      "progress_key": "career-simple-page_64c3a63987d0819195c514e1dd41caf1-prep-v1",
+      "sha256": "431b4b0692d96cc860282cfd1b901b1e2d9611b5bb0499007be9cd4130125a62"
+    },
+    {
+      "filename": "marriott-8306f886.html",
+      "page_id": "page_8306f8869c90819189d01bf6db752df7",
+      "category": "candidate",
+      "progress_key": "career-simple-page_8306f8869c90819189d01bf6db752df7-prep-v1",
+      "sha256": "b1d072af465668443ae22abd5735ddc92d458501b14aae357d0e39c5b057728e"
+    },
+    {
+      "filename": "mediacorp-e2e47432.html",
+      "page_id": "page_e2e474322c4c8191ab5db42916bd8a68",
+      "category": "incomplete",
+      "progress_key": "career-simple-page_e2e474322c4c8191ab5db42916bd8a68-prep-v1",
+      "sha256": "061511aa1db48fb58c9b482ba33f66fae69bbdd30f05fc3ceb57e38901dd9089"
+    },
+    {
+      "filename": "monee-7974d07c.html",
+      "page_id": "page_7974d07ca818819181490083456a53b3",
+      "category": "candidate",
+      "progress_key": "career-simple-page_7974d07ca818819181490083456a53b3-prep-v1",
+      "sha256": "a2a655e32913f75de3a6015c79278d9bbc20fb8314b7f145862c0e60ce5ac212"
+    },
+    {
+      "filename": "parfums-christian-dior-45664bad.html",
+      "page_id": "page_45664bad128881918d24c07e28312821",
+      "category": "trash",
+      "progress_key": "career-simple-page_45664bad128881918d24c07e28312821-prep-v1",
+      "sha256": "ad39d46f284bcd3e2d3ab885d241235c2f691fa6f319a886481f48b171c39f23"
+    },
+    {
+      "filename": "publicis-digitas-apac-b7ab13b8.html",
+      "page_id": "page_b7ab13b824b88191bdb2d287bd731871",
+      "category": "candidate",
+      "progress_key": "career-simple-page_b7ab13b824b88191bdb2d287bd731871-prep-v1",
+      "sha256": "4b152818ae8fd4ca0ee0ff3ea3d4fc663f88526da8d3cff71ac2419ece36b7db"
+    },
+    {
+      "filename": "publicis-groupe-00449f51.html",
+      "page_id": "page_00449f51eaac81919fe23d930b52ea52",
+      "category": "candidate",
+      "progress_key": "career-simple-page_00449f51eaac81919fe23d930b52ea52-prep-v1",
+      "sha256": "6c0d2057aee49251afdccaff9b13a5ba667cc630a67dd272acb03b21d6610638"
+    },
+    {
+      "filename": "shopback-d6faeef2.html",
+      "page_id": "page_d6faeef22fe48191971c01df78843569",
+      "category": "candidate",
+      "progress_key": "career-simple-page_d6faeef22fe48191971c01df78843569-prep-v1",
+      "sha256": "f23e3b09f4799c14b619284870205c24c278670503d459e18cd619fcb5950ea4"
+    },
+    {
+      "filename": "shopee-50a93140.html",
+      "page_id": "page_50a93140f10c819191aaf1ce1bb553a3",
+      "category": "applied",
+      "progress_key": "career-simple-page_50a93140f10c819191aaf1ce1bb553a3-prep-v1",
+      "sha256": "979b18a4586ac79eba85a50ae0fc048dae2510129b9cc390db76e0c3c02571ac"
+    },
+    {
+      "filename": "shopee-5b8bd2a9.html",
+      "page_id": "page_5b8bd2a94ca881918818f570209e38ea",
+      "category": "candidate",
+      "progress_key": "career-simple-page_5b8bd2a94ca881918818f570209e38ea-prep-v1",
+      "sha256": "2bfdda8cee1bab016eedbfcf534d8b49de53c1d6f2818ebb694b9d0d2a5e63b4"
+    },
+    {
+      "filename": "shopee-f7760f42.html",
+      "page_id": "page_f7760f4268788191b0b72f729e8bd0ba",
+      "category": "candidate",
+      "progress_key": "career-simple-page_f7760f4268788191b0b72f729e8bd0ba-prep-v1",
+      "sha256": "95f8c19ffa72f2c867e025f61fdaead385db76c6c117ab6eefbc1abccf936de4"
+    },
+    {
+      "filename": "siemens-c62ff839.html",
+      "page_id": "page_c62ff839fe8c8191a1b91a67d3431602",
+      "category": "candidate",
+      "progress_key": "career-simple-page_c62ff839fe8c8191a1b91a67d3431602-prep-v1",
+      "sha256": "42a875b554852eacf5b1fd7005963ebd37f3e9cccf6c6880e3bb010241ea1aa0"
+    },
+    {
+      "filename": "tiktok-c72af3ce.html",
+      "page_id": "page_c72af3ce6374819191458f07b06e875a",
+      "category": "applied",
+      "progress_key": "career-simple-page_c72af3ce6374819191458f07b06e875a-prep-v1",
+      "sha256": "feee72ee7d0f1f4e3df13a0a6a77a3c765e9067c25c2c14e1e80d43066a5ba73"
+    },
+    {
+      "filename": "tiktok-shop-9e433172.html",
+      "page_id": "page_9e43317211308191a0036e43d4cdf27a",
+      "category": "candidate",
+      "progress_key": "career-simple-page_9e43317211308191a0036e43d4cdf27a-prep-v1",
+      "sha256": "73444c0dc63f15b2e3b8dffa2abbe0087176895569df821745d20063ddcf191b"
+    },
+    {
+      "filename": "upstride-3f738fc9.html",
+      "page_id": "page_3f738fc97b3c81919284600c5949c345",
+      "category": "candidate",
+      "progress_key": "career-simple-page_3f738fc97b3c81919284600c5949c345-prep-v1",
+      "sha256": "adc8d3db4ec0e7dd188b3e28f5175f431c708429b00784254ac97d071b64caf4"
+    },
+    {
+      "filename": "xiaomi-9cb96a2d.html",
+      "page_id": "page_9cb96a2db3dc8191857fe7f58c90022c",
+      "category": "applied",
+      "progress_key": "career-xiaomi-A119959-prep-v1",
+      "sha256": "7a2ac8e431cbeaad79fc287a919a9cde3e85c04402e7ab575dd5edbbc6ef1f95"
+    },
+    {
+      "filename": "yokogawa-c43cc81d.html",
+      "page_id": "page_c43cc81dbf8881918dd3326206102380",
+      "category": "incomplete",
+      "progress_key": "career-simple-page_c43cc81dbf8881918dd3326206102380-prep-v1",
+      "sha256": "8a58d1cf6f766f8e4d29774f6993e7cad71e43b53ef79646a9ca435127d8ff56"
+    },
+    {
+      "filename": "youtrip-23d792a0.html",
+      "page_id": "page_23d792a0583881919b99645e37448a77",
+      "category": "applied",
+      "progress_key": "career-simple-page_23d792a0583881919b99645e37448a77-prep-v1",
+      "sha256": "99d7cd66ca133afdae4121a259617851e98ff7ee3a728b5ac87d1607cb7468f2"
+    }
+  ],
+  "version": "0.1.0",
+  "snapshot_date": "2026-11-25",
+  "zip_sha256": "ac51dc5ea3e4143621020089dc781be242b131679e9504cdd04ec994b5b83a9b",
+  "zip_bytes": 230164
+}
