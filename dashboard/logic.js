@@ -82,25 +82,29 @@ class Component extends DCLogic {
     this.play('whoosh');
     this.sweepAnims.forEach((a) => { try { a.cancel(); } catch (e) {} });
     this.sweepAnims = [];
-    const from = dir > 0 ? -520 : 1960;
-    const to = dir > 0 ? 1960 : -520;
-    if (this.sweepEl) Array.prototype.forEach.call(this.sweepEl.children, (bar) => {
-      const i = Number(bar.getAttribute('data-i'));
-      const g = Number(bar.getAttribute('data-g'));
-      const order = dir > 0 ? i : 6 - i;
-      const a = this.motion(bar, [
-        { transform: 'translateX(' + from + 'px) skewX(-14deg) scaleX(0.6)' },
-        { transform: 'translateX(' + (from + to) / 2 + 'px) skewX(-14deg) scaleX(1.5)', offset: 0.5 },
-        { transform: 'translateX(' + to + 'px) skewX(-14deg) scaleX(0.6)' }
-      ], 760, order * 48 + g * 34, 'cubic-bezier(.65,0,.35,1)');
+    // 星空渐变遮罩 + 泡泡与星屑向上消散，掩住新旧页面的切换
+    if (this.sweepEl) Array.prototype.forEach.call(this.sweepEl.children, (el) => {
+      let a = null;
+      if (el.classList.contains('veil')) {
+        a = this.motion(el, [{ opacity: 0 }, { opacity: 0.82, offset: 0.32 }, { opacity: 0 }], 820, 0, 'ease-in-out');
+      } else {
+        const delay = Number(el.getAttribute('data-d')) || 0;
+        const rise = Number(el.getAttribute('data-r')) || 80;
+        const drift = (Number(el.getAttribute('data-x')) || 0) * dir;
+        a = this.motion(el, [
+          { opacity: 0, transform: 'translate(0, 24px) scale(0.3)' },
+          { opacity: 0.9, transform: 'translate(' + drift * 0.4 + 'px, ' + (-rise * 0.35) + 'px) scale(1)', offset: 0.4 },
+          { opacity: 0, transform: 'translate(' + drift + 'px, ' + (-rise) + 'px) scale(1.6)' }
+        ], 950, delay, 'cubic-bezier(.2,.7,.3,1)');
+      }
       if (a) this.sweepAnims.push(a);
     });
-    const ghost = (px, blur, op) => 'blur(' + blur + 'px) drop-shadow(' + px + 'px 0 0 rgba(236,72,153,' + op + ')) drop-shadow(' + (-px) + 'px 0 0 rgba(14,165,233,' + op + '))';
+    const ghost = (blur, bright, y, op) => 'blur(' + blur + 'px) brightness(' + bright + ') drop-shadow(0 ' + (-y) + 'px 0 rgba(181,156,255,' + op + '))';
     this.motion(this.mainEl, [
-      { opacity: 0, transform: 'scale(' + (dir > 0 ? 1.04 : 0.96) + ')', filter: ghost(18 * dir, 12, 0.6) },
-      { opacity: 0.85, transform: 'scale(' + (dir > 0 ? 1.01 : 0.99) + ')', filter: ghost(7 * dir, 3, 0.4), offset: 0.45 },
-      { opacity: 1, transform: 'scale(1)', filter: ghost(0, 0, 0) }
-    ], 720, 200);
+      { opacity: 0, transform: 'translateY(10px) scale(0.985)', filter: ghost(10, 1.35, 16, 0.4) },
+      { opacity: 0.9, transform: 'translateY(2px) scale(0.995)', filter: ghost(3, 1.1, 6, 0.22), offset: 0.5 },
+      { opacity: 1, transform: 'none', filter: ghost(0, 1, 0, 0) }
+    ], 760, 220);
     if (dir > 0 && this.gridEl) Array.prototype.forEach.call(this.gridEl.querySelectorAll('.plot'), (c, i) => {
       this.motion(c, [
         { opacity: 0, transform: 'translateY(18px) scale(0.8)' },

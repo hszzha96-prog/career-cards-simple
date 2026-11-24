@@ -19,7 +19,7 @@ sys.path.insert(0, str(DASH))
 from sprites import ICONS, CROPS, LOGO, MOON  # noqa: E402
 
 FALLBACK_COLORS = ['#BE185D', '#0E7490', '#6D28D9', '#9A3412', '#4D7C0F', '#334155', '#C2410C', '#2F5BEA', '#0F766E', '#1D4ED8', '#57534E', '#1E3A8A', '#9D174D', '#155E75']
-SWEEP_COLORS = ['#6CB4FF', '#F07AA0', '#7BD389', '#F2C14E', '#B59CFF', '#F59E5B', '#EDE9F7']
+FX_COLORS = ['#6CB4FF', '#F07AA0', '#7BD389', '#F2C14E', '#B59CFF', '#F59E5B']
 
 
 def load(name):
@@ -84,9 +84,16 @@ def canvas_html(data, snapshot):
         twinkle = rnd.random() < 0.22
         extra = ' class="tw" style="animation-delay: %.1fs"' % (rnd.random() * 4) if twinkle else ''
         stars.append('<rect%s x="%d" y="%d" width="%d" height="%d" fill="#EDE9F7" opacity="%s"></rect>' % (extra, x, y, size, size, opacity))
-    bars = ''.join('<span class="sw" data-i="%d" data-g="%d" style="background: %s; opacity: %s"></span>' % (i, g, c, op)
-                   for i, c in enumerate(SWEEP_COLORS) for g, op in ((2, 0.16), (1, 0.38), (0, 0.9)))
-    pool = '<div class="fxp">' + ''.join('<span class="fxs" style="background: %s"></span>' % c for c in SWEEP_COLORS[:6] * 2) + '<span class="fxr" style="{{ringStyle}}"></span></div>'
+    # 视图切换：一层星空渐变遮罩，加一群泡泡与星屑（位置、大小、延迟固定，生成结果可重复）
+    bubbles = ['<div class="veil"></div>']
+    for _ in range(42):
+        star = rnd.random() < 0.35
+        size = rnd.choice([4, 6]) if star else rnd.randrange(10, 34, 2)
+        bubbles.append('<span class="bub%s" data-d="%d" data-r="%d" data-x="%d" style="left: %dpx; top: %dpx; width: %dpx; height: %dpx"></span>' % (
+            ' star' if star else '', rnd.randrange(0, 260, 10), rnd.randrange(60, 170, 10), rnd.randrange(-40, 41, 5),
+            rnd.randrange(60, 1380, 4), rnd.randrange(90, 800, 4), size, size))
+    bars = ''.join(bubbles)
+    pool = '<div class="fxp">' + ''.join('<span class="fxs" style="background: %s"></span>' % c for c in FX_COLORS * 2) + '<span class="fxr" style="{{ringStyle}}"></span></div>'
     js = json.dumps(data, ensure_ascii=False, separators=(',', ':'))
     if '</script' in js.lower():
         raise ValueError('Card text must not contain </script')
@@ -110,14 +117,27 @@ def standalone_html(canvas):
     runtime = (DASH / 'runtime.js').read_text(encoding='utf-8')
     return ('<!doctype html>\n<html lang="zh-CN">\n<head>\n<meta charset="utf-8">\n<meta name="viewport" content="width=device-width, initial-scale=1">\n'
             '<title>' + title + '</title>\n' + helmet.strip() + '\n'
-            '<style>html,body{height:100%;margin:0;background:#07060B;overflow:hidden}'
+            '<style>html,body{height:100%;margin:0;background:#0F0E17;overflow:hidden}'
             '#stage{position:absolute;left:50%;top:50%;width:1440px;height:900px;transform-origin:50% 50%;transform:translate(-50%,-50%)}</style>\n'
             '</head>\n<body>\n<div id="stage"></div>\n<template id="dc-template">' + body + '</template>\n'
             '<script>\n' + runtime + '</script>\n<script>\n' + code + '\n'
             '(function () {\n'
             '  var stage = document.getElementById("stage");\n'
-            '  function fit() { var s = Math.min(window.innerWidth / 1440, window.innerHeight / 900); stage.style.transform = "translate(-50%, -50%) scale(" + s + ")"; }\n'
-            '  window.addEventListener("resize", fit); fit();\n'
+            '  // 当桌面壁纸（Plash 等）时，上方让出菜单栏、下方让出程序坞；也可在地址后加 #desktop&top=38&bottom=92 手动指定\n'
+            '  function insets() {\n'
+            '    var q = new URLSearchParams(location.hash.slice(1)), ua = navigator.userAgent, cls = document.documentElement.classList;\n'
+            '    var desk = q.has("desktop") || cls.contains("is-plash-app") || cls.contains("plash-is-browsing-mode") || (/AppleWebKit/.test(ua) && !/Safari\\//.test(ua) && !/Chrome|Firefox/.test(ua));\n'
+            '    if (q.get("desktop") === "0") desk = false;\n'
+            '    return desk ? { t: Number(q.get("top") || 38), b: Number(q.get("bottom") || 92) } : { t: 0, b: 0 };\n'
+            '  }\n'
+            '  function fit() {\n'
+            '    var i = insets(), h = Math.max(200, window.innerHeight - i.t - i.b);\n'
+            '    var s = Math.min(window.innerWidth / 1440, h / 900);\n'
+            '    stage.style.top = (i.t + h / 2) + "px";\n'
+            '    stage.style.transform = "translate(-50%, -50%) scale(" + s + ")";\n'
+            '  }\n'
+            '  window.addEventListener("resize", fit); window.addEventListener("hashchange", fit); fit();\n'
+            '  setTimeout(fit, 600); setTimeout(fit, 2000);\n'
             '  DCMount(Component, stage, document.getElementById("dc-template"), {});\n'
             '})();\n</script>\n</body>\n</html>\n')
 

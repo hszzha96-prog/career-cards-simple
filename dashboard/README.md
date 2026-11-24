@@ -8,6 +8,12 @@
 
 勾选、经验、音效开关只保存在当前浏览器（`localStorage` 的 `career-desk-v1` 与 `career-desk-sound`），按岗位 `filename` 记录，不会上传，也不会改变投递状态。它和简洁卡里的五项准备勾选是两套独立记录。
 
+## 放到 Mac 桌面
+
+用 Plash（App Store 版）把它设为桌面壁纸：建一个文件夹，把 `dashboard.html` 改名为 `index.html` 放进去，在 Plash 里用 Local Website 选这个文件夹；要点击时打开 Browsing Mode。
+
+作为壁纸时页面会自动上方让出菜单栏、下方让出程序坞。识别不到或程序坞更大时，可在地址后加 `#desktop&top=38&bottom=92`（单位为点）手动调整，`#desktop=0` 关闭。
+
 ## 文件
 
 | 位置 | 用途 |
