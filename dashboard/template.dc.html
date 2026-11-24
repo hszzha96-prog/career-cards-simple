@@ -2,7 +2,7 @@
 <html lang="zh-CN">
 <head>
 <meta charset="utf-8">
-<title>岗位小镇 · 夜间</title>
+<title>岗位小镇 2.0 Plus</title>
 <script src="./support.js"></script>
 </head>
 <body>
@@ -61,9 +61,11 @@ a{color:#EDE9F7;text-decoration:none}a:hover{color:#F2C14E}
 @keyframes pop{0%{transform:scale(.5)}50%{transform:scale(1.35)}100%{transform:scale(1)}}
 .done-text{color:#8A85A3;text-decoration:line-through;text-decoration-color:rgba(237,233,247,.35)}
 .bar{display:block;height:6px;transition:width 420ms steps(10)}
-.toast{position:absolute;left:50%;bottom:140px;transform:translateX(-50%);background:#F2E6C4;color:#1A1405;font-size:13px;font-weight:700;padding:9px 14px;box-shadow:4px 4px 0 #07060B;opacity:0;pointer-events:none;white-space:nowrap;z-index:7;display:flex;align-items:center;gap:8px}
+.toast{position:absolute;left:50%;bottom:116px;transform:translateX(-50%);background:#F2E6C4;color:#1A1405;font-size:13px;font-weight:700;padding:9px 14px;box-shadow:4px 4px 0 #07060B;opacity:0;pointer-events:none;white-space:nowrap;z-index:7;display:flex;align-items:center;gap:8px}
 .spark{position:absolute;width:6px;height:6px;opacity:0;left:0;top:0}
-.sw{position:absolute;top:-12%;left:0;width:150px;height:124%;transform:translateX(-520px) skewX(-14deg)}
+.veil{position:absolute;inset:0;opacity:0;background:radial-gradient(120% 90% at 50% 35%,rgba(46,38,92,.55) 0%,rgba(20,17,40,.92) 55%,#0B0A12 100%)}
+.bub{position:absolute;border-radius:50%;box-sizing:border-box;border:2px solid rgba(237,233,247,.55);background:radial-gradient(circle at 32% 30%,rgba(255,255,255,.55) 0 14%,rgba(181,156,255,.12) 16% 100%);opacity:0}
+.bub.star{border:0;border-radius:0;background:#F2E6C4;box-shadow:0 0 6px rgba(242,230,196,.8)}
 .fxp{position:absolute;left:0;top:0;width:0;height:0}
 .fxs{position:absolute;width:6px;height:6px;left:-3px;top:-3px;opacity:0}
 .fxr{position:absolute;width:44px;height:44px;left:-22px;top:-22px;border:2px solid;box-sizing:border-box;opacity:0}
@@ -82,9 +84,9 @@ a{color:#EDE9F7;text-decoration:none}a:hover{color:#F2C14E}
 </helmet>
 <div ref="{{setRoot}}" onPointerDown="{{onPress}}" style="width: 1440px; height: 900px; box-sizing: border-box; background-color: #0F0E17; display: flex; flex-direction: column; color: #EDE9F7; font-family: 'Inter', 'Noto Sans SC', system-ui, sans-serif; overflow: hidden; position: relative">
 <svg class="pxi" width="1440" height="900" viewBox="0 0 1440 900" aria-hidden="true" style="position: absolute; left: 0; top: 0; pointer-events: none">__STARS__</svg>
-<svg class="pxi" width="40" height="40" viewBox="0 0 16 16" aria-hidden="true" style="position: absolute; left: 560px; top: 12px; pointer-events: none"><path fill="#F2E6C4" d="__MOON__"></path></svg>
+<svg class="pxi" width="40" height="40" viewBox="0 0 16 16" aria-hidden="true" style="position: absolute; left: 560px; top: 8px; pointer-events: none"><path fill="#F2E6C4" d="__MOON__"></path></svg>
 
-<header style="position: relative; height: 66px; flex-shrink: 0; display: flex; align-items: center; justify-content: space-between; padding: 0 40px">
+<header style="position: relative; height: 58px; flex-shrink: 0; display: flex; align-items: center; justify-content: space-between; padding: 0 40px">
 <div style="display: flex; align-items: center; gap: 12px; width: 420px">
 <div style="width: 36px; height: 36px; background: #2A2438; border: 2px solid #3A3752; display: flex; align-items: center; justify-content: center; box-shadow: 3px 3px 0 #07060B">
 <svg class="pxi" width="24" height="24" viewBox="0 0 12 12" aria-hidden="true"><path fill="#F2C14E" d="__LOGO_A__"></path><path fill="#FFE6A0" d="__LOGO_B__"></path></svg>
@@ -384,7 +386,7 @@ a{color:#EDE9F7;text-decoration:none}a:hover{color:#F2C14E}
 <div ref="{{setFx}}" aria-hidden="true" style="position: absolute; left: 0; top: 0; width: 0; height: 0; pointer-events: none; z-index: 6">__FX__</div>
 <div ref="{{setToast}}" class="toast" role="status" aria-live="polite"><svg class="pxi" width="14" height="14" viewBox="0 0 16 16" aria-hidden="true"><path fill="#3E8E5A" d="M7 4h2v8H7z"></path><path fill="#7BD389" d="M3 3h4v2H3zM9 6h4v2H9zM4 5h3v1H4zM9 8h3v1H9z"></path><path fill="#5A3D27" d="M2 12h12v3H2z"></path></svg>{{toastMsg}}</div>
 
-<footer style="height: 118px; flex-shrink: 0; display: flex; align-items: flex-end; justify-content: center; padding-bottom: 20px; box-sizing: border-box; position: relative; z-index: 2">
+<footer style="height: 98px; flex-shrink: 0; display: flex; align-items: flex-end; justify-content: center; padding-bottom: 14px; box-sizing: border-box; position: relative; z-index: 2">
 <nav aria-label="岗位卡切换" style="display: flex; align-items: center; gap: 7px; padding: 9px 12px 12px; background: #14131C; border: 2px solid #34314A; box-shadow: 6px 6px 0 #07060B, inset 0 2px 0 #1F1D2B">
 <button class="{{overviewCls}}" style="background: #2A2438" aria-label="田野地图" onClick="{{showOverview}}">
 <svg class="pxi" width="24" height="24" viewBox="0 0 16 16" aria-hidden="true"><path fill="#5A3D27" d="M1 12h14v3H1z"></path><path fill="#7A5536" d="M2 11h12v1H2z"></path><path fill="#7BD389" d="M3 6h2v5H3zM7 4h2v7H7zM11 7h2v4h-2z"></path><path fill="#F07AA0" d="M6 2h4v2H6z"></path><path fill="#F2C14E" d="M7 2h2v1H7z"></path></svg>
